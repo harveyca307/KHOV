@@ -7,7 +7,7 @@ if getattr(sys, 'Frozen', False):
 else:
     application_path = os.path.dirname(__file__)
 
-APP_NAME = 'KHOV Asana'
+APP_NAME = 'CIP-KHOV Asana'
 LOG_FILE = fr"{application_path}\{APP_NAME}.log"
 
 logger = logging
