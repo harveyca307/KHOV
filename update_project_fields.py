@@ -11,14 +11,16 @@ Options:
     --version   Show version information
 """
 
+import time
+from multiprocessing import Process
+
 import asana
 import asana.error as ae
 import yaml
 from docopt import docopt
-from multiprocessing import Process
+
 from Utilities import DB, PySecrets
 from baseLogger import logger
-import time
 
 APP_NAME = "CIP-UpdateProjectFields"
 APP_VERSION = '2.0'

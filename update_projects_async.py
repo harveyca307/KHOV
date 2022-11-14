@@ -18,10 +18,10 @@ import time
 import aiohttp
 import yaml
 from docopt import docopt
+
 from AsanaExample.asana_client import asana_client
 from Utilities import DB, PySecrets
 from baseLogger import logger
-
 
 APP_NAME = 'CIP-UpdateProjectAttributes'
 APP_VERSION = '2.0'
@@ -39,6 +39,7 @@ def get_projects(fields: dict) -> list:
             _dict[key] = value
         _entries['custom_fields'] = _dict
         _data['data'] = _entries
+        _data['data']['name'] = project
         work.append((project_id, _data))
     return work
 

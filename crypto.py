@@ -18,6 +18,7 @@ from getpass import getpass
 from docopt import docopt
 
 from Utilities import DB, PySecrets
+from baseLogger import logger
 
 
 def strtobool(val: str) -> bool:
@@ -107,3 +108,4 @@ def main(**kwargs):
 if __name__ == "__main__":
     cmd_args = docopt(__doc__, version="Crypto 1.0")
     main(**cmd_args)
+    logger.info('Done')
