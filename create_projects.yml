@@ -1,0 +1,7 @@
+"Config": {"base_url": "https://khovdevric.planning-analytics.ibmcloud.com/tm1/api/tm1", "instance": "khov"}
+"Projects":
+  "Waterside Estates (12347)":
+    "template": "1203336173275339"
+    "team": "1203366535078489"
+    "start_date": "2022-11-14"
+    "tm1_object": "xxxx"
