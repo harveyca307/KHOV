@@ -1,2 +1,2 @@
-Config: {"base_url": "https://khovdev.planning-analytics.ibmcloud.com/tm1/api/tm1/", "user": "khovdev01_tm1_automation"}
+Config: {"base_url": "https://khovdev.planning-analytics.ibmcloud.com/tm1/api/tm1/", "instance": "khov"}
 "Project": {"name": "Emerald Estates (41723)", "workspace_id": "1202400332363388", "team_id": "1202400332363390", "project_id": "1202457708401880", "tm1_object": "C41723"}

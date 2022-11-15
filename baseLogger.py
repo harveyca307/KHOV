@@ -2,13 +2,14 @@ import logging
 import os
 import sys
 
-if getattr(sys, 'Frozen', False):
+if getattr(sys, 'frozen', False):
     application_path = os.path.dirname(sys.executable)
 else:
     application_path = os.path.dirname(__file__)
 
-APP_NAME = 'CIP-KHOV Asana'
-LOG_FILE = fr"{application_path}\{APP_NAME}.log"
+APP_NAME = 'CIP-KHOV_Asana'
+FILENAME = APP_NAME + ".log"
+LOG_FILE = os.path.join(application_path, FILENAME)
 
 logger = logging
 

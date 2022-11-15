@@ -58,17 +58,17 @@ def create_project(_dict: dict, config: dict) -> None:
         _user = result.username
         _pat = result.password
     pat = secrets.make_public(secret=_pat)
-    _name = _dict['Project']['name']
-    _workspace = _dict['Project']['workspace_id']
-    _team = _dict['Project']['team_id']
-    _template = _dict['Project']['project_id']
-    _tm1_obj = _dict['Project']['tm1_object']
-    _prj = {'name': _name, 'workspace': _workspace, 'team': _team, 'public': True}
-    client = asana.Client.access_token(pat)
-    client.LOG_ASANA_CHANGE_WARNINGS = False
-    logger.info(f"Creating {_prj} in Asana")
-    result = client.projects.duplicate_project(_template, _prj, opt_pretty=True)
-    cellset = {(_tm1_obj, 'CIP Asana Project GID'): result['new_project']['gid']}
+    # _name = _dict['Project']['name']
+    # _workspace = _dict['Project']['workspace_id']
+    # _team = _dict['Project']['team_id']
+    # _template = _dict['Project']['project_id']
+    # _tm1_obj = _dict['Project']['tm1_object']
+    # _prj = {'name': _name, 'workspace': _workspace, 'team': _team, 'public': True}
+    # client = asana.Client.access_token(pat)
+    # client.LOG_ASANA_CHANGE_WARNINGS = False
+    # logger.info(f"Creating {_prj} in Asana")
+    # result = client.projects.duplicate_project(_template, _prj, opt_pretty=True)
+    # cellset = {(_tm1_obj, 'CIP Asana Project GID'): result['new_project']['gid']}
     try:
         with TM1Service(**config) as tm1:
             logger.info(f"Updating TM1 Attributes for {_name}, GID: {result['new_project']['gid']}")

@@ -19,12 +19,23 @@ import aiohttp
 import yaml
 from docopt import docopt
 
-from AsanaExample.asana_client import asana_client
-from Utilities import DB, PySecrets
+from Utilities import DB, PySecrets, asana_client
 from baseLogger import logger
 
 APP_NAME = 'CIP-UpdateProjectAttributes'
 APP_VERSION = '2.0'
+
+
+
+def retrieve_pat() -> str:
+    _pass = None
+    db = DB()
+    secrets = PySecrets()
+    results = db.retrieve_secrets(secret='pat')
+    for result in results:
+        _pass = result.password
+    _pat = secrets.make_public(secret=_pass)
+    return _pat
 
 
 def get_projects(fields: dict) -> list:
@@ -44,15 +55,9 @@ def get_projects(fields: dict) -> list:
     return work
 
 
-async def main(fields: dict) -> None:
+async def main(projects: list, pat: str) -> None:
     async with aiohttp.ClientSession() as session:
-        db = DB()
-        secrets = PySecrets()
-        results = db.retrieve_secrets(secret='pat')
-        for result in results:
-            pat = result.password
-        token = secrets.make_public(secret=pat)
-        projects = get_projects(fields=fields)
+        token = pat
 
         get_project_task_items = []
         for gid, data in projects:
@@ -75,8 +80,10 @@ if __name__ == '__main__':
     _file = cmd_args.get("<file>")
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
+    _token = retrieve_pat()
+    _projects = get_projects(fields=_yml)
     try:
-        asyncio.run(main(fields=_yml))
+        asyncio.run(main(projects=_projects, pat=_token))
     except KeyboardInterrupt:
         try:
             sys.exit(0)

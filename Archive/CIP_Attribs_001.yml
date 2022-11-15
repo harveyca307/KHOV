@@ -1,0 +1,725 @@
+"Osprey Ranch THs (26231)":
+     "project_id": "1203336173275324"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 63
+          "1203064660490479": "63"
+          #--- CIP-Community ID: C26231
+          "1203064661029768": "C26231"
+"Osprey Ranch 32/40 (26232)":
+     "project_id": "1203336173275347"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 162
+          "1203064660490479": "162"
+          #--- CIP-Community ID: C26232
+          "1203064661029768": "C26232"
+"Osprey Ranch 50s (26233)":
+     "project_id": "1203336173275351"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 60
+          "1203064660490479": "60"
+          #--- CIP-Community ID: C26233
+          "1203064661029768": "C26233"
+"Osprey Ranch Master (26248)":
+     "project_id": "1203336173275355"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 0
+          "1203064660490479": "0"
+          #--- CIP-Community ID: C26248
+          "1203064661029768": "C26248"
+"Rivington SF (26236)":
+     "project_id": "1203336173275359"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 80
+          "1203064660490479": "80"
+          #--- CIP-Community ID: C26236
+          "1203064661029768": "C26236"
+"Rivington TH (26237)":
+     "project_id": "1203336173275363"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 60
+          "1203064660490479": "60"
+          #--- CIP-Community ID: C26237
+          "1203064661029768": "C26237"
+"Fox Pointe Master (26244)":
+     "project_id": "1203336173275367"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 0
+          "1203064660490479": "0"
+          #--- CIP-Community ID: C26244
+          "1203064661029768": "C26244"
+"Fox Pointe Interior (26245)":
+     "project_id": "1203336173275371"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: 40.0
+          "1203064592660529": "40.0"
+          #--- CIP-# of Lots: 27
+          "1203064660490479": "27"
+          #--- CIP-Community ID: C26245
+          "1203064661029768": "C26245"
+"Fox Pointe Riverfront (26247)":
+     "project_id": "1203336173275375"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 15
+          "1203064660490479": "15"
+          #--- CIP-Community ID: C26247
+          "1203064661029768": "C26247"
+"FS at Lake Harris Master (26249)":
+     "project_id": "1203336173275379"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 0
+          "1203064660490479": "0"
+          #--- CIP-Community ID: C26249
+          "1203064661029768": "C26249"
+"FS at Lake Harris Villas (26250)":
+     "project_id": "1203336173275383"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 292
+          "1203064660490479": "292"
+          #--- CIP-Community ID: C26250
+          "1203064661029768": "C26250"
+"FS at Lake Harris 50' (26251)":
+     "project_id": "1203336173275387"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 254
+          "1203064660490479": "254"
+          #--- CIP-Community ID: C26251
+          "1203064661029768": "C26251"
+"FS at Lake Harris 60' (NOT IN LAST PLAN) (26252)":
+     "project_id": "1203336173275391"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 104
+          "1203064660490479": "104"
+          #--- CIP-Community ID: C26252
+          "1203064661029768": "C26252"
+"Ivy Trail Master (26243)":
+     "project_id": "1203336173275395"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 0
+          "1203064660490479": "0"
+          #--- CIP-Community ID: C26243
+          "1203064661029768": "C26243"
+"Ivy Trail 40s (NOT IN LAST PLAN) (26253)":
+     "project_id": "1203336173275399"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: 40.0
+          "1203064592660529": "40.0"
+          #--- CIP-# of Lots: 48
+          "1203064660490479": "48"
+          #--- CIP-Community ID: C26253
+          "1203064661029768": "C26253"
+"Ivy Trail 50s (NOT IN LAST PLAN) (26254)":
+     "project_id": "1203336173275403"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: 50.0
+          "1203064592660529": "50.0"
+          #--- CIP-# of Lots: 19
+          "1203064660490479": "19"
+          #--- CIP-Community ID: C26254
+          "1203064661029768": "C26254"
+"Armen Groves (NOT IN LAST PLAN) (26255)":
+     "project_id": "1203336173275407"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: 50.0
+          "1203064592660529": "50.0"
+          #--- CIP-# of Lots: 36
+          "1203064660490479": "36"
+          #--- CIP-Community ID: C26255
+          "1203064661029768": "C26255"
+"Links at Calusa Springs (26234)":
+     "project_id": "1203336173275411"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 92
+          "1203064660490479": "92"
+          #--- CIP-Community ID: C26234
+          "1203064661029768": "C26234"
+"San Sebastian (26224)":
+     "project_id": "1203336173275415"
+     "custom_fields":
+          #--- CIP-Division: Orlando
+          "1203191009110006": "1203191009110007"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 112
+          "1203064660490479": "112"
+          #--- CIP-Community ID: C26224
+          "1203064661029768": "C26224"
+"La Terre at Avenir (25220)":
+     "project_id": "1203336173275443"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 92
+          "1203064660490479": "92"
+          #--- CIP-Community ID: C25220
+          "1203064661029768": "C25220"
+"Aspire at Waterstone (25221)":
+     "project_id": "1203336173275447"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 133
+          "1203064660490479": "133"
+          #--- CIP-Community ID: C25221
+          "1203064661029768": "C25221"
+"Aspire at Port St. Lucie (25223)":
+     "project_id": "1203336173275451"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 40 ACTIVE
+          "1203141614850471": "40 ACTIVE"
+          #--- CIP-National Plans: No - Continuation
+          "1203064649552811": "1203064649552814"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 200
+          "1203064660490479": "200"
+          #--- CIP-Community ID: C25223
+          "1203064661029768": "C25223"
+"Preserve at Avonlea (25224)":
+     "project_id": "1203336173275455"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: ADU / COAH
+          "1203141614850471": "ADU / COAH"
+          #--- CIP-National Plans: No - Timing
+          "1203064649552811": "1203064649552813"
+          #--- CIP-National Look: No
+          "1203064570776952": "1203064570780071"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: ADU / COAH
+          "1203064655704252": "ADU / COAH"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 62
+          "1203064660490479": "62"
+          #--- CIP-Community ID: C25224
+          "1203064661029768": "C25224"
+"Boatman Hammock (25225)":
+     "project_id": "1203336173275459"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 60 MARKET
+          "1203141614850471": "60 MARKET"
+          #--- CIP-National Plans: TBD
+          "1203064649552811": "1203064649552817"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: Yes
+          "1203064587488958": "1203064587488975"
+          #--- CIP-Product Line: Condo
+          "1203064655704252": "Condo"
+          #--- CIP-Spec Level: National-Aspire V
+          "1203064685013448": "National-Aspire V"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 54
+          "1203064660490479": "54"
+          #--- CIP-Community ID: C25225
+          "1203064661029768": "C25225"
+"Hawks Ridge (25226)":
+     "project_id": "1203336173275463"
+     "custom_fields":
+          #--- CIP-Division: SE Florida
+          "1203191009110006": "1203191009110008"
+          #--- CIP-Status: Null
+          "1203064325052098": Null
+          #--- CIP-Series: 35 ASPIRE
+          "1203141614850471": "35 ASPIRE"
+          #--- CIP-National Plans: Yes
+          "1203064649552811": "1203064649552812"
+          #--- CIP-National Look: Yes
+          "1203064570776952": "1203064570776975"
+          #--- CIP-National SKUs: No
+          "1203064587488958": "1203064587489107"
+          #--- CIP-Product Line: Aspire
+          "1203064655704252": "Aspire"
+          #--- CIP-Spec Level: Legacy-Level 1
+          "1203064685013448": "Legacy-Level 1"
+          #--- CIP-Plan Lineup: TBD
+          "1203064591904241": "TBD"
+          #--- CIP-Model Home(s) Lineup: TBD
+          "1203064692994019": "TBD"
+          #--- CIP-Product Width: Null
+          "1203064592660529": Null
+          #--- CIP-# of Lots: 84
+          "1203064660490479": "84"
+          #--- CIP-Community ID: C25226
+          "1203064661029768": "C25226"

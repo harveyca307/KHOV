@@ -1,9 +1,16 @@
+import os
+import sys
+
 from sqlalchemy import create_engine, Column, String, Integer, update, delete, select
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from baseLogger import application_path
 
 Base = declarative_base()
+
+if getattr(sys, 'frozen', False):
+    application_path = os.path.dirname(sys.executable)
+else:
+    application_path = os.path.dirname(__file__)
 
 
 class PyDB(Base):
@@ -18,7 +25,7 @@ class PyDB(Base):
 class DB(PyDB):
     def __init__(self):
         super().__init__()
-        db = application_path + '/secrets.db'
+        db = os.path.join(application_path, 'secrets.db')
         self.engine = create_engine('sqlite:///' + db)
         Base.metadata.create_all(bind=self.engine)
         self.Session = sessionmaker(bind=self.engine)

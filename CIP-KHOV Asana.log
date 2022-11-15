@@ -1,0 +1,71 @@
+
+2022-11-14 15:58:10,890 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 15:58:10,891 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 15:58:13,350 - CIP-KHOV Asana - INFO - CIP-CreateProject - created 'Waterside Estates (12347)' with GID 1203367535955228
+2022-11-14 15:58:13,352 - CIP-KHOV Asana - INFO - CIP-CreateProject finished in 2.46 seconds
+2022-11-14 16:22:41,751 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:22:41,753 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:23:14,472 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:23:14,472 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:38:57,229 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:38:57,229 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:40:03,649 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:40:03,649 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:40:31,028 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:40:31,029 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:41:12,533 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:41:12,533 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:41:46,544 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:41:46,544 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:42:51,139 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:42:51,140 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:48:02,621 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:48:02,622 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:48:05,331 - CIP-KHOV Asana - INFO - CIP-CreateProject - created 'Waterside Estates (12347)' with GID 1203367817072855
+2022-11-14 16:48:05,333 - CIP-KHOV Asana - INFO - CIP-CreateProject finished in 2.72 seconds
+2022-11-14 16:54:10,517 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:54:10,517 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:54:12,730 - CIP-KHOV Asana - INFO - CIP-CreateProject - created 'Waterside Estates (12347)' with GID 1203367825617015
+2022-11-14 16:55:29,824 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:55:29,825 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:55:32,385 - CIP-KHOV Asana - INFO - CIP-CreateProject - created 'Waterside Estates (12347)' with GID 1203367804355843
+2022-11-14 16:56:44,970 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 16:56:44,970 - CIP-KHOV Asana - INFO - CIP-CreateProject started
+2022-11-14 16:56:47,851 - CIP-KHOV Asana - INFO - CIP-CreateProject - created 'Waterside Estates (12347)' with GID 1203367829347640
+2022-11-14 16:56:47,857 - CIP-KHOV Asana - INFO - CIP-CreateProject finished in 2.89 seconds
+2022-11-14 17:14:03,619 - CIP-KHOV Asana - INFO - Done
+2022-11-14 17:22:19,686 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 17:22:19,686 - CIP-KHOV Asana - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs.yml
+2022-11-14 17:22:38,883 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 17:22:38,883 - CIP-KHOV Asana - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs.yml
+2022-11-14 17:23:49,823 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 17:23:49,823 - CIP-KHOV Asana - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs.yml
+2022-11-14 17:23:53,337 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275324 Modified: 2022-11-14T23:23:52.132Z
+2022-11-14 17:23:53,342 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes finished in 3.5182 seconds
+2022-11-14 17:33:15,390 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 17:33:15,390 - CIP-KHOV Asana - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs.yml
+2022-11-14 17:33:18,776 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275324 Modified: 2022-11-14T23:33:17.370Z
+2022-11-14 17:33:18,781 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes finished in 3.3912 seconds
+2022-11-14 17:35:18,036 - CIP-KHOV Asana - INFO - 
+
+2022-11-14 17:35:18,036 - CIP-KHOV Asana - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs.yml
+2022-11-14 17:35:21,384 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275324 Modified: 2022-11-14T23:35:20.202Z
+2022-11-14 17:35:21,391 - CIP-KHOV Asana - INFO - CIP-UpdateProjectAttributes finished in 3.3565 seconds
+2022-11-15 11:33:40,307 - CIP-KHOV Asana - INFO - Done

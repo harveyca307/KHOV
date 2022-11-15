@@ -20,7 +20,7 @@ from TM1py import TM1Service
 from TM1py.Exceptions import TM1pyException
 from docopt import docopt
 
-from AsanaExample.asana_client import asana_client
+from Utilities.asana_client import asana_client
 from Utilities import DB, PySecrets
 from baseLogger import logger
 
@@ -94,6 +94,7 @@ async def main(projects: dict, config: dict) -> None:
             _name = task['data']['new_project']['name']
             _tm1_obj = projects['Projects'][_name]['tm1_object']
             print(task['data']['new_project']['gid'], projects['Projects'][_name]['tm1_object'])
+            # TODO Update for cube reference - CIP Org Property
             cellset = {(_tm1_obj, "CIP Asana Project GID"): task['data']['new_project']['gid']}
             try:
                 with TM1Service(**config) as tm1:

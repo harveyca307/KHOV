@@ -11,12 +11,9 @@ from docopt import docopt
 import asyncio
 import aiohttp
 import time
-import os
-import sys
-from AsanaExample.asana_client import asana_client
+from Utilities.asana_client import asana_client
 from Utilities import DB, PySecrets
 from baseLogger import logger
-import asana
 
 APP_NAME = "CIP-GetProjectTasks"
 APP_VERSION = '1.0'
