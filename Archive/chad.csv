@@ -1,0 +1,1813 @@
+ID,ChangeSetID,TimeStamp,ReplicationTime,User,Cube,Tuple,OldValue,NewValue,StatusMessage
+2092,,2022-08-17T16:58:53Z,2022-08-17T16:58:53Z,Admin,}DimensionProperties,"['}Cubes', 'LAST_TIME_UPDATED']",20220523170005,20220817165853,
+2091,207,2022-08-17T16:55:47Z,,,,,,,Change set 207 complete : 1
+2090,207,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_}ClientGroups', '12345']",,READ,
+2089,206,2022-08-17T16:55:47Z,,,,,,,Change set 206 complete : 1
+2088,206,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_}admincube', 'Test123']",,READ,
+2087,205,2022-08-17T16:55:47Z,,,,,,,Change set 205 complete : 1
+2086,205,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_}admincube', '12345']",,READ,
+2085,204,2022-08-17T16:55:47Z,,,,,,,Change set 204 complete : 1
+2084,204,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys subset control', 'Test123']",,READ,
+2083,203,2022-08-17T16:55:47Z,,,,,,,Change set 203 complete : 1
+2082,203,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys subset control', '12345']",WRITE,READ,
+2081,202,2022-08-17T16:55:47Z,,,,,,,Change set 202 complete : 1
+2080,202,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys process status', 'Test123']",,READ,
+2079,201,2022-08-17T16:55:47Z,,,,,,,Change set 201 complete : 1
+2078,201,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys process status', '12345']",WRITE,READ,
+2077,200,2022-08-17T16:55:47Z,,,,,,,Change set 200 complete : 1
+2076,200,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys form filter', 'Test123']",,READ,
+2075,1ff,2022-08-17T16:55:47Z,,,,,,,Change set 1ff complete : 1
+2074,1ff,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_sys form filter', '12345']",WRITE,READ,
+2073,1fe,2022-08-17T16:55:47Z,,,,,,,Change set 1fe complete : 1
+2072,1fe,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_SYS_User_Selections', 'Test123']",,READ,
+2071,1fd,2022-08-17T16:55:47Z,,,,,,,Change set 1fd complete : 1
+2070,1fd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_SYS_User_Selections', '12345']",,READ,
+2069,1fc,2022-08-17T16:55:47Z,,,,,,,Change set 1fc complete : 1
+2068,1fc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Security Assignments', 'Test123']",,READ,
+2067,1fb,2022-08-17T16:55:47Z,,,,,,,Change set 1fb complete : 1
+2066,1fb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Security Assignments', '12345']",,READ,
+2065,1fa,2022-08-17T16:55:47Z,,,,,,,Change set 1fa complete : 1
+2064,1fa,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_run book control', 'Test123']",,READ,
+2063,1fF,2022-08-17T16:55:47Z,,,,,,,Change set 1fF complete : 1
+2062,1fF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_run book control', '12345']",,READ,
+2061,1fE,2022-08-17T16:55:47Z,,,,,,,Change set 1fE complete : 1
+2060,1fE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_process log by user', 'Test123']",,READ,
+2059,1fD,2022-08-17T16:55:47Z,,,,,,,Change set 1fD complete : 1
+2058,1fD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_process log by user', '12345']",,READ,
+2057,1fC,2022-08-17T16:55:47Z,,,,,,,Change set 1fC complete : 1
+2056,1fC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_process log', 'Test123']",,READ,
+2055,1fB,2022-08-17T16:55:47Z,,,,,,,Change set 1fB complete : 1
+2054,1fB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_process log', '12345']",,READ,
+2053,1fA,2022-08-17T16:55:47Z,,,,,,,Change set 1fA complete : 1
+2052,1fA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_month control', 'Test123']",,READ,
+2051,1f9,2022-08-17T16:55:47Z,,,,,,,Change set 1f9 complete : 1
+2050,1f9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_month control', '12345']",,READ,
+2049,1f8,2022-08-17T16:55:47Z,,,,,,,Change set 1f8 complete : 1
+2048,1f8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Hierarchy Management', 'Test123']",,READ,
+2047,1f7,2022-08-17T16:55:47Z,,,,,,,Change set 1f7 complete : 1
+2046,1f7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Hierarchy Management', '12345']",,READ,
+2045,1f6,2022-08-17T16:55:47Z,,,,,,,Change set 1f6 complete : 1
+2044,1f6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Export Control', 'Test123']",,READ,
+2043,1f5,2022-08-17T16:55:47Z,,,,,,,Change set 1f5 complete : 1
+2042,1f5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_Export Control', '12345']",,READ,
+2041,1f4,2022-08-17T16:55:47Z,,,,,,,Change set 1f4 complete : 1
+2040,1f4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_data control', 'Test123']",,READ,
+2039,1f3,2022-08-17T16:55:47Z,,,,,,,Change set 1f3 complete : 1
+2038,1f3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_data control', '12345']",,READ,
+2037,1f2,2022-08-17T16:55:47Z,,,,,,,Change set 1f2 complete : 1
+2036,1f2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_control', 'Test123']",,READ,
+2035,1f1,2022-08-17T16:55:47Z,,,,,,,Change set 1f1 complete : 1
+2034,1f1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_control', '12345']",WRITE,READ,
+2033,1f0,2022-08-17T16:55:47Z,,,,,,,Change set 1f0 complete : 1
+2032,1f0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_CapEx Assumptions', 'Test123']",,READ,
+2031,1ef,2022-08-17T16:55:47Z,,,,,,,Change set 1ef complete : 1
+2030,1ef,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_CapEx Assumptions', '12345']",,READ,
+2029,1ee,2022-08-17T16:55:47Z,,,,,,,Change set 1ee complete : 1
+2028,1ee,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload validation', 'Test123']",,READ,
+2027,1ed,2022-08-17T16:55:47Z,,,,,,,Change set 1ed complete : 1
+2026,1ed,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload validation', '12345']",WRITE,READ,
+2025,1ec,2022-08-17T16:55:47Z,,,,,,,Change set 1ec complete : 1
+2024,1ec,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload history', 'Test123']",,READ,
+2023,1eb,2022-08-17T16:55:47Z,,,,,,,Change set 1eb complete : 1
+2022,1eb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload history', '12345']",WRITE,READ,
+2021,1ea,2022-08-17T16:55:47Z,,,,,,,Change set 1ea complete : 1
+2020,1ea,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload', 'Test123']",,READ,
+2019,1eF,2022-08-17T16:55:47Z,,,,,,,Change set 1eF complete : 1
+2018,1eF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning upload', '12345']",WRITE,READ,
+2017,1eE,2022-08-17T16:55:47Z,,,,,,,Change set 1eE complete : 1
+2016,1eE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning', 'Test123']",,READ,
+2015,1eD,2022-08-17T16:55:47Z,,,,,,,Change set 1eD complete : 1
+2014,1eD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget planning', '12345']",WRITE,READ,
+2013,1eC,2022-08-17T16:55:47Z,,,,,,,Change set 1eC complete : 1
+2012,1eC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget forecast', 'Test123']",,READ,
+2011,1eB,2022-08-17T16:55:47Z,,,,,,,Change set 1eB complete : 1
+2010,1eB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Views_budget forecast', '12345']",WRITE,READ,
+2009,1eA,2022-08-17T16:55:47Z,,,,,,,Change set 1eA complete : 1
+2008,1eA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}TimeIntervals', 'Test123']",,READ,
+2007,1e9,2022-08-17T16:55:47Z,,,,,,,Change set 1e9 complete : 1
+2006,1e9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}TimeIntervals', '12345']",WRITE,READ,
+2005,1e8,2022-08-17T16:55:47Z,,,,,,,Change set 1e8 complete : 1
+2004,1e8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Processes', 'Test123']",,READ,
+2003,1e7,2022-08-17T16:55:47Z,,,,,,,Change set 1e7 complete : 1
+2002,1e7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Processes', '12345']",,READ,
+2001,1e6,2022-08-17T16:55:47Z,,,,,,,Change set 1e6 complete : 1
+2000,1e6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Dimensions', 'Test123']",,READ,
+1999,1e5,2022-08-17T16:55:47Z,,,,,,,Change set 1e5 complete : 1
+1998,1e5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Dimensions', '12345']",,READ,
+1997,1e4,2022-08-17T16:55:47Z,,,,,,,Change set 1e4 complete : 1
+1996,1e4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Cubes', 'Test123']",,READ,
+1995,1e3,2022-08-17T16:55:47Z,,,,,,,Change set 1e3 complete : 1
+1994,1e3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Cubes', '12345']",,READ,
+1993,1e2,2022-08-17T16:55:47Z,,,,,,,Change set 1e2 complete : 1
+1992,1e2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Clients', 'Test123']",,READ,
+1991,1e1,2022-08-17T16:55:47Z,,,,,,,Change set 1e1 complete : 1
+1990,1e1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_}Clients', '12345']",WRITE,READ,
+1989,1e0,2022-08-17T16:55:47Z,,,,,,,Change set 1e0 complete : 1
+1988,1e0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Year', 'Test123']",,READ,
+1987,1df,2022-08-17T16:55:47Z,,,,,,,Change set 1df complete : 1
+1986,1df,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Year', '12345']",WRITE,READ,
+1985,1de,2022-08-17T16:55:47Z,,,,,,,Change set 1de complete : 1
+1984,1de,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Version', 'Test123']",,READ,
+1983,1dd,2022-08-17T16:55:47Z,,,,,,,Change set 1dd complete : 1
+1982,1dd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Version', '12345']",WRITE,READ,
+1981,1dc,2022-08-17T16:55:47Z,,,,,,,Change set 1dc complete : 1
+1980,1dc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_tMonth', 'Test123']",,READ,
+1979,1db,2022-08-17T16:55:47Z,,,,,,,Change set 1db complete : 1
+1978,1db,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_tMonth', '12345']",WRITE,READ,
+1977,1da,2022-08-17T16:55:47Z,,,,,,,Change set 1da complete : 1
+1976,1da,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Process Log Run', 'Test123']",,READ,
+1975,1dF,2022-08-17T16:55:47Z,,,,,,,Change set 1dF complete : 1
+1974,1dF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Process Log Run', '12345']",,READ,
+1973,1dE,2022-08-17T16:55:47Z,,,,,,,Change set 1dE complete : 1
+1972,1dE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Process Log Line', 'Test123']",,READ,
+1971,1dD,2022-08-17T16:55:47Z,,,,,,,Change set 1dD complete : 1
+1970,1dD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Process Log Line', '12345']",,READ,
+1969,1dC,2022-08-17T16:55:47Z,,,,,,,Change set 1dC complete : 1
+1968,1dC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_version', 'Test123']",,READ,
+1967,1dB,2022-08-17T16:55:47Z,,,,,,,Change set 1dB complete : 1
+1966,1dB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_version', '12345']",,READ,
+1965,1dA,2022-08-17T16:55:47Z,,,,,,,Change set 1dA complete : 1
+1964,1dA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_time', 'Test123']",,READ,
+1963,1d9,2022-08-17T16:55:47Z,,,,,,,Change set 1d9 complete : 1
+1962,1d9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_time', '12345']",,READ,
+1961,1d8,2022-08-17T16:55:47Z,,,,,,,Change set 1d8 complete : 1
+1960,1d8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_source', 'Test123']",,READ,
+1959,1d7,2022-08-17T16:55:47Z,,,,,,,Change set 1d7 complete : 1
+1958,1d7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_source', '12345']",,READ,
+1957,1d6,2022-08-17T16:55:47Z,,,,,,,Change set 1d6 complete : 1
+1956,1d6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_exchange_rates', 'Test123']",,READ,
+1955,1d5,2022-08-17T16:55:47Z,,,,,,,Change set 1d5 complete : 1
+1954,1d5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_exchange_rates', '12345']",,READ,
+1953,1d4,2022-08-17T16:55:47Z,,,,,,,Change set 1d4 complete : 1
+1952,1d4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_department', 'Test123']",,READ,
+1951,1d3,2022-08-17T16:55:47Z,,,,,,,Change set 1d3 complete : 1
+1950,1d3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_department', '12345']",,READ,
+1949,1d2,2022-08-17T16:55:47Z,,,,,,,Change set 1d2 complete : 1
+1948,1d2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_chart_of_accounts', 'Test123']",,READ,
+1947,1d1,2022-08-17T16:55:47Z,,,,,,,Change set 1d1 complete : 1
+1946,1d1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_chart_of_accounts', '12345']",,READ,
+1945,1d0,2022-08-17T16:55:47Z,,,,,,,Change set 1d0 complete : 1
+1944,1d0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_business_unit', 'Test123']",,READ,
+1943,1cf,2022-08-17T16:55:47Z,,,,,,,Change set 1cf complete : 1
+1942,1cf,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_plan_business_unit', '12345']",,READ,
+1941,1ce,2022-08-17T16:55:47Z,,,,,,,Change set 1ce complete : 1
+1940,1ce,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Months', 'Test123']",,READ,
+1939,1cd,2022-08-17T16:55:47Z,,,,,,,Change set 1cd complete : 1
+1938,1cd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Months', '12345']",WRITE,READ,
+1937,1cc,2022-08-17T16:55:47Z,,,,,,,Change set 1cc complete : 1
+1936,1cc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Month', 'Test123']",,READ,
+1935,1cb,2022-08-17T16:55:47Z,,,,,,,Change set 1cb complete : 1
+1934,1cb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Month', '12345']",WRITE,READ,
+1933,1ca,2022-08-17T16:55:47Z,,,,,,,Change set 1ca complete : 1
+1932,1ca,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_mBudget Planning', 'Test123']",,READ,
+1931,1cF,2022-08-17T16:55:47Z,,,,,,,Change set 1cF complete : 1
+1930,1cF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_mBudget Planning', '12345']",,READ,
+1929,1cE,2022-08-17T16:55:47Z,,,,,,,Change set 1cE complete : 1
+1928,1cE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_m_HierarchyManagement', 'Test123']",,READ,
+1927,1cD,2022-08-17T16:55:47Z,,,,,,,Change set 1cD complete : 1
+1926,1cD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_m_HierarchyManagement', '12345']",,READ,
+1925,1cC,2022-08-17T16:55:47Z,,,,,,,Change set 1cC complete : 1
+1924,1cC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Scenario', 'Test123']",,READ,
+1923,1cB,2022-08-17T16:55:47Z,,,,,,,Change set 1cB complete : 1
+1922,1cB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Scenario', '12345']",,READ,
+1921,1cA,2022-08-17T16:55:47Z,,,,,,,Change set 1cA complete : 1
+1920,1cA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Rows', 'Test123']",,READ,
+1919,1c9,2022-08-17T16:55:47Z,,,,,,,Change set 1c9 complete : 1
+1918,1c9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Rows', '12345']",,READ,
+1917,1c8,2022-08-17T16:55:47Z,,,,,,,Change set 1c8 complete : 1
+1916,1c8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Alternates', 'Test123']",,READ,
+1915,1c7,2022-08-17T16:55:47Z,,,,,,,Change set 1c7 complete : 1
+1914,1c7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Hierarchy_Alternates', '12345']",,READ,
+1913,1c6,2022-08-17T16:55:47Z,,,,,,,Change set 1c6 complete : 1
+1912,1c6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Department', 'Test123']",,READ,
+1911,1c5,2022-08-17T16:55:47Z,,,,,,,Change set 1c5 complete : 1
+1910,1c5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Department', '12345']",,READ,
+1909,1c4,2022-08-17T16:55:47Z,,,,,,,Change set 1c4 complete : 1
+1908,1c4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Data Control Source', 'Test123']",,READ,
+1907,1c3,2022-08-17T16:55:47Z,,,,,,,Change set 1c3 complete : 1
+1906,1c3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Data Control Source', '12345']",,READ,
+1905,1c2,2022-08-17T16:55:47Z,,,,,,,Change set 1c2 complete : 1
+1904,1c2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Currency', 'Test123']",,READ,
+1903,1c1,2022-08-17T16:55:47Z,,,,,,,Change set 1c1 complete : 1
+1902,1c1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Currency', '12345']",,READ,
+1901,1c0,2022-08-17T16:55:47Z,,,,,,,Change set 1c0 complete : 1
+1900,1c0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Control', 'Test123']",,READ,
+1899,1bf,2022-08-17T16:55:47Z,,,,,,,Change set 1bf complete : 1
+1898,1bf,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Control', '12345']",WRITE,READ,
+1897,1be,2022-08-17T16:55:47Z,,,,,,,Change set 1be complete : 1
+1896,1be,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Capex Index', 'Test123']",,READ,
+1895,1bd,2022-08-17T16:55:47Z,,,,,,,Change set 1bd complete : 1
+1894,1bd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Capex Index', '12345']",,READ,
+1893,1bc,2022-08-17T16:55:47Z,,,,,,,Change set 1bc complete : 1
+1892,1bc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Business Unit', 'Test123']",,READ,
+1891,1bb,2022-08-17T16:55:47Z,,,,,,,Change set 1bb complete : 1
+1890,1bb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Business Unit', '12345']",,READ,
+1889,1ba,2022-08-17T16:55:47Z,,,,,,,Change set 1ba complete : 1
+1888,1ba,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Budget Planning Upload Index', 'Test123']",,READ,
+1887,1bF,2022-08-17T16:55:47Z,,,,,,,Change set 1bF complete : 1
+1886,1bF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Budget Planning Upload Index', '12345']",WRITE,READ,
+1885,1bE,2022-08-17T16:55:47Z,,,,,,,Change set 1bE complete : 1
+1884,1bE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Account', 'Test123']",,READ,
+1883,1bD,2022-08-17T16:55:47Z,,,,,,,Change set 1bD complete : 1
+1882,1bD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Subsets_Account', '12345']",,READ,
+1881,1bC,2022-08-17T16:55:47Z,,,,,,,Change set 1bC complete : 1
+1880,1bC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsForServer', 'Test123']",,READ,
+1879,1bB,2022-08-17T16:55:47Z,,,,,,,Change set 1bB complete : 1
+1878,1bB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsForServer', '12345']",WRITE,READ,
+1877,1bA,2022-08-17T16:55:47Z,,,,,,,Change set 1bA complete : 1
+1876,1bA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByCubeByClient', 'Test123']",,READ,
+1875,1b9,2022-08-17T16:55:47Z,,,,,,,Change set 1b9 complete : 1
+1874,1b9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByCubeByClient', '12345']",WRITE,READ,
+1873,1b8,2022-08-17T16:55:47Z,,,,,,,Change set 1b8 complete : 1
+1872,1b8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByCube', 'Test123']",,READ,
+1871,1b7,2022-08-17T16:55:47Z,,,,,,,Change set 1b7 complete : 1
+1870,1b7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByCube', '12345']",WRITE,READ,
+1869,1b6,2022-08-17T16:55:47Z,,,,,,,Change set 1b6 complete : 1
+1868,1b6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByClient', 'Test123']",,READ,
+1867,1b5,2022-08-17T16:55:47Z,,,,,,,Change set 1b5 complete : 1
+1866,1b5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsStatsByClient', '12345']",WRITE,READ,
+1865,1b4,2022-08-17T16:55:47Z,,,,,,,Change set 1b4 complete : 1
+1864,1b4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsByProcess', 'Test123']",,READ,
+1863,1b3,2022-08-17T16:55:47Z,,,,,,,Change set 1b3 complete : 1
+1862,1b3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}StatsByProcess', '12345']",WRITE,READ,
+1861,1b2,2022-08-17T16:55:47Z,,,,,,,Change set 1b2 complete : 1
+1860,1b2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}SecurityOverlay', 'Test123']",,READ,
+1859,1b1,2022-08-17T16:55:47Z,,,,,,,Change set 1b1 complete : 1
+1858,1b1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}SecurityOverlay', '12345']",WRITE,READ,
+1857,1b0,2022-08-17T16:55:47Z,,,,,,,Change set 1b0 complete : 1
+1856,1b0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}RuleStats', 'Test123']",,READ,
+1855,1af,2022-08-17T16:55:47Z,,,,,,,Change set 1af complete : 1
+1854,1af,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}RuleStats', '12345']",WRITE,READ,
+1853,1ae,2022-08-17T16:55:47Z,,,,,,,Change set 1ae complete : 1
+1852,1ae,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Processes', 'Test123']",,READ,
+1851,1ad,2022-08-17T16:55:47Z,,,,,,,Change set 1ad complete : 1
+1850,1ad,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Processes', '12345']",WRITE,READ,
+1849,1ac,2022-08-17T16:55:47Z,,,,,,,Change set 1ac complete : 1
+1848,1ac,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PickList', 'Test123']",,READ,
+1847,1ab,2022-08-17T16:55:47Z,,,,,,,Change set 1ab complete : 1
+1846,1ab,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PickList', '12345']",WRITE,READ,
+1845,1aa,2022-08-17T16:55:47Z,,,,,,,Change set 1aa complete : 1
+1844,1aa,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Permissions', 'Test123']",,READ,
+1843,1aF,2022-08-17T16:55:47Z,,,,,,,Change set 1aF complete : 1
+1842,1aF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Permissions', '12345']",WRITE,READ,
+1841,1aE,2022-08-17T16:55:47Z,,,,,,,Change set 1aE complete : 1
+1840,1aE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PerfCubes', 'Test123']",,READ,
+1839,1aD,2022-08-17T16:55:47Z,,,,,,,Change set 1aD complete : 1
+1838,1aD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PerfCubes', '12345']",WRITE,READ,
+1837,1aC,2022-08-17T16:55:47Z,,,,,,,Change set 1aC complete : 1
+1836,1aC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PerfClients', 'Test123']",,READ,
+1835,1aB,2022-08-17T16:55:47Z,,,,,,,Change set 1aB complete : 1
+1834,1aB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}PerfClients', '12345']",WRITE,READ,
+1833,1aA,2022-08-17T16:55:47Z,,,,,,,Change set 1aA complete : 1
+1832,1aA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}LineNumber', 'Test123']",,READ,
+1831,1a9,2022-08-17T16:55:47Z,,,,,,,Change set 1a9 complete : 1
+1830,1a9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}LineNumber', '12345']",WRITE,READ,
+1829,1a8,2022-08-17T16:55:47Z,,,,,,,Change set 1a8 complete : 1
+1828,1a8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hold', 'Test123']",,READ,
+1827,1a7,2022-08-17T16:55:47Z,,,,,,,Change set 1a7 complete : 1
+1826,1a7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hold', '12345']",WRITE,READ,
+1825,1a6,2022-08-17T16:55:47Z,,,,,,,Change set 1a6 complete : 1
+1824,1a6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}HierarchyProperties', 'Test123']",,READ,
+1823,1a5,2022-08-17T16:55:47Z,,,,,,,Change set 1a5 complete : 1
+1822,1a5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}HierarchyProperties', '12345']",WRITE,READ,
+1821,1a4,2022-08-17T16:55:47Z,,,,,,,Change set 1a4 complete : 1
+1820,1a4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Year', 'Test123']",,READ,
+1819,1a3,2022-08-17T16:55:47Z,,,,,,,Change set 1a3 complete : 1
+1818,1a3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Year', '12345']",WRITE,READ,
+1817,1a2,2022-08-17T16:55:47Z,,,,,,,Change set 1a2 complete : 1
+1816,1a2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Version', 'Test123']",,READ,
+1815,1a1,2022-08-17T16:55:47Z,,,,,,,Change set 1a1 complete : 1
+1814,1a1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Version', '12345']",WRITE,READ,
+1813,1a0,2022-08-17T16:55:47Z,,,,,,,Change set 1a0 complete : 1
+1812,1a0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Vehicles', 'Test123']",,READ,
+1811,1Ff,2022-08-17T16:55:47Z,,,,,,,Change set 1Ff complete : 1
+1810,1Ff,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Vehicles', '12345']",WRITE,READ,
+1809,1Fe,2022-08-17T16:55:47Z,,,,,,,Change set 1Fe complete : 1
+1808,1Fe,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_tMonth', 'Test123']",,READ,
+1807,1Fd,2022-08-17T16:55:47Z,,,,,,,Change set 1Fd complete : 1
+1806,1Fd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_tMonth', '12345']",WRITE,READ,
+1805,1Fc,2022-08-17T16:55:47Z,,,,,,,Change set 1Fc complete : 1
+1804,1Fc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TM1Py Region', 'Test123']",,READ,
+1803,1Fb,2022-08-17T16:55:47Z,,,,,,,Change set 1Fb complete : 1
+1802,1Fb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TM1Py Region', '12345']",WRITE,READ,
+1801,1Fa,2022-08-17T16:55:47Z,,,,,,,Change set 1Fa complete : 1
+1800,1Fa,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeWeek', 'Test123']",,READ,
+1799,1FF,2022-08-17T16:55:47Z,,,,,,,Change set 1FF complete : 1
+1798,1FF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeWeek', '12345']",,READ,
+1797,1FE,2022-08-17T16:55:47Z,,,,,,,Change set 1FE complete : 1
+1796,1FE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeSeason', 'Test123']",,READ,
+1795,1FD,2022-08-17T16:55:47Z,,,,,,,Change set 1FD complete : 1
+1794,1FD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeSeason', '12345']",,READ,
+1793,1FC,2022-08-17T16:55:47Z,,,,,,,Change set 1FC complete : 1
+1792,1FC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeMonth', 'Test123']",,READ,
+1791,1FB,2022-08-17T16:55:47Z,,,,,,,Change set 1FB complete : 1
+1790,1FB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeMonth', '12345']",,READ,
+1789,1FA,2022-08-17T16:55:47Z,,,,,,,Change set 1FA complete : 1
+1788,1FA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeDay', 'Test123']",,READ,
+1787,1F9,2022-08-17T16:55:47Z,,,,,,,Change set 1F9 complete : 1
+1786,1F9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TimeDay', '12345']",,READ,
+1785,1F8,2022-08-17T16:55:47Z,,,,,,,Change set 1F8 complete : 1
+1784,1F8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TestDim', 'Test123']",,READ,
+1783,1F7,2022-08-17T16:55:47Z,,,,,,,Change set 1F7 complete : 1
+1782,1F7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_TestDim', '12345']",,READ,
+1781,1F6,2022-08-17T16:55:47Z,,,,,,,Change set 1F6 complete : 1
+1780,1F6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Test2', 'Test123']",,READ,
+1779,1F5,2022-08-17T16:55:47Z,,,,,,,Change set 1F5 complete : 1
+1778,1F5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Test2', '12345']",,READ,
+1777,1F4,2022-08-17T16:55:47Z,,,,,,,Change set 1F4 complete : 1
+1776,1F4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Test1', 'Test123']",,READ,
+1775,1F3,2022-08-17T16:55:47Z,,,,,,,Change set 1F3 complete : 1
+1774,1F3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Test1', '12345']",,READ,
+1773,1F2,2022-08-17T16:55:47Z,,,,,,,Change set 1F2 complete : 1
+1772,1F2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS Process Status Lines', 'Test123']",,READ,
+1771,1F1,2022-08-17T16:55:47Z,,,,,,,Change set 1F1 complete : 1
+1770,1F1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS Process Status Lines', '12345']",WRITE,READ,
+1769,1F0,2022-08-17T16:55:47Z,,,,,,,Change set 1F0 complete : 1
+1768,1F0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS LineNo', 'Test123']",,READ,
+1767,1Ef,2022-08-17T16:55:47Z,,,,,,,Change set 1Ef complete : 1
+1766,1Ef,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS LineNo', '12345']",WRITE,READ,
+1765,1Ee,2022-08-17T16:55:47Z,,,,,,,Change set 1Ee complete : 1
+1764,1Ee,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Sys_Promote', 'Test123']",,READ,
+1763,1Ed,2022-08-17T16:55:47Z,,,,,,,Change set 1Ed complete : 1
+1762,1Ed,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Sys_Promote', '12345']",,READ,
+1761,1Ec,2022-08-17T16:55:47Z,,,,,,,Change set 1Ec complete : 1
+1760,1Ec,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_PAW_Colunm', 'Test123']",,READ,
+1759,1Eb,2022-08-17T16:55:47Z,,,,,,,Change set 1Eb complete : 1
+1758,1Eb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_PAW_Colunm', '12345']",,READ,
+1757,1Ea,2022-08-17T16:55:47Z,,,,,,,Change set 1Ea complete : 1
+1756,1Ea,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_mLogDeletions', 'Test123']",,READ,
+1755,1EF,2022-08-17T16:55:47Z,,,,,,,Change set 1EF complete : 1
+1754,1EF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_mLogDeletions', '12345']",WRITE,READ,
+1753,1EE,2022-08-17T16:55:47Z,,,,,,,Change set 1EE complete : 1
+1752,1EE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_mBackupFiles', 'Test123']",,READ,
+1751,1ED,2022-08-17T16:55:47Z,,,,,,,Change set 1ED complete : 1
+1750,1ED,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_mBackupFiles', '12345']",WRITE,READ,
+1749,1EC,2022-08-17T16:55:47Z,,,,,,,Change set 1EC complete : 1
+1748,1EC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_LogDeletions', 'Test123']",,READ,
+1747,1EB,2022-08-17T16:55:47Z,,,,,,,Change set 1EB complete : 1
+1746,1EB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_LogDeletions', '12345']",WRITE,READ,
+1745,1EA,2022-08-17T16:55:47Z,,,,,,,Change set 1EA complete : 1
+1744,1EA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_BackupIndex', 'Test123']",,READ,
+1743,1E9,2022-08-17T16:55:47Z,,,,,,,Change set 1E9 complete : 1
+1742,1E9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_SYS_BackupIndex', '12345']",WRITE,READ,
+1741,1E8,2022-08-17T16:55:47Z,,,,,,,Change set 1E8 complete : 1
+1740,1E8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Run Book Index', 'Test123']",,READ,
+1739,1E7,2022-08-17T16:55:47Z,,,,,,,Change set 1E7 complete : 1
+1738,1E7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Run Book Index', '12345']",,READ,
+1737,1E6,2022-08-17T16:55:47Z,,,,,,,Change set 1E6 complete : 1
+1736,1E6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Run Book', 'Test123']",,READ,
+1735,1E5,2022-08-17T16:55:47Z,,,,,,,Change set 1E5 complete : 1
+1734,1E5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Run Book', '12345']",,READ,
+1733,1E4,2022-08-17T16:55:47Z,,,,,,,Change set 1E4 complete : 1
+1732,1E4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Promotion Job Index', 'Test123']",,READ,
+1731,1E3,2022-08-17T16:55:47Z,,,,,,,Change set 1E3 complete : 1
+1730,1E3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Promotion Job Index', '12345']",,READ,
+1729,1E2,2022-08-17T16:55:47Z,,,,,,,Change set 1E2 complete : 1
+1728,1E2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Promotion Job', 'Test123']",,READ,
+1727,1E1,2022-08-17T16:55:47Z,,,,,,,Change set 1E1 complete : 1
+1726,1E1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Promotion Job', '12345']",,READ,
+1725,1E0,2022-08-17T16:55:47Z,,,,,,,Change set 1E0 complete : 1
+1724,1E0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Process Log Run', 'Test123']",,READ,
+1723,1Df,2022-08-17T16:55:47Z,,,,,,,Change set 1Df complete : 1
+1722,1Df,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Process Log Run', '12345']",,READ,
+1721,1De,2022-08-17T16:55:47Z,,,,,,,Change set 1De complete : 1
+1720,1De,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Process Log Line', 'Test123']",,READ,
+1719,1Dd,2022-08-17T16:55:47Z,,,,,,,Change set 1Dd complete : 1
+1718,1Dd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Process Log Line', '12345']",,READ,
+1717,1Dc,2022-08-17T16:55:47Z,,,,,,,Change set 1Dc complete : 1
+1716,1Dc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_version', 'Test123']",,READ,
+1715,1Db,2022-08-17T16:55:47Z,,,,,,,Change set 1Db complete : 1
+1714,1Db,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_version', '12345']",,READ,
+1713,1Da,2022-08-17T16:55:47Z,,,,,,,Change set 1Da complete : 1
+1712,1Da,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_time', 'Test123']",,READ,
+1711,1DF,2022-08-17T16:55:47Z,,,,,,,Change set 1DF complete : 1
+1710,1DF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_time', '12345']",,READ,
+1709,1DE,2022-08-17T16:55:47Z,,,,,,,Change set 1DE complete : 1
+1708,1DE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_source', 'Test123']",,READ,
+1707,1DD,2022-08-17T16:55:47Z,,,,,,,Change set 1DD complete : 1
+1706,1DD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_source', '12345']",,READ,
+1705,1DC,2022-08-17T16:55:47Z,,,,,,,Change set 1DC complete : 1
+1704,1DC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_exchange_rates', 'Test123']",,READ,
+1703,1DB,2022-08-17T16:55:47Z,,,,,,,Change set 1DB complete : 1
+1702,1DB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_exchange_rates', '12345']",,READ,
+1701,1DA,2022-08-17T16:55:47Z,,,,,,,Change set 1DA complete : 1
+1700,1DA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_department', 'Test123']",,READ,
+1699,1D9,2022-08-17T16:55:47Z,,,,,,,Change set 1D9 complete : 1
+1698,1D9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_department', '12345']",,READ,
+1697,1D8,2022-08-17T16:55:47Z,,,,,,,Change set 1D8 complete : 1
+1696,1D8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_currency', 'Test123']",,READ,
+1695,1D7,2022-08-17T16:55:47Z,,,,,,,Change set 1D7 complete : 1
+1694,1D7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_currency', '12345']",,READ,
+1693,1D6,2022-08-17T16:55:47Z,,,,,,,Change set 1D6 complete : 1
+1692,1D6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_chart_of_accounts', 'Test123']",,READ,
+1691,1D5,2022-08-17T16:55:47Z,,,,,,,Change set 1D5 complete : 1
+1690,1D5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_chart_of_accounts', '12345']",,READ,
+1689,1D4,2022-08-17T16:55:47Z,,,,,,,Change set 1D4 complete : 1
+1688,1D4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_business_unit', 'Test123']",,READ,
+1687,1D3,2022-08-17T16:55:47Z,,,,,,,Change set 1D3 complete : 1
+1686,1D3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_plan_business_unit', '12345']",,READ,
+1685,1D2,2022-08-17T16:55:47Z,,,,,,,Change set 1D2 complete : 1
+1684,1D2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mUSerSelections', 'Test123']",,READ,
+1683,1D1,2022-08-17T16:55:47Z,,,,,,,Change set 1D1 complete : 1
+1682,1D1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mUSerSelections', '12345']",,READ,
+1681,1D0,2022-08-17T16:55:47Z,,,,,,,Change set 1D0 complete : 1
+1680,1D0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Subset Control', 'Test123']",,READ,
+1679,1Cf,2022-08-17T16:55:47Z,,,,,,,Change set 1Cf complete : 1
+1678,1Cf,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Subset Control', '12345']",WRITE,READ,
+1677,1Ce,2022-08-17T16:55:47Z,,,,,,,Change set 1Ce complete : 1
+1676,1Ce,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Process Status', 'Test123']",,READ,
+1675,1Cd,2022-08-17T16:55:47Z,,,,,,,Change set 1Cd complete : 1
+1674,1Cd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Process Status', '12345']",WRITE,READ,
+1673,1Cc,2022-08-17T16:55:47Z,,,,,,,Change set 1Cc complete : 1
+1672,1Cc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Hierarchy Control', 'Test123']",,READ,
+1671,1Cb,2022-08-17T16:55:47Z,,,,,,,Change set 1Cb complete : 1
+1670,1Cb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Hierarchy Control', '12345']",WRITE,READ,
+1669,1Ca,2022-08-17T16:55:47Z,,,,,,,Change set 1Ca complete : 1
+1668,1Ca,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Form Filter', 'Test123']",,READ,
+1667,1CF,2022-08-17T16:55:47Z,,,,,,,Change set 1CF complete : 1
+1666,1CF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS Form Filter', '12345']",WRITE,READ,
+1665,1CE,2022-08-17T16:55:47Z,,,,,,,Change set 1CE complete : 1
+1664,1CE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS_Cubes_Dims', 'Test123']",,READ,
+1663,1CD,2022-08-17T16:55:47Z,,,,,,,Change set 1CD complete : 1
+1662,1CD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSYS_Cubes_Dims', '12345']",WRITE,READ,
+1661,1CC,2022-08-17T16:55:47Z,,,,,,,Change set 1CC complete : 1
+1660,1CC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSecurity', 'Test123']",,READ,
+1659,1CB,2022-08-17T16:55:47Z,,,,,,,Change set 1CB complete : 1
+1658,1CB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mSecurity', '12345']",,READ,
+1657,1CA,2022-08-17T16:55:47Z,,,,,,,Change set 1CA complete : 1
+1656,1CA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mRun Book Control', 'Test123']",,READ,
+1655,1C9,2022-08-17T16:55:47Z,,,,,,,Change set 1C9 complete : 1
+1654,1C9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mRun Book Control', '12345']",,READ,
+1653,1C8,2022-08-17T16:55:47Z,,,,,,,Change set 1C8 complete : 1
+1652,1C8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Months', 'Test123']",,READ,
+1651,1C7,2022-08-17T16:55:47Z,,,,,,,Change set 1C7 complete : 1
+1650,1C7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Months', '12345']",WRITE,READ,
+1649,1C6,2022-08-17T16:55:47Z,,,,,,,Change set 1C6 complete : 1
+1648,1C6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Month', 'Test123']",,READ,
+1647,1C5,2022-08-17T16:55:47Z,,,,,,,Change set 1C5 complete : 1
+1646,1C5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Month', '12345']",WRITE,READ,
+1645,1C4,2022-08-17T16:55:47Z,,,,,,,Change set 1C4 complete : 1
+1644,1C4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mMonth Control', 'Test123']",,READ,
+1643,1C3,2022-08-17T16:55:47Z,,,,,,,Change set 1C3 complete : 1
+1642,1C3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mMonth Control', '12345']",WRITE,READ,
+1641,1C2,2022-08-17T16:55:47Z,,,,,,,Change set 1C2 complete : 1
+1640,1C2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mExportControl', 'Test123']",,READ,
+1639,1C1,2022-08-17T16:55:47Z,,,,,,,Change set 1C1 complete : 1
+1638,1C1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mExportControl', '12345']",,READ,
+1637,1C0,2022-08-17T16:55:47Z,,,,,,,Change set 1C0 complete : 1
+1636,1C0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mDataUpdate Scenario', 'Test123']",,READ,
+1635,1Bf,2022-08-17T16:55:47Z,,,,,,,Change set 1Bf complete : 1
+1634,1Bf,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mDataUpdate Scenario', '12345']",,READ,
+1633,1Be,2022-08-17T16:55:47Z,,,,,,,Change set 1Be complete : 1
+1632,1Be,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mData Control', 'Test123']",,READ,
+1631,1Bd,2022-08-17T16:55:47Z,,,,,,,Change set 1Bd complete : 1
+1630,1Bd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mData Control', '12345']",,READ,
+1629,1Bc,2022-08-17T16:55:47Z,,,,,,,Change set 1Bc complete : 1
+1628,1Bc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mControl', 'Test123']",,READ,
+1627,1Bb,2022-08-17T16:55:47Z,,,,,,,Change set 1Bb complete : 1
+1626,1Bb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mControl', '12345']",WRITE,READ,
+1625,1Ba,2022-08-17T16:55:47Z,,,,,,,Change set 1Ba complete : 1
+1624,1Ba,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mCapEx Assumptions', 'Test123']",,READ,
+1623,1BF,2022-08-17T16:55:47Z,,,,,,,Change set 1BF complete : 1
+1622,1BF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mCapEx Assumptions', '12345']",,READ,
+1621,1BE,2022-08-17T16:55:47Z,,,,,,,Change set 1BE complete : 1
+1620,1BE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Upload Validation', 'Test123']",,READ,
+1619,1BD,2022-08-17T16:55:47Z,,,,,,,Change set 1BD complete : 1
+1618,1BD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Upload Validation', '12345']",WRITE,READ,
+1617,1BC,2022-08-17T16:55:47Z,,,,,,,Change set 1BC complete : 1
+1616,1BC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning Upload History', 'Test123']",,READ,
+1615,1BB,2022-08-17T16:55:47Z,,,,,,,Change set 1BB complete : 1
+1614,1BB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning Upload History', '12345']",WRITE,READ,
+1613,1BA,2022-08-17T16:55:47Z,,,,,,,Change set 1BA complete : 1
+1612,1BA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning Upload', 'Test123']",,READ,
+1611,1B9,2022-08-17T16:55:47Z,,,,,,,Change set 1B9 complete : 1
+1610,1B9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning Upload', '12345']",WRITE,READ,
+1609,1B8,2022-08-17T16:55:47Z,,,,,,,Change set 1B8 complete : 1
+1608,1B8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning', 'Test123']",,READ,
+1607,1B7,2022-08-17T16:55:47Z,,,,,,,Change set 1B7 complete : 1
+1606,1B7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_mBudget Planning', '12345']",WRITE,READ,
+1605,1B6,2022-08-17T16:55:47Z,,,,,,,Change set 1B6 complete : 1
+1604,1B6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_m_HierarchyManagement', 'Test123']",,READ,
+1603,1B5,2022-08-17T16:55:47Z,,,,,,,Change set 1B5 complete : 1
+1602,1B5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_m_HierarchyManagement', '12345']",,READ,
+1601,1B4,2022-08-17T16:55:47Z,,,,,,,Change set 1B4 complete : 1
+1600,1B4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Scenario', 'Test123']",,READ,
+1599,1B3,2022-08-17T16:55:47Z,,,,,,,Change set 1B3 complete : 1
+1598,1B3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Scenario', '12345']",,READ,
+1597,1B2,2022-08-17T16:55:47Z,,,,,,,Change set 1B2 complete : 1
+1596,1B2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Rows', 'Test123']",,READ,
+1595,1B1,2022-08-17T16:55:47Z,,,,,,,Change set 1B1 complete : 1
+1594,1B1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Rows', '12345']",,READ,
+1593,1B0,2022-08-17T16:55:47Z,,,,,,,Change set 1B0 complete : 1
+1592,1B0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Alternates', 'Test123']",,READ,
+1591,1Af,2022-08-17T16:55:47Z,,,,,,,Change set 1Af complete : 1
+1590,1Af,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Hierarchy_Alternates', '12345']",,READ,
+1589,1Ae,2022-08-17T16:55:47Z,,,,,,,Change set 1Ae complete : 1
+1588,1Ae,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Item', 'Test123']",,READ,
+1587,1Ad,2022-08-17T16:55:47Z,,,,,,,Change set 1Ad complete : 1
+1586,1Ad,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Item', '12345']",,READ,
+1585,1Ac,2022-08-17T16:55:47Z,,,,,,,Change set 1Ac complete : 1
+1584,1Ac,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Index', 'Test123']",,READ,
+1583,1Ab,2022-08-17T16:55:47Z,,,,,,,Change set 1Ab complete : 1
+1582,1Ab,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Index', '12345']",,READ,
+1581,1Aa,2022-08-17T16:55:47Z,,,,,,,Change set 1Aa complete : 1
+1580,1Aa,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Dimension', 'Test123']",,READ,
+1579,1AF,2022-08-17T16:55:47Z,,,,,,,Change set 1AF complete : 1
+1578,1AF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Export Dimension', '12345']",,READ,
+1577,1AE,2022-08-17T16:55:47Z,,,,,,,Change set 1AE complete : 1
+1576,1AE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Dimensions', 'Test123']",,READ,
+1575,1AD,2022-08-17T16:55:47Z,,,,,,,Change set 1AD complete : 1
+1574,1AD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Dimensions', '12345']",,READ,
+1573,1AC,2022-08-17T16:55:47Z,,,,,,,Change set 1AC complete : 1
+1572,1AC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Department', 'Test123']",,READ,
+1571,1AB,2022-08-17T16:55:47Z,,,,,,,Change set 1AB complete : 1
+1570,1AB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Department', '12345']",WRITE,READ,
+1569,1AA,2022-08-17T16:55:47Z,,,,,,,Change set 1AA complete : 1
+1568,1AA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Update Scenario', 'Test123']",,READ,
+1567,1A9,2022-08-17T16:55:47Z,,,,,,,Change set 1A9 complete : 1
+1566,1A9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Update Scenario', '12345']",,READ,
+1565,1A8,2022-08-17T16:55:47Z,,,,,,,Change set 1A8 complete : 1
+1564,1A8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Target', 'Test123']",,READ,
+1563,1A7,2022-08-17T16:55:47Z,,,,,,,Change set 1A7 complete : 1
+1562,1A7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Target', '12345']",,READ,
+1561,1A6,2022-08-17T16:55:47Z,,,,,,,Change set 1A6 complete : 1
+1560,1A6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Source', 'Test123']",,READ,
+1559,1A5,2022-08-17T16:55:47Z,,,,,,,Change set 1A5 complete : 1
+1558,1A5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Source', '12345']",,READ,
+1557,1A4,2022-08-17T16:55:47Z,,,,,,,Change set 1A4 complete : 1
+1556,1A4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Scenario', 'Test123']",,READ,
+1555,1A3,2022-08-17T16:55:47Z,,,,,,,Change set 1A3 complete : 1
+1554,1A3,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Data Control Scenario', '12345']",,READ,
+1553,1A2,2022-08-17T16:55:47Z,,,,,,,Change set 1A2 complete : 1
+1552,1A2,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Currency', 'Test123']",,READ,
+1551,1A1,2022-08-17T16:55:47Z,,,,,,,Change set 1A1 complete : 1
+1550,1A1,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Currency', '12345']",WRITE,READ,
+1549,1A0,2022-08-17T16:55:47Z,,,,,,,Change set 1A0 complete : 1
+1548,1A0,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Control', 'Test123']",,READ,
+1547,19f,2022-08-17T16:55:47Z,,,,,,,Change set 19f complete : 1
+1546,19f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Control', '12345']",WRITE,READ,
+1545,19e,2022-08-17T16:55:47Z,,,,,,,Change set 19e complete : 1
+1544,19e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_ChadTest', 'Test123']",,READ,
+1543,19d,2022-08-17T16:55:47Z,,,,,,,Change set 19d complete : 1
+1542,19d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_ChadTest', '12345']",,READ,
+1541,19c,2022-08-17T16:55:47Z,,,,,,,Change set 19c complete : 1
+1540,19c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_ChadDim', 'Test123']",,READ,
+1539,19b,2022-08-17T16:55:47Z,,,,,,,Change set 19b complete : 1
+1538,19b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_ChadDim', '12345']",,READ,
+1537,19a,2022-08-17T16:55:47Z,,,,,,,Change set 19a complete : 1
+1536,19a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Capex Index', 'Test123']",,READ,
+1535,19F,2022-08-17T16:55:47Z,,,,,,,Change set 19F complete : 1
+1534,19F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Capex Index', '12345']",,READ,
+1533,19E,2022-08-17T16:55:47Z,,,,,,,Change set 19E complete : 1
+1532,19E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_CapEx Assumptions', 'Test123']",,READ,
+1531,19D,2022-08-17T16:55:47Z,,,,,,,Change set 19D complete : 1
+1530,19D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_CapEx Assumptions', '12345']",,READ,
+1529,19C,2022-08-17T16:55:47Z,,,,,,,Change set 19C complete : 1
+1528,19C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Business Unit', 'Test123']",,READ,
+1527,19B,2022-08-17T16:55:47Z,,,,,,,Change set 19B complete : 1
+1526,19B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Business Unit', '12345']",WRITE,READ,
+1525,19A,2022-08-17T16:55:47Z,,,,,,,Change set 19A complete : 1
+1524,19A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Budget Upload Index', 'Test123']",,READ,
+1523,199,2022-08-17T16:55:47Z,,,,,,,Change set 199 complete : 1
+1522,199,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Budget Upload Index', '12345']",WRITE,READ,
+1521,198,2022-08-17T16:55:47Z,,,,,,,Change set 198 complete : 1
+1520,198,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Budget Planning Upload Index', 'Test123']",,READ,
+1519,197,2022-08-17T16:55:47Z,,,,,,,Change set 197 complete : 1
+1518,197,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Budget Planning Upload Index', '12345']",WRITE,READ,
+1517,196,2022-08-17T16:55:47Z,,,,,,,Change set 196 complete : 1
+1516,196,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Account', 'Test123']",,READ,
+1515,195,2022-08-17T16:55:47Z,,,,,,,Change set 195 complete : 1
+1514,195,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies_Account', '12345']",WRITE,READ,
+1513,194,2022-08-17T16:55:47Z,,,,,,,Change set 194 complete : 1
+1512,194,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies', 'Test123']",,READ,
+1511,193,2022-08-17T16:55:47Z,,,,,,,Change set 193 complete : 1
+1510,193,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Hierarchies', '12345']",WRITE,READ,
+1509,192,2022-08-17T16:55:47Z,,,,,,,Change set 192 complete : 1
+1508,192,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Groups', 'Test123']",,READ,
+1507,191,2022-08-17T16:55:47Z,,,,,,,Change set 191 complete : 1
+1506,191,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Groups', '12345']",WRITE,READ,
+1505,190,2022-08-17T16:55:47Z,,,,,,,Change set 190 complete : 1
+1504,190,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Features', 'Test123']",,READ,
+1503,18f,2022-08-17T16:55:47Z,,,,,,,Change set 18f complete : 1
+1502,18f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Features', '12345']",WRITE,READ,
+1501,18e,2022-08-17T16:55:47Z,,,,,,,Change set 18e complete : 1
+1500,18e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementProperties', 'Test123']",,READ,
+1499,18d,2022-08-17T16:55:47Z,,,,,,,Change set 18d complete : 1
+1498,18d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementProperties', '12345']",WRITE,READ,
+1497,18c,2022-08-17T16:55:47Z,,,,,,,Change set 18c complete : 1
+1496,18c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Groups', 'Test123']",,READ,
+1495,18b,2022-08-17T16:55:47Z,,,,,,,Change set 18b complete : 1
+1494,18b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Groups', '12345']",WRITE,READ,
+1493,18a,2022-08-17T16:55:47Z,,,,,,,Change set 18a complete : 1
+1492,18a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Cultures', 'Test123']",,READ,
+1491,18F,2022-08-17T16:55:47Z,,,,,,,Change set 18F complete : 1
+1490,18F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Cultures', '12345']",WRITE,READ,
+1489,18E,2022-08-17T16:55:47Z,,,,,,,Change set 18E complete : 1
+1488,18E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Clients', 'Test123']",,READ,
+1487,18D,2022-08-17T16:55:47Z,,,,,,,Change set 18D complete : 1
+1486,18D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_}Clients', '12345']",WRITE,READ,
+1485,18C,2022-08-17T16:55:47Z,,,,,,,Change set 18C complete : 1
+1484,18C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Version', 'Test123']",,READ,
+1483,18B,2022-08-17T16:55:47Z,,,,,,,Change set 18B complete : 1
+1482,18B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Version', '12345']",WRITE,READ,
+1481,18A,2022-08-17T16:55:47Z,,,,,,,Change set 18A complete : 1
+1480,18A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Vehicles', 'Test123']",,READ,
+1479,189,2022-08-17T16:55:47Z,,,,,,,Change set 189 complete : 1
+1478,189,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Vehicles', '12345']",WRITE,READ,
+1477,188,2022-08-17T16:55:47Z,,,,,,,Change set 188 complete : 1
+1476,188,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_tMonth', 'Test123']",,READ,
+1475,187,2022-08-17T16:55:47Z,,,,,,,Change set 187 complete : 1
+1474,187,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_tMonth', '12345']",WRITE,READ,
+1473,186,2022-08-17T16:55:47Z,,,,,,,Change set 186 complete : 1
+1472,186,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_TM1Py Region', 'Test123']",,READ,
+1471,185,2022-08-17T16:55:47Z,,,,,,,Change set 185 complete : 1
+1470,185,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_TM1Py Region', '12345']",WRITE,READ,
+1469,184,2022-08-17T16:55:47Z,,,,,,,Change set 184 complete : 1
+1468,184,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_TestDim', 'Test123']",,READ,
+1467,183,2022-08-17T16:55:47Z,,,,,,,Change set 183 complete : 1
+1466,183,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_TestDim', '12345']",,READ,
+1465,182,2022-08-17T16:55:47Z,,,,,,,Change set 182 complete : 1
+1464,182,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS LineNo', 'Test123']",,READ,
+1463,180,2022-08-17T16:55:47Z,,,,,,,Change set 180 complete : 1
+1462,180,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Sys_Promote', 'Test123']",,READ,
+1461,17f,2022-08-17T16:55:47Z,,,,,,,Change set 17f complete : 1
+1460,17f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Sys_Promote', '12345']",,READ,
+1459,17e,2022-08-17T16:55:47Z,,,,,,,Change set 17e complete : 1
+1458,17e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_PAW_Colunm', 'Test123']",,READ,
+1457,17d,2022-08-17T16:55:47Z,,,,,,,Change set 17d complete : 1
+1456,17d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_PAW_Colunm', '12345']",,READ,
+1455,17c,2022-08-17T16:55:47Z,,,,,,,Change set 17c complete : 1
+1454,17c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_mLogDeletions', 'Test123']",,READ,
+1453,17b,2022-08-17T16:55:47Z,,,,,,,Change set 17b complete : 1
+1452,17b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_mLogDeletions', '12345']",WRITE,READ,
+1451,17a,2022-08-17T16:55:47Z,,,,,,,Change set 17a complete : 1
+1450,17a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_mBackupFiles', 'Test123']",,READ,
+1449,17F,2022-08-17T16:55:47Z,,,,,,,Change set 17F complete : 1
+1448,17F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_mBackupFiles', '12345']",WRITE,READ,
+1447,17E,2022-08-17T16:55:47Z,,,,,,,Change set 17E complete : 1
+1446,17E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_LogDeletions', 'Test123']",,READ,
+1445,17D,2022-08-17T16:55:47Z,,,,,,,Change set 17D complete : 1
+1444,17D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_LogDeletions', '12345']",WRITE,READ,
+1443,17C,2022-08-17T16:55:47Z,,,,,,,Change set 17C complete : 1
+1442,17C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_BackupIndex', 'Test123']",,READ,
+1441,17B,2022-08-17T16:55:47Z,,,,,,,Change set 17B complete : 1
+1440,17B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_SYS_BackupIndex', '12345']",WRITE,READ,
+1439,17A,2022-08-17T16:55:47Z,,,,,,,Change set 17A complete : 1
+1438,17A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Run Book Index', 'Test123']",,READ,
+1437,179,2022-08-17T16:55:47Z,,,,,,,Change set 179 complete : 1
+1436,179,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Run Book Index', '12345']",,READ,
+1435,178,2022-08-17T16:55:47Z,,,,,,,Change set 178 complete : 1
+1434,178,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Run Book', 'Test123']",,READ,
+1433,177,2022-08-17T16:55:47Z,,,,,,,Change set 177 complete : 1
+1432,177,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Run Book', '12345']",,READ,
+1431,176,2022-08-17T16:55:47Z,,,,,,,Change set 176 complete : 1
+1430,176,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Promotion Job Index', 'Test123']",,READ,
+1429,175,2022-08-17T16:55:47Z,,,,,,,Change set 175 complete : 1
+1428,175,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Promotion Job Index', '12345']",,READ,
+1427,174,2022-08-17T16:55:47Z,,,,,,,Change set 174 complete : 1
+1426,174,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Promotion Job', 'Test123']",,READ,
+1425,173,2022-08-17T16:55:47Z,,,,,,,Change set 173 complete : 1
+1424,173,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Promotion Job', '12345']",,READ,
+1423,172,2022-08-17T16:55:47Z,,,,,,,Change set 172 complete : 1
+1422,172,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Process Log Run', 'Test123']",,READ,
+1421,171,2022-08-17T16:55:47Z,,,,,,,Change set 171 complete : 1
+1420,171,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Process Log Run', '12345']",,READ,
+1419,170,2022-08-17T16:55:47Z,,,,,,,Change set 170 complete : 1
+1418,170,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Process Log Line', 'Test123']",,READ,
+1417,16f,2022-08-17T16:55:47Z,,,,,,,Change set 16f complete : 1
+1416,16f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Process Log Line', '12345']",,READ,
+1415,16e,2022-08-17T16:55:47Z,,,,,,,Change set 16e complete : 1
+1414,16e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_plan_chart_of_accounts', 'Test123']",,READ,
+1413,16d,2022-08-17T16:55:47Z,,,,,,,Change set 16d complete : 1
+1412,16d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_plan_chart_of_accounts', '12345']",,READ,
+1411,16c,2022-08-17T16:55:47Z,,,,,,,Change set 16c complete : 1
+1410,16c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mUSerSelections', 'Test123']",,READ,
+1409,16b,2022-08-17T16:55:47Z,,,,,,,Change set 16b complete : 1
+1408,16b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mUSerSelections', '12345']",,READ,
+1407,16a,2022-08-17T16:55:47Z,,,,,,,Change set 16a complete : 1
+1406,16a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Subset Control', 'Test123']",,READ,
+1405,16F,2022-08-17T16:55:47Z,,,,,,,Change set 16F complete : 1
+1404,16F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Subset Control', '12345']",WRITE,READ,
+1403,16E,2022-08-17T16:55:47Z,,,,,,,Change set 16E complete : 1
+1402,16E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Process Status', 'Test123']",,READ,
+1401,16D,2022-08-17T16:55:47Z,,,,,,,Change set 16D complete : 1
+1400,16D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Process Status', '12345']",WRITE,READ,
+1399,16C,2022-08-17T16:55:47Z,,,,,,,Change set 16C complete : 1
+1398,16C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Hierarchy Control', 'Test123']",,READ,
+1397,16B,2022-08-17T16:55:47Z,,,,,,,Change set 16B complete : 1
+1396,16B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Hierarchy Control', '12345']",WRITE,READ,
+1395,16A,2022-08-17T16:55:47Z,,,,,,,Change set 16A complete : 1
+1394,16A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Form Filter', 'Test123']",,READ,
+1393,169,2022-08-17T16:55:47Z,,,,,,,Change set 169 complete : 1
+1392,169,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSYS Form Filter', '12345']",WRITE,READ,
+1391,168,2022-08-17T16:55:47Z,,,,,,,Change set 168 complete : 1
+1390,168,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSecurity', 'Test123']",,READ,
+1389,167,2022-08-17T16:55:47Z,,,,,,,Change set 167 complete : 1
+1388,167,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mSecurity', '12345']",,READ,
+1387,166,2022-08-17T16:55:47Z,,,,,,,Change set 166 complete : 1
+1386,166,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mRun Book Control', 'Test123']",,READ,
+1385,165,2022-08-17T16:55:47Z,,,,,,,Change set 165 complete : 1
+1384,165,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mRun Book Control', '12345']",,READ,
+1383,164,2022-08-17T16:55:47Z,,,,,,,Change set 164 complete : 1
+1382,164,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Months', 'Test123']",,READ,
+1381,163,2022-08-17T16:55:47Z,,,,,,,Change set 163 complete : 1
+1380,163,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Months', '12345']",WRITE,READ,
+1379,162,2022-08-17T16:55:47Z,,,,,,,Change set 162 complete : 1
+1378,162,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Month', 'Test123']",,READ,
+1377,161,2022-08-17T16:55:47Z,,,,,,,Change set 161 complete : 1
+1376,161,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Month', '12345']",WRITE,READ,
+1375,160,2022-08-17T16:55:47Z,,,,,,,Change set 160 complete : 1
+1374,160,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mExportControl', 'Test123']",,READ,
+1373,15f,2022-08-17T16:55:47Z,,,,,,,Change set 15f complete : 1
+1372,15f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mExportControl', '12345']",,READ,
+1371,15e,2022-08-17T16:55:47Z,,,,,,,Change set 15e complete : 1
+1370,15e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mDataUpdate Scenario', 'Test123']",,READ,
+1369,15d,2022-08-17T16:55:47Z,,,,,,,Change set 15d complete : 1
+1368,15d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mDataUpdate Scenario', '12345']",,READ,
+1367,15c,2022-08-17T16:55:47Z,,,,,,,Change set 15c complete : 1
+1366,15c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mData Control', 'Test123']",,READ,
+1365,15b,2022-08-17T16:55:47Z,,,,,,,Change set 15b complete : 1
+1364,15b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mData Control', '12345']",,READ,
+1363,15a,2022-08-17T16:55:47Z,,,,,,,Change set 15a complete : 1
+1362,15a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mControl', 'Test123']",,READ,
+1361,15F,2022-08-17T16:55:47Z,,,,,,,Change set 15F complete : 1
+1360,15F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mControl', '12345']",WRITE,READ,
+1359,15E,2022-08-17T16:55:47Z,,,,,,,Change set 15E complete : 1
+1358,15E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mCapEx Assumptions', 'Test123']",,READ,
+1357,15D,2022-08-17T16:55:47Z,,,,,,,Change set 15D complete : 1
+1356,15D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mCapEx Assumptions', '12345']",,READ,
+1355,15C,2022-08-17T16:55:47Z,,,,,,,Change set 15C complete : 1
+1354,15C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Upload Validation', 'Test123']",,READ,
+1353,15B,2022-08-17T16:55:47Z,,,,,,,Change set 15B complete : 1
+1352,15B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Upload Validation', '12345']",WRITE,READ,
+1351,15A,2022-08-17T16:55:47Z,,,,,,,Change set 15A complete : 1
+1350,15A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning Upload History', 'Test123']",,READ,
+1349,159,2022-08-17T16:55:47Z,,,,,,,Change set 159 complete : 1
+1348,159,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning Upload History', '12345']",WRITE,READ,
+1347,158,2022-08-17T16:55:47Z,,,,,,,Change set 158 complete : 1
+1346,158,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning Upload', 'Test123']",,READ,
+1345,157,2022-08-17T16:55:47Z,,,,,,,Change set 157 complete : 1
+1344,157,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning Upload', '12345']",WRITE,READ,
+1343,156,2022-08-17T16:55:47Z,,,,,,,Change set 156 complete : 1
+1342,156,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning', 'Test123']",,READ,
+1341,155,2022-08-17T16:55:47Z,,,,,,,Change set 155 complete : 1
+1340,155,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_mBudget Planning', '12345']",WRITE,READ,
+1339,154,2022-08-17T16:55:47Z,,,,,,,Change set 154 complete : 1
+1338,154,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_m_HierarchyManagement', 'Test123']",,READ,
+1337,153,2022-08-17T16:55:47Z,,,,,,,Change set 153 complete : 1
+1336,153,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_m_HierarchyManagement', '12345']",,READ,
+1335,152,2022-08-17T16:55:47Z,,,,,,,Change set 152 complete : 1
+1334,152,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Scenario', 'Test123']",,READ,
+1333,151,2022-08-17T16:55:47Z,,,,,,,Change set 151 complete : 1
+1332,151,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Scenario', '12345']",,READ,
+1331,150,2022-08-17T16:55:47Z,,,,,,,Change set 150 complete : 1
+1330,150,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Rows', 'Test123']",,READ,
+1329,14f,2022-08-17T16:55:47Z,,,,,,,Change set 14f complete : 1
+1328,14f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Rows', '12345']",,READ,
+1327,14e,2022-08-17T16:55:47Z,,,,,,,Change set 14e complete : 1
+1326,14e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Alternates', 'Test123']",,READ,
+1325,14d,2022-08-17T16:55:47Z,,,,,,,Change set 14d complete : 1
+1324,14d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Hierarchy_Alternates', '12345']",,READ,
+1323,14c,2022-08-17T16:55:47Z,,,,,,,Change set 14c complete : 1
+1322,14c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Item', 'Test123']",,READ,
+1321,14b,2022-08-17T16:55:47Z,,,,,,,Change set 14b complete : 1
+1320,14b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Item', '12345']",,READ,
+1319,14a,2022-08-17T16:55:47Z,,,,,,,Change set 14a complete : 1
+1318,14a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Index', 'Test123']",,READ,
+1317,14F,2022-08-17T16:55:47Z,,,,,,,Change set 14F complete : 1
+1316,14F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Index', '12345']",,READ,
+1315,14E,2022-08-17T16:55:47Z,,,,,,,Change set 14E complete : 1
+1314,14E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Dimension', 'Test123']",,READ,
+1313,14D,2022-08-17T16:55:47Z,,,,,,,Change set 14D complete : 1
+1312,14D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Export Dimension', '12345']",,READ,
+1311,14C,2022-08-17T16:55:47Z,,,,,,,Change set 14C complete : 1
+1310,14C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Dimensions', 'Test123']",,READ,
+1309,14B,2022-08-17T16:55:47Z,,,,,,,Change set 14B complete : 1
+1308,14B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Dimensions', '12345']",,READ,
+1307,14A,2022-08-17T16:55:47Z,,,,,,,Change set 14A complete : 1
+1306,14A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Department', 'Test123']",,READ,
+1305,149,2022-08-17T16:55:47Z,,,,,,,Change set 149 complete : 1
+1304,149,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Department', '12345']",WRITE,READ,
+1303,148,2022-08-17T16:55:47Z,,,,,,,Change set 148 complete : 1
+1302,148,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Update Scenario', 'Test123']",,READ,
+1301,147,2022-08-17T16:55:47Z,,,,,,,Change set 147 complete : 1
+1300,147,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Update Scenario', '12345']",,READ,
+1074,f4,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['TimeWeek', 'Test123']",,READ,
+1075,f4,2022-08-17T16:55:47Z,,,,,,,Change set f4 complete : 1
+1076,f5,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['TM1Py Region', '12345']",WRITE,READ,
+1077,f5,2022-08-17T16:55:47Z,,,,,,,Change set f5 complete : 1
+1078,f6,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['TM1Py Region', 'Test123']",,READ,
+1079,f6,2022-08-17T16:55:47Z,,,,,,,Change set f6 complete : 1
+1080,f7,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['tMonth', '12345']",WRITE,READ,
+1081,f7,2022-08-17T16:55:47Z,,,,,,,Change set f7 complete : 1
+1082,f8,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['tMonth', 'Test123']",,READ,
+1083,f8,2022-08-17T16:55:47Z,,,,,,,Change set f8 complete : 1
+1084,f9,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles', '12345']",WRITE,READ,
+1085,f9,2022-08-17T16:55:47Z,,,,,,,Change set f9 complete : 1
+1086,fA,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles', 'Test123']",,READ,
+1087,fA,2022-08-17T16:55:47Z,,,,,,,Change set fA complete : 1
+1088,fB,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Leaves', '12345']",WRITE,READ,
+1089,fB,2022-08-17T16:55:47Z,,,,,,,Change set fB complete : 1
+1090,fC,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Leaves', 'Test123']",,READ,
+1091,fC,2022-08-17T16:55:47Z,,,,,,,Change set fC complete : 1
+1092,fD,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Manufacturer', '12345']",,READ,
+1093,fD,2022-08-17T16:55:47Z,,,,,,,Change set fD complete : 1
+1094,fE,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Manufacturer', 'Test123']",,READ,
+1095,fE,2022-08-17T16:55:47Z,,,,,,,Change set fE complete : 1
+1096,fF,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Vehicle Types', '12345']",WRITE,READ,
+1097,fF,2022-08-17T16:55:47Z,,,,,,,Change set fF complete : 1
+1098,fa,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Vehicles:Vehicle Types', 'Test123']",,READ,
+1099,fa,2022-08-17T16:55:47Z,,,,,,,Change set fa complete : 1
+1100,fb,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Version', '12345']",WRITE,READ,
+1101,fb,2022-08-17T16:55:47Z,,,,,,,Change set fb complete : 1
+1102,fc,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Version', 'Test123']",,READ,
+1103,fc,2022-08-17T16:55:47Z,,,,,,,Change set fc complete : 1
+1104,fd,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Year', '12345']",WRITE,READ,
+1105,fd,2022-08-17T16:55:47Z,,,,,,,Change set fd complete : 1
+1106,fe,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['Year', 'Test123']",,READ,
+1107,fe,2022-08-17T16:55:47Z,,,,,,,Change set fe complete : 1
+1108,ff,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim1', '12345']",,READ,
+1109,ff,2022-08-17T16:55:47Z,,,,,,,Change set ff complete : 1
+1110,100,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim1', 'Test123']",,READ,
+1111,100,2022-08-17T16:55:47Z,,,,,,,Change set 100 complete : 1
+1112,101,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim10', '12345']",,READ,
+1113,101,2022-08-17T16:55:47Z,,,,,,,Change set 101 complete : 1
+1114,102,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim10', 'Test123']",,READ,
+1115,102,2022-08-17T16:55:47Z,,,,,,,Change set 102 complete : 1
+1116,103,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim11', '12345']",,READ,
+1117,103,2022-08-17T16:55:47Z,,,,,,,Change set 103 complete : 1
+1118,104,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim11', 'Test123']",,READ,
+1119,104,2022-08-17T16:55:47Z,,,,,,,Change set 104 complete : 1
+1120,105,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim12', '12345']",,READ,
+1121,105,2022-08-17T16:55:47Z,,,,,,,Change set 105 complete : 1
+1122,106,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim12', 'Test123']",,READ,
+1123,106,2022-08-17T16:55:47Z,,,,,,,Change set 106 complete : 1
+1124,107,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim13', '12345']",,READ,
+1125,107,2022-08-17T16:55:47Z,,,,,,,Change set 107 complete : 1
+1126,108,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim13', 'Test123']",,READ,
+1127,108,2022-08-17T16:55:47Z,,,,,,,Change set 108 complete : 1
+1128,109,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim14', '12345']",,READ,
+1129,109,2022-08-17T16:55:47Z,,,,,,,Change set 109 complete : 1
+1130,10A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim14', 'Test123']",,READ,
+1131,10A,2022-08-17T16:55:47Z,,,,,,,Change set 10A complete : 1
+1132,10B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim15', '12345']",,READ,
+1133,10B,2022-08-17T16:55:47Z,,,,,,,Change set 10B complete : 1
+1134,10C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim15', 'Test123']",,READ,
+1135,10C,2022-08-17T16:55:47Z,,,,,,,Change set 10C complete : 1
+1136,10D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim2', '12345']",,READ,
+1137,10D,2022-08-17T16:55:47Z,,,,,,,Change set 10D complete : 1
+1138,10E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim2', 'Test123']",,READ,
+1139,10E,2022-08-17T16:55:47Z,,,,,,,Change set 10E complete : 1
+1140,10F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim3', '12345']",,READ,
+1141,10F,2022-08-17T16:55:47Z,,,,,,,Change set 10F complete : 1
+1142,10a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim3', 'Test123']",,READ,
+1143,10a,2022-08-17T16:55:47Z,,,,,,,Change set 10a complete : 1
+1144,10b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim4', '12345']",,READ,
+1145,10b,2022-08-17T16:55:47Z,,,,,,,Change set 10b complete : 1
+1146,10c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim4', 'Test123']",,READ,
+1147,10c,2022-08-17T16:55:47Z,,,,,,,Change set 10c complete : 1
+1148,10d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim5', '12345']",,READ,
+1149,10d,2022-08-17T16:55:47Z,,,,,,,Change set 10d complete : 1
+1150,10e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim5', 'Test123']",,READ,
+1151,10e,2022-08-17T16:55:47Z,,,,,,,Change set 10e complete : 1
+1152,10f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim6', '12345']",,READ,
+1153,10f,2022-08-17T16:55:47Z,,,,,,,Change set 10f complete : 1
+1154,110,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim6', 'Test123']",,READ,
+1155,110,2022-08-17T16:55:47Z,,,,,,,Change set 110 complete : 1
+1156,111,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim7', '12345']",,READ,
+1157,111,2022-08-17T16:55:47Z,,,,,,,Change set 111 complete : 1
+1158,112,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim7', 'Test123']",,READ,
+1159,112,2022-08-17T16:55:47Z,,,,,,,Change set 112 complete : 1
+1160,113,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim8', '12345']",,READ,
+1161,113,2022-08-17T16:55:47Z,,,,,,,Change set 113 complete : 1
+1162,114,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim8', 'Test123']",,READ,
+1163,114,2022-08-17T16:55:47Z,,,,,,,Change set 114 complete : 1
+1164,115,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim9', '12345']",,READ,
+1165,115,2022-08-17T16:55:47Z,,,,,,,Change set 115 complete : 1
+1166,116,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AdminDim9', 'Test123']",,READ,
+1167,116,2022-08-17T16:55:47Z,,,,,,,Change set 116 complete : 1
+1168,117,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Annotation_ApplicationID', '12345']",,READ,
+1169,117,2022-08-17T16:55:47Z,,,,,,,Change set 117 complete : 1
+1170,118,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Annotation_ApplicationID', 'Test123']",,READ,
+1171,118,2022-08-17T16:55:47Z,,,,,,,Change set 118 complete : 1
+1172,119,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AnnotationAppContextFacets', '12345']",,READ,
+1173,119,2022-08-17T16:55:47Z,,,,,,,Change set 119 complete : 1
+1174,11A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AnnotationAppContextFacets', 'Test123']",,READ,
+1175,11A,2022-08-17T16:55:47Z,,,,,,,Change set 11A complete : 1
+1176,11B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AnnotationMeasures', '12345']",,READ,
+1177,11B,2022-08-17T16:55:47Z,,,,,,,Change set 11B complete : 1
+1178,11C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}AnnotationMeasures', 'Test123']",,READ,
+1179,11C,2022-08-17T16:55:47Z,,,,,,,Change set 11C complete : 1
+1180,11D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ApplicationEntries', '12345']",WRITE,READ,
+1181,11D,2022-08-17T16:55:47Z,,,,,,,Change set 11D complete : 1
+1182,11E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ApplicationEntries', 'Test123']",,READ,
+1183,11E,2022-08-17T16:55:47Z,,,,,,,Change set 11E complete : 1
+1184,11F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CAMAssociatedGroups', '12345']",WRITE,READ,
+1185,11F,2022-08-17T16:55:47Z,,,,,,,Change set 11F complete : 1
+1186,11a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CAMAssociatedGroups', 'Test123']",,READ,
+1187,11a,2022-08-17T16:55:47Z,,,,,,,Change set 11a complete : 1
+1188,11b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Chores', '12345']",WRITE,READ,
+1189,11b,2022-08-17T16:55:47Z,,,,,,,Change set 11b complete : 1
+1190,11c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Chores', 'Test123']",,READ,
+1191,11c,2022-08-17T16:55:47Z,,,,,,,Change set 11c complete : 1
+1192,11d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ClientProperties', '12345']",WRITE,READ,
+1193,11d,2022-08-17T16:55:47Z,,,,,,,Change set 11d complete : 1
+1194,11e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ClientProperties', 'Test123']",,READ,
+1195,11e,2022-08-17T16:55:47Z,,,,,,,Change set 11e complete : 1
+1196,11f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Clients', '12345']",WRITE,READ,
+1197,11f,2022-08-17T16:55:47Z,,,,,,,Change set 11f complete : 1
+1198,120,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Clients', 'Test123']",,READ,
+1199,120,2022-08-17T16:55:47Z,,,,,,,Change set 120 complete : 1
+1200,121,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ClientSettings', '12345']",WRITE,READ,
+1201,121,2022-08-17T16:55:47Z,,,,,,,Change set 121 complete : 1
+1202,122,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ClientSettings', 'Test123']",,READ,
+1203,122,2022-08-17T16:55:47Z,,,,,,,Change set 122 complete : 1
+1204,123,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ConnectionProperties', '12345']",WRITE,READ,
+1205,123,2022-08-17T16:55:47Z,,,,,,,Change set 123 complete : 1
+1206,124,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ConnectionProperties', 'Test123']",,READ,
+1207,124,2022-08-17T16:55:47Z,,,,,,,Change set 124 complete : 1
+1208,125,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Connections', '12345']",WRITE,READ,
+1209,125,2022-08-17T16:55:47Z,,,,,,,Change set 125 complete : 1
+1210,126,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Connections', 'Test123']",,READ,
+1211,126,2022-08-17T16:55:47Z,,,,,,,Change set 126 complete : 1
+1212,127,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cube Functions', '12345']",WRITE,READ,
+1213,127,2022-08-17T16:55:47Z,,,,,,,Change set 127 complete : 1
+1214,128,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cube Functions', 'Test123']",,READ,
+1215,128,2022-08-17T16:55:47Z,,,,,,,Change set 128 complete : 1
+1216,129,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CubeProperties', '12345']",WRITE,READ,
+1217,129,2022-08-17T16:55:47Z,,,,,,,Change set 129 complete : 1
+1218,12A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CubeProperties', 'Test123']",,READ,
+1219,12A,2022-08-17T16:55:47Z,,,,,,,Change set 12A complete : 1
+1220,12B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cubes', '12345']",WRITE,READ,
+1221,12B,2022-08-17T16:55:47Z,,,,,,,Change set 12B complete : 1
+1222,12C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cubes', 'Test123']",,READ,
+1223,12C,2022-08-17T16:55:47Z,,,,,,,Change set 12C complete : 1
+1224,12D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CubeSecurityProperties', '12345']",WRITE,READ,
+1225,12D,2022-08-17T16:55:47Z,,,,,,,Change set 12D complete : 1
+1226,12E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}CubeSecurityProperties', 'Test123']",,READ,
+1227,12E,2022-08-17T16:55:47Z,,,,,,,Change set 12E complete : 1
+1228,12F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cultures', '12345']",WRITE,READ,
+1229,12F,2022-08-17T16:55:47Z,,,,,,,Change set 12F complete : 1
+1230,12a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Cultures', 'Test123']",,READ,
+1231,12a,2022-08-17T16:55:47Z,,,,,,,Change set 12a complete : 1
+1232,12b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionFormatAttributes', '12345']",WRITE,READ,
+1233,12b,2022-08-17T16:55:47Z,,,,,,,Change set 12b complete : 1
+1234,12c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionFormatAttributes', 'Test123']",,READ,
+1235,12c,2022-08-17T16:55:47Z,,,,,,,Change set 12c complete : 1
+1236,12d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionFormatItems', '12345']",WRITE,READ,
+1237,12d,2022-08-17T16:55:47Z,,,,,,,Change set 12d complete : 1
+1238,12e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionFormatItems', 'Test123']",,READ,
+1239,12e,2022-08-17T16:55:47Z,,,,,,,Change set 12e complete : 1
+1240,12f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionProperties', '12345']",WRITE,READ,
+1241,12f,2022-08-17T16:55:47Z,,,,,,,Change set 12f complete : 1
+1242,130,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}DimensionProperties', 'Test123']",,READ,
+1243,130,2022-08-17T16:55:47Z,,,,,,,Change set 130 complete : 1
+1244,131,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Dimensions', '12345']",WRITE,READ,
+1245,131,2022-08-17T16:55:47Z,,,,,,,Change set 131 complete : 1
+1246,132,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}Dimensions', 'Test123']",,READ,
+1247,132,2022-08-17T16:55:47Z,,,,,,,Change set 132 complete : 1
+1248,133,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Account', '12345']",WRITE,READ,
+1249,133,2022-08-17T16:55:47Z,,,,,,,Change set 133 complete : 1
+1250,134,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Account', 'Test123']",,READ,
+1251,134,2022-08-17T16:55:47Z,,,,,,,Change set 134 complete : 1
+1252,135,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Budget Planning Upload Index', '12345']",WRITE,READ,
+1253,135,2022-08-17T16:55:47Z,,,,,,,Change set 135 complete : 1
+1254,136,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Budget Planning Upload Index', 'Test123']",,READ,
+1255,136,2022-08-17T16:55:47Z,,,,,,,Change set 136 complete : 1
+1256,137,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Budget Upload Index', '12345']",WRITE,READ,
+1257,137,2022-08-17T16:55:47Z,,,,,,,Change set 137 complete : 1
+1258,138,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Budget Upload Index', 'Test123']",,READ,
+1259,138,2022-08-17T16:55:47Z,,,,,,,Change set 138 complete : 1
+1260,139,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Business Unit', '12345']",WRITE,READ,
+1261,139,2022-08-17T16:55:47Z,,,,,,,Change set 139 complete : 1
+1262,13A,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Business Unit', 'Test123']",,READ,
+1263,13A,2022-08-17T16:55:47Z,,,,,,,Change set 13A complete : 1
+1264,13B,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_CapEx Assumptions', '12345']",,READ,
+1265,13B,2022-08-17T16:55:47Z,,,,,,,Change set 13B complete : 1
+1266,13C,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_CapEx Assumptions', 'Test123']",,READ,
+1267,13C,2022-08-17T16:55:47Z,,,,,,,Change set 13C complete : 1
+1268,13D,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Capex Index', '12345']",,READ,
+1269,13D,2022-08-17T16:55:47Z,,,,,,,Change set 13D complete : 1
+1270,13E,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Capex Index', 'Test123']",,READ,
+1271,13E,2022-08-17T16:55:47Z,,,,,,,Change set 13E complete : 1
+1272,13F,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_ChadDim', '12345']",,READ,
+1273,13F,2022-08-17T16:55:47Z,,,,,,,Change set 13F complete : 1
+1274,13a,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_ChadDim', 'Test123']",,READ,
+1275,13a,2022-08-17T16:55:47Z,,,,,,,Change set 13a complete : 1
+1276,13b,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_ChadTest', '12345']",,READ,
+1277,13b,2022-08-17T16:55:47Z,,,,,,,Change set 13b complete : 1
+1278,13c,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_ChadTest', 'Test123']",,READ,
+1279,13c,2022-08-17T16:55:47Z,,,,,,,Change set 13c complete : 1
+1280,13d,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Control', '12345']",WRITE,READ,
+1281,13d,2022-08-17T16:55:47Z,,,,,,,Change set 13d complete : 1
+1282,13e,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Control', 'Test123']",,READ,
+1283,13e,2022-08-17T16:55:47Z,,,,,,,Change set 13e complete : 1
+1284,13f,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Currency', '12345']",WRITE,READ,
+1285,13f,2022-08-17T16:55:47Z,,,,,,,Change set 13f complete : 1
+1286,140,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Currency', 'Test123']",,READ,
+1287,140,2022-08-17T16:55:47Z,,,,,,,Change set 140 complete : 1
+1288,141,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Scenario', '12345']",,READ,
+1289,141,2022-08-17T16:55:47Z,,,,,,,Change set 141 complete : 1
+1290,142,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Scenario', 'Test123']",,READ,
+1291,142,2022-08-17T16:55:47Z,,,,,,,Change set 142 complete : 1
+1292,143,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Source', '12345']",,READ,
+1293,143,2022-08-17T16:55:47Z,,,,,,,Change set 143 complete : 1
+1294,144,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Source', 'Test123']",,READ,
+1295,144,2022-08-17T16:55:47Z,,,,,,,Change set 144 complete : 1
+1296,145,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Target', '12345']",,READ,
+1297,145,2022-08-17T16:55:47Z,,,,,,,Change set 145 complete : 1
+1298,146,2022-08-17T16:55:47Z,2022-08-17T16:55:47Z,Admin,}DimensionSecurity,"['}ElementAttributes_Data Control Target', 'Test123']",,READ,
+1299,146,2022-08-17T16:55:47Z,,,,,,,Change set 146 complete : 1
+1073,f3,2022-08-17T16:55:46Z,,,,,,,Change set f3 complete : 1
+1072,f3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeWeek', '12345']",,READ,
+1071,f2,2022-08-17T16:55:46Z,,,,,,,Change set f2 complete : 1
+1070,f2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeSeason', 'Test123']",,READ,
+1069,f1,2022-08-17T16:55:46Z,,,,,,,Change set f1 complete : 1
+1068,f1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeSeason', '12345']",,READ,
+1067,f0,2022-08-17T16:55:46Z,,,,,,,Change set f0 complete : 1
+1066,f0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeMonth', 'Test123']",,READ,
+1065,ef,2022-08-17T16:55:46Z,,,,,,,Change set ef complete : 1
+1064,ef,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeMonth', '12345']",,READ,
+1063,ee,2022-08-17T16:55:46Z,,,,,,,Change set ee complete : 1
+1062,ee,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeDay', 'Test123']",,READ,
+1061,ed,2022-08-17T16:55:46Z,,,,,,,Change set ed complete : 1
+1060,ed,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TimeDay', '12345']",,READ,
+1059,ec,2022-08-17T16:55:46Z,,,,,,,Change set ec complete : 1
+1058,ec,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TestDim', 'Test123']",,READ,
+1057,eb,2022-08-17T16:55:46Z,,,,,,,Change set eb complete : 1
+1056,eb,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['TestDim', '12345']",,READ,
+1055,ea,2022-08-17T16:55:46Z,,,,,,,Change set ea complete : 1
+1054,ea,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Test2', 'Test123']",,READ,
+1053,eF,2022-08-17T16:55:46Z,,,,,,,Change set eF complete : 1
+1052,eF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Test2', '12345']",,READ,
+1051,eE,2022-08-17T16:55:46Z,,,,,,,Change set eE complete : 1
+1050,eE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Test1', 'Test123']",,READ,
+1049,eD,2022-08-17T16:55:46Z,,,,,,,Change set eD complete : 1
+1048,eD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Test1', '12345']",,READ,
+1047,eC,2022-08-17T16:55:46Z,,,,,,,Change set eC complete : 1
+1046,eC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS Process Status Lines', 'Test123']",,READ,
+1045,eB,2022-08-17T16:55:46Z,,,,,,,Change set eB complete : 1
+1044,eB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS Process Status Lines', '12345']",WRITE,READ,
+1043,eA,2022-08-17T16:55:46Z,,,,,,,Change set eA complete : 1
+1042,eA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS LineNo', 'Test123']",,READ,
+1041,e9,2022-08-17T16:55:46Z,,,,,,,Change set e9 complete : 1
+1040,e9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS LineNo', '12345']",WRITE,READ,
+1039,e8,2022-08-17T16:55:46Z,,,,,,,Change set e8 complete : 1
+1038,e8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Sys_Promote', 'Test123']",,READ,
+1037,e7,2022-08-17T16:55:46Z,,,,,,,Change set e7 complete : 1
+1036,e7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Sys_Promote', '12345']",,READ,
+1035,e6,2022-08-17T16:55:46Z,,,,,,,Change set e6 complete : 1
+1034,e6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_PAW_Colunm', 'Test123']",,READ,
+1033,e5,2022-08-17T16:55:46Z,,,,,,,Change set e5 complete : 1
+1032,e5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_PAW_Colunm', '12345']",,READ,
+1031,e4,2022-08-17T16:55:46Z,,,,,,,Change set e4 complete : 1
+1030,e4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_mLogDeletions', 'Test123']",,READ,
+1029,e3,2022-08-17T16:55:46Z,,,,,,,Change set e3 complete : 1
+1028,e3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_mLogDeletions', '12345']",WRITE,READ,
+1027,e2,2022-08-17T16:55:46Z,,,,,,,Change set e2 complete : 1
+1026,e2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_mBackupFiles', 'Test123']",,READ,
+1025,e1,2022-08-17T16:55:46Z,,,,,,,Change set e1 complete : 1
+1024,e1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_mBackupFiles', '12345']",WRITE,READ,
+1023,e0,2022-08-17T16:55:46Z,,,,,,,Change set e0 complete : 1
+1022,e0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_LogDeletions', 'Test123']",,READ,
+1021,df,2022-08-17T16:55:46Z,,,,,,,Change set df complete : 1
+1020,df,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_LogDeletions', '12345']",WRITE,READ,
+1019,de,2022-08-17T16:55:46Z,,,,,,,Change set de complete : 1
+1018,de,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_BackupIndex', 'Test123']",,READ,
+1017,dd,2022-08-17T16:55:46Z,,,,,,,Change set dd complete : 1
+1016,dd,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['SYS_BackupIndex', '12345']",WRITE,READ,
+1015,dc,2022-08-17T16:55:46Z,,,,,,,Change set dc complete : 1
+1014,dc,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Run Book Index', 'Test123']",,READ,
+1013,db,2022-08-17T16:55:46Z,,,,,,,Change set db complete : 1
+1012,db,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Run Book Index', '12345']",,READ,
+1011,da,2022-08-17T16:55:46Z,,,,,,,Change set da complete : 1
+1010,da,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Run Book', 'Test123']",,READ,
+1009,dF,2022-08-17T16:55:46Z,,,,,,,Change set dF complete : 1
+1008,dF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Run Book', '12345']",,READ,
+1007,dE,2022-08-17T16:55:46Z,,,,,,,Change set dE complete : 1
+1006,dE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Promotion Job Index', 'Test123']",,READ,
+1005,dD,2022-08-17T16:55:46Z,,,,,,,Change set dD complete : 1
+1004,dD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Promotion Job Index', '12345']",,READ,
+1003,dC,2022-08-17T16:55:46Z,,,,,,,Change set dC complete : 1
+1002,dC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Promotion Job', 'Test123']",,READ,
+1001,dB,2022-08-17T16:55:46Z,,,,,,,Change set dB complete : 1
+1000,dB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Promotion Job', '12345']",,READ,
+999,dA,2022-08-17T16:55:46Z,,,,,,,Change set dA complete : 1
+998,dA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Process Log Run', 'Test123']",,READ,
+997,d9,2022-08-17T16:55:46Z,,,,,,,Change set d9 complete : 1
+996,d9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Process Log Run', '12345']",,READ,
+995,d8,2022-08-17T16:55:46Z,,,,,,,Change set d8 complete : 1
+994,d8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Process Log Line', 'Test123']",,READ,
+993,d7,2022-08-17T16:55:46Z,,,,,,,Change set d7 complete : 1
+992,d7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Process Log Line', '12345']",,READ,
+991,d6,2022-08-17T16:55:46Z,,,,,,,Change set d6 complete : 1
+990,d6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_version', 'Test123']",,READ,
+989,d5,2022-08-17T16:55:46Z,,,,,,,Change set d5 complete : 1
+988,d5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_version', '12345']",,READ,
+987,d4,2022-08-17T16:55:46Z,,,,,,,Change set d4 complete : 1
+986,d4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_time', 'Test123']",,READ,
+985,d3,2022-08-17T16:55:46Z,,,,,,,Change set d3 complete : 1
+984,d3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_time', '12345']",,READ,
+983,d2,2022-08-17T16:55:46Z,,,,,,,Change set d2 complete : 1
+982,d2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_source', 'Test123']",,READ,
+981,d1,2022-08-17T16:55:46Z,,,,,,,Change set d1 complete : 1
+980,d1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_source', '12345']",,READ,
+979,d0,2022-08-17T16:55:46Z,,,,,,,Change set d0 complete : 1
+978,d0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_exchange_rates', 'Test123']",,READ,
+977,cf,2022-08-17T16:55:46Z,,,,,,,Change set cf complete : 1
+976,cf,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_exchange_rates', '12345']",,READ,
+975,ce,2022-08-17T16:55:46Z,,,,,,,Change set ce complete : 1
+974,ce,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_department', 'Test123']",,READ,
+973,cd,2022-08-17T16:55:46Z,,,,,,,Change set cd complete : 1
+972,cd,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_department', '12345']",,READ,
+971,cc,2022-08-17T16:55:46Z,,,,,,,Change set cc complete : 1
+970,cc,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_currency', 'Test123']",,READ,
+969,cb,2022-08-17T16:55:46Z,,,,,,,Change set cb complete : 1
+968,cb,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_currency', '12345']",,READ,
+967,ca,2022-08-17T16:55:46Z,,,,,,,Change set ca complete : 1
+966,ca,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_chart_of_accounts', 'Test123']",,READ,
+965,cF,2022-08-17T16:55:46Z,,,,,,,Change set cF complete : 1
+964,cF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_chart_of_accounts', '12345']",,READ,
+963,cE,2022-08-17T16:55:46Z,,,,,,,Change set cE complete : 1
+962,cE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_business_unit', 'Test123']",,READ,
+961,cD,2022-08-17T16:55:46Z,,,,,,,Change set cD complete : 1
+960,cD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['plan_business_unit', '12345']",,READ,
+959,cC,2022-08-17T16:55:46Z,,,,,,,Change set cC complete : 1
+958,cC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mUSerSelections', 'Test123']",,READ,
+957,cB,2022-08-17T16:55:46Z,,,,,,,Change set cB complete : 1
+956,cB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mUSerSelections', '12345']",,READ,
+955,cA,2022-08-17T16:55:46Z,,,,,,,Change set cA complete : 1
+954,cA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Subset Control', 'Test123']",,READ,
+953,c9,2022-08-17T16:55:46Z,,,,,,,Change set c9 complete : 1
+952,c9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Subset Control', '12345']",WRITE,READ,
+951,c8,2022-08-17T16:55:46Z,,,,,,,Change set c8 complete : 1
+950,c8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Process Status', 'Test123']",,READ,
+949,c7,2022-08-17T16:55:46Z,,,,,,,Change set c7 complete : 1
+948,c7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Process Status', '12345']",WRITE,READ,
+947,c6,2022-08-17T16:55:46Z,,,,,,,Change set c6 complete : 1
+946,c6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Hierarchy Control', 'Test123']",,READ,
+945,c5,2022-08-17T16:55:46Z,,,,,,,Change set c5 complete : 1
+944,c5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Hierarchy Control', '12345']",WRITE,READ,
+943,c4,2022-08-17T16:55:46Z,,,,,,,Change set c4 complete : 1
+942,c4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Form Filter', 'Test123']",,READ,
+941,c3,2022-08-17T16:55:46Z,,,,,,,Change set c3 complete : 1
+940,c3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS Form Filter', '12345']",,READ,
+939,c2,2022-08-17T16:55:46Z,,,,,,,Change set c2 complete : 1
+938,c2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS_Cubes_Dims', 'Test123']",,READ,
+937,c1,2022-08-17T16:55:46Z,,,,,,,Change set c1 complete : 1
+936,c1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSYS_Cubes_Dims', '12345']",WRITE,READ,
+935,c0,2022-08-17T16:55:46Z,,,,,,,Change set c0 complete : 1
+934,c0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSecurity', 'Test123']",,READ,
+933,bf,2022-08-17T16:55:46Z,,,,,,,Change set bf complete : 1
+932,bf,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mSecurity', '12345']",,READ,
+931,be,2022-08-17T16:55:46Z,,,,,,,Change set be complete : 1
+930,be,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mRun Book Control', 'Test123']",,READ,
+929,bd,2022-08-17T16:55:46Z,,,,,,,Change set bd complete : 1
+928,bd,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mRun Book Control', '12345']",,READ,
+927,bc,2022-08-17T16:55:46Z,,,,,,,Change set bc complete : 1
+926,bc,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Months', 'Test123']",,READ,
+925,bb,2022-08-17T16:55:46Z,,,,,,,Change set bb complete : 1
+924,bb,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Months', '12345']",WRITE,READ,
+923,ba,2022-08-17T16:55:46Z,,,,,,,Change set ba complete : 1
+922,ba,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Month', 'Test123']",,READ,
+921,bF,2022-08-17T16:55:46Z,,,,,,,Change set bF complete : 1
+920,bF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Month', '12345']",WRITE,READ,
+919,bE,2022-08-17T16:55:46Z,,,,,,,Change set bE complete : 1
+918,bE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mMonth Control', 'Test123']",,READ,
+917,bD,2022-08-17T16:55:46Z,,,,,,,Change set bD complete : 1
+916,bD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mMonth Control', '12345']",WRITE,READ,
+915,bC,2022-08-17T16:55:46Z,,,,,,,Change set bC complete : 1
+914,bC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mExportControl', 'Test123']",,READ,
+913,bB,2022-08-17T16:55:46Z,,,,,,,Change set bB complete : 1
+912,bB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mExportControl', '12345']",,READ,
+911,bA,2022-08-17T16:55:46Z,,,,,,,Change set bA complete : 1
+910,bA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mDataUpdate Scenario', 'Test123']",,READ,
+909,b9,2022-08-17T16:55:46Z,,,,,,,Change set b9 complete : 1
+908,b9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mDataUpdate Scenario', '12345']",,READ,
+907,b8,2022-08-17T16:55:46Z,,,,,,,Change set b8 complete : 1
+906,b8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mData Control', 'Test123']",,READ,
+905,b7,2022-08-17T16:55:46Z,,,,,,,Change set b7 complete : 1
+904,b7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mData Control', '12345']",,READ,
+903,b6,2022-08-17T16:55:46Z,,,,,,,Change set b6 complete : 1
+902,b6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mControl', 'Test123']",,READ,
+901,b5,2022-08-17T16:55:46Z,,,,,,,Change set b5 complete : 1
+900,b5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mControl', '12345']",WRITE,READ,
+899,b4,2022-08-17T16:55:46Z,,,,,,,Change set b4 complete : 1
+898,b4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mCapEx Assumptions', 'Test123']",,READ,
+897,b3,2022-08-17T16:55:46Z,,,,,,,Change set b3 complete : 1
+896,b3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mCapEx Assumptions', '12345']",,READ,
+895,b2,2022-08-17T16:55:46Z,,,,,,,Change set b2 complete : 1
+894,b2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Upload Validation', 'Test123']",,READ,
+893,b1,2022-08-17T16:55:46Z,,,,,,,Change set b1 complete : 1
+892,b1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Upload Validation', '12345']",WRITE,READ,
+891,b0,2022-08-17T16:55:46Z,,,,,,,Change set b0 complete : 1
+890,b0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning Upload History', 'Test123']",,READ,
+889,af,2022-08-17T16:55:46Z,,,,,,,Change set af complete : 1
+888,af,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning Upload History', '12345']",WRITE,READ,
+887,ae,2022-08-17T16:55:46Z,,,,,,,Change set ae complete : 1
+886,ae,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning Upload', 'Test123']",,READ,
+885,ad,2022-08-17T16:55:46Z,,,,,,,Change set ad complete : 1
+884,ad,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning Upload', '12345']",WRITE,READ,
+883,ac,2022-08-17T16:55:46Z,,,,,,,Change set ac complete : 1
+882,ac,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning', 'Test123']",,READ,
+881,ab,2022-08-17T16:55:46Z,,,,,,,Change set ab complete : 1
+880,ab,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['mBudget Planning', '12345']",WRITE,READ,
+879,aa,2022-08-17T16:55:46Z,,,,,,,Change set aa complete : 1
+878,aa,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['m_HierarchyManagement', 'Test123']",,READ,
+877,aF,2022-08-17T16:55:46Z,,,,,,,Change set aF complete : 1
+876,aF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['m_HierarchyManagement', '12345']",,READ,
+875,aE,2022-08-17T16:55:46Z,,,,,,,Change set aE complete : 1
+874,aE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Scenario', 'Test123']",,READ,
+873,aD,2022-08-17T16:55:46Z,,,,,,,Change set aD complete : 1
+872,aD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Scenario', '12345']",,READ,
+871,aC,2022-08-17T16:55:46Z,,,,,,,Change set aC complete : 1
+870,aC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Rows', 'Test123']",,READ,
+869,aB,2022-08-17T16:55:46Z,,,,,,,Change set aB complete : 1
+868,aB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Rows', '12345']",,READ,
+867,aA,2022-08-17T16:55:46Z,,,,,,,Change set aA complete : 1
+866,aA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Alternates', 'Test123']",,READ,
+865,a9,2022-08-17T16:55:46Z,,,,,,,Change set a9 complete : 1
+864,a9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Hierarchy_Alternates', '12345']",,READ,
+863,a8,2022-08-17T16:55:46Z,,,,,,,Change set a8 complete : 1
+862,a8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Item', 'Test123']",,READ,
+861,a7,2022-08-17T16:55:46Z,,,,,,,Change set a7 complete : 1
+860,a7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Item', '12345']",,READ,
+859,a6,2022-08-17T16:55:46Z,,,,,,,Change set a6 complete : 1
+858,a6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Index', 'Test123']",,READ,
+857,a5,2022-08-17T16:55:46Z,,,,,,,Change set a5 complete : 1
+856,a5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Index', '12345']",,READ,
+855,a4,2022-08-17T16:55:46Z,,,,,,,Change set a4 complete : 1
+854,a4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Dimension', 'Test123']",,READ,
+853,a3,2022-08-17T16:55:46Z,,,,,,,Change set a3 complete : 1
+852,a3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Export Dimension', '12345']",,READ,
+851,a2,2022-08-17T16:55:46Z,,,,,,,Change set a2 complete : 1
+850,a2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Dimensions', 'Test123']",,READ,
+849,a1,2022-08-17T16:55:46Z,,,,,,,Change set a1 complete : 1
+848,a1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Dimensions', '12345']",,READ,
+847,a0,2022-08-17T16:55:46Z,,,,,,,Change set a0 complete : 1
+846,a0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Department', 'Test123']",,READ,
+845,Ff,2022-08-17T16:55:46Z,,,,,,,Change set Ff complete : 1
+844,Ff,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Department', '12345']",WRITE,READ,
+843,Fe,2022-08-17T16:55:46Z,,,,,,,Change set Fe complete : 1
+842,Fe,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Update Scenario', 'Test123']",,READ,
+841,Fd,2022-08-17T16:55:46Z,,,,,,,Change set Fd complete : 1
+840,Fd,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Update Scenario', '12345']",,READ,
+839,Fc,2022-08-17T16:55:46Z,,,,,,,Change set Fc complete : 1
+838,Fc,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Target', 'Test123']",,READ,
+837,Fb,2022-08-17T16:55:46Z,,,,,,,Change set Fb complete : 1
+836,Fb,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Target', '12345']",,READ,
+835,Fa,2022-08-17T16:55:46Z,,,,,,,Change set Fa complete : 1
+834,Fa,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Source', 'Test123']",,READ,
+833,FF,2022-08-17T16:55:46Z,,,,,,,Change set FF complete : 1
+832,FF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Source', '12345']",,READ,
+831,FE,2022-08-17T16:55:46Z,,,,,,,Change set FE complete : 1
+830,FE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Scenario', 'Test123']",,READ,
+829,FD,2022-08-17T16:55:46Z,,,,,,,Change set FD complete : 1
+828,FD,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Data Control Scenario', '12345']",,READ,
+827,FC,2022-08-17T16:55:46Z,,,,,,,Change set FC complete : 1
+826,FC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Currency', 'Test123']",,READ,
+825,FB,2022-08-17T16:55:46Z,,,,,,,Change set FB complete : 1
+824,FB,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Currency', '12345']",WRITE,READ,
+823,FA,2022-08-17T16:55:46Z,,,,,,,Change set FA complete : 1
+822,FA,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Control', 'Test123']",,READ,
+821,F9,2022-08-17T16:55:46Z,,,,,,,Change set F9 complete : 1
+820,F9,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Control', '12345']",WRITE,READ,
+819,F8,2022-08-17T16:55:46Z,,,,,,,Change set F8 complete : 1
+818,F8,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['ChadTest', 'Test123']",,READ,
+817,F7,2022-08-17T16:55:46Z,,,,,,,Change set F7 complete : 1
+816,F7,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['ChadTest', '12345']",,READ,
+815,F6,2022-08-17T16:55:46Z,,,,,,,Change set F6 complete : 1
+814,F6,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['ChadDim', 'Test123']",,READ,
+813,F5,2022-08-17T16:55:46Z,,,,,,,Change set F5 complete : 1
+812,F5,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['ChadDim', '12345']",,READ,
+811,F4,2022-08-17T16:55:46Z,,,,,,,Change set F4 complete : 1
+810,F4,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Capex Index', 'Test123']",,READ,
+809,F3,2022-08-17T16:55:46Z,,,,,,,Change set F3 complete : 1
+808,F3,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Capex Index', '12345']",,READ,
+807,F2,2022-08-17T16:55:46Z,,,,,,,Change set F2 complete : 1
+806,F2,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['CapEx Assumptions', 'Test123']",,READ,
+805,F1,2022-08-17T16:55:46Z,,,,,,,Change set F1 complete : 1
+804,F1,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['CapEx Assumptions', '12345']",,READ,
+803,F0,2022-08-17T16:55:46Z,,,,,,,Change set F0 complete : 1
+802,F0,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit:Test', 'Test123']",,READ,
+801,Ef,2022-08-17T16:55:46Z,,,,,,,Change set Ef complete : 1
+800,Ef,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit:Test', '12345']",,READ,
+799,Ee,2022-08-17T16:55:46Z,,,,,,,Change set Ee complete : 1
+798,Ee,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit:Leaves', 'Test123']",,READ,
+797,Ed,2022-08-17T16:55:46Z,,,,,,,Change set Ed complete : 1
+796,Ed,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit:Leaves', '12345']",,READ,
+795,Ec,2022-08-17T16:55:46Z,,,,,,,Change set Ec complete : 1
+794,Ec,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit', 'Test123']",,READ,
+793,Eb,2022-08-17T16:55:46Z,,,,,,,Change set Eb complete : 1
+792,Eb,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Business Unit', '12345']",WRITE,READ,
+791,Ea,2022-08-17T16:55:46Z,,,,,,,Change set Ea complete : 1
+790,Ea,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Budget Upload Index', 'Test123']",,READ,
+789,EF,2022-08-17T16:55:46Z,,,,,,,Change set EF complete : 1
+788,EF,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Budget Upload Index', '12345']",WRITE,READ,
+787,EE,2022-08-17T16:55:46Z,,,,,,,Change set EE complete : 1
+786,EE,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Budget Planning Upload Index', 'Test123']",,READ,
+785,ED,2022-08-17T16:55:46Z,,,,,,,Change set ED complete : 1
+784,ED,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Budget Planning Upload Index', '12345']",WRITE,READ,
+783,EC,2022-08-17T16:55:46Z,,,,,,,Change set EC complete : 1
+782,EC,2022-08-17T16:55:46Z,2022-08-17T16:55:46Z,Admin,}DimensionSecurity,"['Account', 'Test123']",,READ,
+780,EA,2022-08-17T16:55:33Z,2022-08-17T16:55:33Z,Admin,}DimensionSecurity,"['}Views_}ClientGroups', 'Test123']",,READ,
+781,EA,2022-08-17T16:55:33Z,,,,,,,Change set EA complete : 1
+778,E9,2022-08-17T16:55:26Z,2022-08-17T16:55:26Z,Admin,}DimensionSecurity,"['Account', '12345']",WRITE,READ,
+779,E9,2022-08-17T16:55:26Z,,,,,,,Change set E9 complete : 1
+777,E8,2022-08-17T16:55:08Z,,,,,,,Change set E8 complete : 1
+776,E8,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsForServer', 'Test123']",,WRITE,
+775,E7,2022-08-17T16:55:08Z,,,,,,,Change set E7 complete : 1
+774,E7,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsForServer', '12345']",,WRITE,
+773,E6,2022-08-17T16:55:08Z,,,,,,,Change set E6 complete : 1
+772,E6,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByRule', 'Test123']",,WRITE,
+771,E5,2022-08-17T16:55:08Z,,,,,,,Change set E5 complete : 1
+770,E5,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByRule', '12345']",,WRITE,
+769,E4,2022-08-17T16:55:08Z,,,,,,,Change set E4 complete : 1
+768,E4,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByProcess', 'Test123']",,WRITE,
+767,E3,2022-08-17T16:55:08Z,,,,,,,Change set E3 complete : 1
+766,E3,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByProcess', '12345']",,WRITE,
+765,E2,2022-08-17T16:55:08Z,,,,,,,Change set E2 complete : 1
+764,E2,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByCubeByClient', 'Test123']",,WRITE,
+763,E1,2022-08-17T16:55:08Z,,,,,,,Change set E1 complete : 1
+762,E1,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByCubeByClient', '12345']",,WRITE,
+761,E0,2022-08-17T16:55:08Z,,,,,,,Change set E0 complete : 1
+760,E0,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByCube', 'Test123']",,WRITE,
+759,Df,2022-08-17T16:55:08Z,,,,,,,Change set Df complete : 1
+758,Df,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByCube', '12345']",,WRITE,
+757,De,2022-08-17T16:55:08Z,,,,,,,Change set De complete : 1
+756,De,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByClient', 'Test123']",,WRITE,
+755,Dd,2022-08-17T16:55:08Z,,,,,,,Change set Dd complete : 1
+754,Dd,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByClient', '12345']",,WRITE,
+753,Dc,2022-08-17T16:55:08Z,,,,,,,Change set Dc complete : 1
+752,Dc,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByChore', 'Test123']",,WRITE,
+751,Db,2022-08-17T16:55:08Z,,,,,,,Change set Db complete : 1
+750,Db,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}StatsByChore', '12345']",,WRITE,
+749,Da,2022-08-17T16:55:08Z,,,,,,,Change set Da complete : 1
+748,Da,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ProcessSecurity', 'Test123']",,WRITE,
+747,DF,2022-08-17T16:55:08Z,,,,,,,Change set DF complete : 1
+746,DF,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ProcessSecurity', '12345']",,WRITE,
+745,DE,2022-08-17T16:55:08Z,,,,,,,Change set DE complete : 1
+744,DE,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS Subset Control', 'Test123']",,WRITE,
+743,DD,2022-08-17T16:55:08Z,,,,,,,Change set DD complete : 1
+742,DD,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS Subset Control', '12345']",,WRITE,
+741,DC,2022-08-17T16:55:08Z,,,,,,,Change set DC complete : 1
+740,DC,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS Form Filter', 'Test123']",,WRITE,
+739,DB,2022-08-17T16:55:08Z,,,,,,,Change set DB complete : 1
+738,DB,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS Form Filter', '12345']",,WRITE,
+737,DA,2022-08-17T16:55:08Z,,,,,,,Change set DA complete : 1
+736,DA,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS_User_Selections', 'Test123']",,WRITE,
+735,D9,2022-08-17T16:55:08Z,,,,,,,Change set D9 complete : 1
+734,D9,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_SYS_User_Selections', '12345']",,WRITE,
+733,D8,2022-08-17T16:55:08Z,,,,,,,Change set D8 complete : 1
+732,D8,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Export Control', 'Test123']",,WRITE,
+731,D7,2022-08-17T16:55:08Z,,,,,,,Change set D7 complete : 1
+730,D7,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Export Control', '12345']",,WRITE,
+729,D6,2022-08-17T16:55:08Z,,,,,,,Change set D6 complete : 1
+728,D6,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Data Update Scenario', 'Test123']",,WRITE,
+727,D5,2022-08-17T16:55:08Z,,,,,,,Change set D5 complete : 1
+726,D5,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Data Update Scenario', '12345']",,WRITE,
+725,D4,2022-08-17T16:55:08Z,,,,,,,Change set D4 complete : 1
+724,D4,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Data Control', 'Test123']",,WRITE,
+723,D3,2022-08-17T16:55:08Z,,,,,,,Change set D3 complete : 1
+722,D3,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}PickList_Data Control', '12345']",,WRITE,
+721,D2,2022-08-17T16:55:08Z,,,,,,,Change set D2 complete : 1
+720,D2,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}HierarchyProperties', 'Test123']",,WRITE,
+719,D1,2022-08-17T16:55:08Z,,,,,,,Change set D1 complete : 1
+718,D1,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}HierarchyProperties', '12345']",,WRITE,
+717,D0,2022-08-17T16:55:08Z,,,,,,,Change set D0 complete : 1
+716,D0,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementSecurity_Business Unit', 'Test123']",,WRITE,
+715,Cf,2022-08-17T16:55:08Z,,,,,,,Change set Cf complete : 1
+714,Cf,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementSecurity_Business Unit', '12345']",,WRITE,
+713,Ce,2022-08-17T16:55:08Z,,,,,,,Change set Ce complete : 1
+712,Ce,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Groups', 'Test123']",,WRITE,
+711,Cd,2022-08-17T16:55:08Z,,,,,,,Change set Cd complete : 1
+710,Cd,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Groups', '12345']",,WRITE,
+709,Cc,2022-08-17T16:55:08Z,,,,,,,Change set Cc complete : 1
+708,Cc,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Cultures', 'Test123']",,WRITE,
+707,Cb,2022-08-17T16:55:08Z,,,,,,,Change set Cb complete : 1
+706,Cb,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Cultures', '12345']",,WRITE,
+705,Ca,2022-08-17T16:55:08Z,,,,,,,Change set Ca complete : 1
+704,Ca,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Clients', 'Test123']",,WRITE,
+703,CF,2022-08-17T16:55:08Z,,,,,,,Change set CF complete : 1
+702,CF,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_}Clients', '12345']",,WRITE,
+701,CE,2022-08-17T16:55:08Z,,,,,,,Change set CE complete : 1
+700,CE,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Version', 'Test123']",,WRITE,
+699,CD,2022-08-17T16:55:08Z,,,,,,,Change set CD complete : 1
+698,CD,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Version', '12345']",,WRITE,
+697,CC,2022-08-17T16:55:08Z,,,,,,,Change set CC complete : 1
+696,CC,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Vehicles', 'Test123']",,WRITE,
+695,CB,2022-08-17T16:55:08Z,,,,,,,Change set CB complete : 1
+694,CB,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Vehicles', '12345']",,WRITE,
+693,CA,2022-08-17T16:55:08Z,,,,,,,Change set CA complete : 1
+692,CA,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_tMonth', 'Test123']",,WRITE,
+691,C9,2022-08-17T16:55:08Z,,,,,,,Change set C9 complete : 1
+690,C9,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_tMonth', '12345']",,WRITE,
+689,C8,2022-08-17T16:55:08Z,,,,,,,Change set C8 complete : 1
+688,C8,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_TM1Py Region', 'Test123']",,WRITE,
+687,C7,2022-08-17T16:55:08Z,,,,,,,Change set C7 complete : 1
+686,C7,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_TM1Py Region', '12345']",,WRITE,
+685,C6,2022-08-17T16:55:08Z,,,,,,,Change set C6 complete : 1
+684,C6,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_TestDim', 'Test123']",,WRITE,
+683,C5,2022-08-17T16:55:08Z,,,,,,,Change set C5 complete : 1
+682,C5,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_TestDim', '12345']",,WRITE,
+681,C4,2022-08-17T16:55:08Z,,,,,,,Change set C4 complete : 1
+680,C4,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS LineNo', 'Test123']",,WRITE,
+679,C2,2022-08-17T16:55:08Z,,,,,,,Change set C2 complete : 1
+678,C2,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Sys_Promote', 'Test123']",,WRITE,
+677,C1,2022-08-17T16:55:08Z,,,,,,,Change set C1 complete : 1
+676,C1,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Sys_Promote', '12345']",,WRITE,
+675,C0,2022-08-17T16:55:08Z,,,,,,,Change set C0 complete : 1
+674,C0,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_PAW_Colunm', 'Test123']",,WRITE,
+673,Bf,2022-08-17T16:55:08Z,,,,,,,Change set Bf complete : 1
+672,Bf,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_PAW_Colunm', '12345']",,WRITE,
+671,Be,2022-08-17T16:55:08Z,,,,,,,Change set Be complete : 1
+670,Be,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_mLogDeletions', 'Test123']",,WRITE,
+669,Bd,2022-08-17T16:55:08Z,,,,,,,Change set Bd complete : 1
+668,Bd,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_mLogDeletions', '12345']",,WRITE,
+667,Bc,2022-08-17T16:55:08Z,,,,,,,Change set Bc complete : 1
+666,Bc,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_mBackupFiles', 'Test123']",,WRITE,
+665,Bb,2022-08-17T16:55:08Z,,,,,,,Change set Bb complete : 1
+664,Bb,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_mBackupFiles', '12345']",,WRITE,
+663,Ba,2022-08-17T16:55:08Z,,,,,,,Change set Ba complete : 1
+662,Ba,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_LogDeletions', 'Test123']",,WRITE,
+661,BF,2022-08-17T16:55:08Z,,,,,,,Change set BF complete : 1
+660,BF,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_LogDeletions', '12345']",,WRITE,
+659,BE,2022-08-17T16:55:08Z,,,,,,,Change set BE complete : 1
+658,BE,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_BackupIndex', 'Test123']",,WRITE,
+657,BD,2022-08-17T16:55:08Z,,,,,,,Change set BD complete : 1
+656,BD,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_SYS_BackupIndex', '12345']",,WRITE,
+655,BC,2022-08-17T16:55:08Z,,,,,,,Change set BC complete : 1
+654,BC,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Run Book Index', 'Test123']",,WRITE,
+653,BB,2022-08-17T16:55:08Z,,,,,,,Change set BB complete : 1
+652,BB,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Run Book Index', '12345']",,WRITE,
+651,BA,2022-08-17T16:55:08Z,,,,,,,Change set BA complete : 1
+650,BA,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Run Book', 'Test123']",,WRITE,
+649,B9,2022-08-17T16:55:08Z,,,,,,,Change set B9 complete : 1
+648,B9,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Run Book', '12345']",,WRITE,
+647,B8,2022-08-17T16:55:08Z,,,,,,,Change set B8 complete : 1
+646,B8,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Promotion Job Index', 'Test123']",,WRITE,
+645,B7,2022-08-17T16:55:08Z,,,,,,,Change set B7 complete : 1
+644,B7,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Promotion Job Index', '12345']",,WRITE,
+643,B6,2022-08-17T16:55:08Z,,,,,,,Change set B6 complete : 1
+642,B6,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Promotion Job', 'Test123']",,WRITE,
+641,B5,2022-08-17T16:55:08Z,,,,,,,Change set B5 complete : 1
+640,B5,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Promotion Job', '12345']",,WRITE,
+639,B4,2022-08-17T16:55:08Z,,,,,,,Change set B4 complete : 1
+638,B4,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Process Log Run', 'Test123']",,WRITE,
+637,B3,2022-08-17T16:55:08Z,,,,,,,Change set B3 complete : 1
+636,B3,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Process Log Run', '12345']",,WRITE,
+635,B2,2022-08-17T16:55:08Z,,,,,,,Change set B2 complete : 1
+634,B2,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Process Log Line', 'Test123']",,WRITE,
+633,B1,2022-08-17T16:55:08Z,,,,,,,Change set B1 complete : 1
+632,B1,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Process Log Line', '12345']",,WRITE,
+631,B0,2022-08-17T16:55:08Z,,,,,,,Change set B0 complete : 1
+630,B0,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_plan_chart_of_accounts', 'Test123']",,WRITE,
+629,Af,2022-08-17T16:55:08Z,,,,,,,Change set Af complete : 1
+628,Af,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_plan_chart_of_accounts', '12345']",,WRITE,
+627,Ae,2022-08-17T16:55:08Z,,,,,,,Change set Ae complete : 1
+626,Ae,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mUSerSelections', 'Test123']",,WRITE,
+625,Ad,2022-08-17T16:55:08Z,,,,,,,Change set Ad complete : 1
+624,Ad,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mUSerSelections', '12345']",,WRITE,
+623,Ac,2022-08-17T16:55:08Z,,,,,,,Change set Ac complete : 1
+622,Ac,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Subset Control', 'Test123']",,WRITE,
+621,Ab,2022-08-17T16:55:08Z,,,,,,,Change set Ab complete : 1
+620,Ab,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Subset Control', '12345']",,WRITE,
+619,Aa,2022-08-17T16:55:08Z,,,,,,,Change set Aa complete : 1
+618,Aa,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Process Status', 'Test123']",,WRITE,
+617,AF,2022-08-17T16:55:08Z,,,,,,,Change set AF complete : 1
+616,AF,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Process Status', '12345']",,WRITE,
+615,AE,2022-08-17T16:55:08Z,,,,,,,Change set AE complete : 1
+614,AE,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Hierarchy Control', 'Test123']",,WRITE,
+613,AD,2022-08-17T16:55:08Z,,,,,,,Change set AD complete : 1
+612,AD,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Hierarchy Control', '12345']",,WRITE,
+611,AC,2022-08-17T16:55:08Z,,,,,,,Change set AC complete : 1
+610,AC,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Form Filter', 'Test123']",,WRITE,
+609,AB,2022-08-17T16:55:08Z,,,,,,,Change set AB complete : 1
+608,AB,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSYS Form Filter', '12345']",,WRITE,
+607,AA,2022-08-17T16:55:08Z,,,,,,,Change set AA complete : 1
+606,AA,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSecurity', 'Test123']",,WRITE,
+605,A9,2022-08-17T16:55:08Z,,,,,,,Change set A9 complete : 1
+604,A9,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mSecurity', '12345']",,WRITE,
+603,A8,2022-08-17T16:55:08Z,,,,,,,Change set A8 complete : 1
+602,A8,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mRun Book Control', 'Test123']",,WRITE,
+601,A7,2022-08-17T16:55:08Z,,,,,,,Change set A7 complete : 1
+600,A7,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mRun Book Control', '12345']",,WRITE,
+599,A6,2022-08-17T16:55:08Z,,,,,,,Change set A6 complete : 1
+598,A6,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Months', 'Test123']",,WRITE,
+597,A5,2022-08-17T16:55:08Z,,,,,,,Change set A5 complete : 1
+596,A5,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Months', '12345']",,WRITE,
+595,A4,2022-08-17T16:55:08Z,,,,,,,Change set A4 complete : 1
+594,A4,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Month', 'Test123']",,WRITE,
+593,A3,2022-08-17T16:55:08Z,,,,,,,Change set A3 complete : 1
+592,A3,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Month', '12345']",,WRITE,
+591,A2,2022-08-17T16:55:08Z,,,,,,,Change set A2 complete : 1
+590,A2,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mExportControl', 'Test123']",,WRITE,
+589,A1,2022-08-17T16:55:08Z,,,,,,,Change set A1 complete : 1
+588,A1,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mExportControl', '12345']",,WRITE,
+587,A0,2022-08-17T16:55:08Z,,,,,,,Change set A0 complete : 1
+586,A0,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mDataUpdate Scenario', 'Test123']",,WRITE,
+585,9f,2022-08-17T16:55:08Z,,,,,,,Change set 9f complete : 1
+584,9f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mDataUpdate Scenario', '12345']",,WRITE,
+583,9e,2022-08-17T16:55:08Z,,,,,,,Change set 9e complete : 1
+582,9e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mData Control', 'Test123']",,WRITE,
+581,9d,2022-08-17T16:55:08Z,,,,,,,Change set 9d complete : 1
+580,9d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mData Control', '12345']",,WRITE,
+579,9c,2022-08-17T16:55:08Z,,,,,,,Change set 9c complete : 1
+578,9c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mControl', 'Test123']",,WRITE,
+577,9b,2022-08-17T16:55:08Z,,,,,,,Change set 9b complete : 1
+576,9b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mControl', '12345']",,WRITE,
+575,9a,2022-08-17T16:55:08Z,,,,,,,Change set 9a complete : 1
+574,9a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mCapEx Assumptions', 'Test123']",,WRITE,
+573,9F,2022-08-17T16:55:08Z,,,,,,,Change set 9F complete : 1
+572,9F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mCapEx Assumptions', '12345']",,WRITE,
+571,9E,2022-08-17T16:55:08Z,,,,,,,Change set 9E complete : 1
+570,9E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Upload Validation', 'Test123']",,WRITE,
+569,9D,2022-08-17T16:55:08Z,,,,,,,Change set 9D complete : 1
+568,9D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Upload Validation', '12345']",,WRITE,
+567,9C,2022-08-17T16:55:08Z,,,,,,,Change set 9C complete : 1
+566,9C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning Upload History', 'Test123']",,WRITE,
+565,9B,2022-08-17T16:55:08Z,,,,,,,Change set 9B complete : 1
+564,9B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning Upload History', '12345']",,WRITE,
+563,9A,2022-08-17T16:55:08Z,,,,,,,Change set 9A complete : 1
+562,9A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning Upload', 'Test123']",,WRITE,
+561,99,2022-08-17T16:55:08Z,,,,,,,Change set 99 complete : 1
+560,99,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning Upload', '12345']",,WRITE,
+559,98,2022-08-17T16:55:08Z,,,,,,,Change set 98 complete : 1
+558,98,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning', 'Test123']",,WRITE,
+557,97,2022-08-17T16:55:08Z,,,,,,,Change set 97 complete : 1
+556,97,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_mBudget Planning', '12345']",,WRITE,
+555,96,2022-08-17T16:55:08Z,,,,,,,Change set 96 complete : 1
+554,96,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_m_HierarchyManagement', 'Test123']",,WRITE,
+553,95,2022-08-17T16:55:08Z,,,,,,,Change set 95 complete : 1
+552,95,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_m_HierarchyManagement', '12345']",,WRITE,
+551,94,2022-08-17T16:55:08Z,,,,,,,Change set 94 complete : 1
+550,94,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Scenario', 'Test123']",,WRITE,
+549,93,2022-08-17T16:55:08Z,,,,,,,Change set 93 complete : 1
+548,93,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Scenario', '12345']",,WRITE,
+547,92,2022-08-17T16:55:08Z,,,,,,,Change set 92 complete : 1
+546,92,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Rows', 'Test123']",,WRITE,
+545,91,2022-08-17T16:55:08Z,,,,,,,Change set 91 complete : 1
+544,91,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Rows', '12345']",,WRITE,
+543,90,2022-08-17T16:55:08Z,,,,,,,Change set 90 complete : 1
+542,90,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Alternates', 'Test123']",,WRITE,
+541,8f,2022-08-17T16:55:08Z,,,,,,,Change set 8f complete : 1
+540,8f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Hierarchy_Alternates', '12345']",,WRITE,
+539,8e,2022-08-17T16:55:08Z,,,,,,,Change set 8e complete : 1
+538,8e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Item', 'Test123']",,WRITE,
+537,8d,2022-08-17T16:55:08Z,,,,,,,Change set 8d complete : 1
+536,8d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Item', '12345']",,WRITE,
+535,8c,2022-08-17T16:55:08Z,,,,,,,Change set 8c complete : 1
+534,8c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Index', 'Test123']",,WRITE,
+533,8b,2022-08-17T16:55:08Z,,,,,,,Change set 8b complete : 1
+532,8b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Index', '12345']",,WRITE,
+531,8a,2022-08-17T16:55:08Z,,,,,,,Change set 8a complete : 1
+530,8a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Dimension', 'Test123']",,WRITE,
+529,8F,2022-08-17T16:55:08Z,,,,,,,Change set 8F complete : 1
+528,8F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Export Dimension', '12345']",,WRITE,
+527,8E,2022-08-17T16:55:08Z,,,,,,,Change set 8E complete : 1
+526,8E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Dimensions', 'Test123']",,WRITE,
+525,8D,2022-08-17T16:55:08Z,,,,,,,Change set 8D complete : 1
+524,8D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Dimensions', '12345']",,WRITE,
+523,8C,2022-08-17T16:55:08Z,,,,,,,Change set 8C complete : 1
+522,8C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Department', 'Test123']",,WRITE,
+521,8B,2022-08-17T16:55:08Z,,,,,,,Change set 8B complete : 1
+520,8B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Department', '12345']",,WRITE,
+519,8A,2022-08-17T16:55:08Z,,,,,,,Change set 8A complete : 1
+518,8A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Update Scenario', 'Test123']",,WRITE,
+517,89,2022-08-17T16:55:08Z,,,,,,,Change set 89 complete : 1
+516,89,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Update Scenario', '12345']",,WRITE,
+515,88,2022-08-17T16:55:08Z,,,,,,,Change set 88 complete : 1
+514,88,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Target', 'Test123']",,WRITE,
+513,87,2022-08-17T16:55:08Z,,,,,,,Change set 87 complete : 1
+512,87,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Target', '12345']",,WRITE,
+511,86,2022-08-17T16:55:08Z,,,,,,,Change set 86 complete : 1
+510,86,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Source', 'Test123']",,WRITE,
+509,85,2022-08-17T16:55:08Z,,,,,,,Change set 85 complete : 1
+508,85,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Source', '12345']",,WRITE,
+507,84,2022-08-17T16:55:08Z,,,,,,,Change set 84 complete : 1
+506,84,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Scenario', 'Test123']",,WRITE,
+505,83,2022-08-17T16:55:08Z,,,,,,,Change set 83 complete : 1
+504,83,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Data Control Scenario', '12345']",,WRITE,
+503,82,2022-08-17T16:55:08Z,,,,,,,Change set 82 complete : 1
+502,82,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Currency', 'Test123']",,WRITE,
+501,81,2022-08-17T16:55:08Z,,,,,,,Change set 81 complete : 1
+500,81,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Currency', '12345']",,WRITE,
+499,80,2022-08-17T16:55:08Z,,,,,,,Change set 80 complete : 1
+498,80,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Control', 'Test123']",,WRITE,
+497,7f,2022-08-17T16:55:08Z,,,,,,,Change set 7f complete : 1
+496,7f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Control', '12345']",,WRITE,
+495,7e,2022-08-17T16:55:08Z,,,,,,,Change set 7e complete : 1
+494,7e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_ChadTest', 'Test123']",,WRITE,
+493,7d,2022-08-17T16:55:08Z,,,,,,,Change set 7d complete : 1
+492,7d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_ChadTest', '12345']",,WRITE,
+491,7c,2022-08-17T16:55:08Z,,,,,,,Change set 7c complete : 1
+490,7c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_ChadDim', 'Test123']",,WRITE,
+489,7b,2022-08-17T16:55:08Z,,,,,,,Change set 7b complete : 1
+488,7b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_ChadDim', '12345']",,WRITE,
+487,7a,2022-08-17T16:55:08Z,,,,,,,Change set 7a complete : 1
+486,7a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Capex Index', 'Test123']",,WRITE,
+485,7F,2022-08-17T16:55:08Z,,,,,,,Change set 7F complete : 1
+484,7F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Capex Index', '12345']",,WRITE,
+483,7E,2022-08-17T16:55:08Z,,,,,,,Change set 7E complete : 1
+482,7E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_CapEx Assumptions', 'Test123']",,WRITE,
+481,7D,2022-08-17T16:55:08Z,,,,,,,Change set 7D complete : 1
+480,7D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_CapEx Assumptions', '12345']",,WRITE,
+479,7C,2022-08-17T16:55:08Z,,,,,,,Change set 7C complete : 1
+478,7C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Business Unit', 'Test123']",,WRITE,
+477,7B,2022-08-17T16:55:08Z,,,,,,,Change set 7B complete : 1
+476,7B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Business Unit', '12345']",,WRITE,
+475,7A,2022-08-17T16:55:08Z,,,,,,,Change set 7A complete : 1
+474,7A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Budget Upload Index', 'Test123']",,WRITE,
+473,79,2022-08-17T16:55:08Z,,,,,,,Change set 79 complete : 1
+472,79,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Budget Upload Index', '12345']",,WRITE,
+471,78,2022-08-17T16:55:08Z,,,,,,,Change set 78 complete : 1
+470,78,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Budget Planning Upload Index', 'Test123']",,WRITE,
+469,77,2022-08-17T16:55:08Z,,,,,,,Change set 77 complete : 1
+468,77,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Budget Planning Upload Index', '12345']",,WRITE,
+467,76,2022-08-17T16:55:08Z,,,,,,,Change set 76 complete : 1
+466,76,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Account', 'Test123']",,WRITE,
+465,75,2022-08-17T16:55:08Z,,,,,,,Change set 75 complete : 1
+464,75,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ElementAttributes_Account', '12345']",,WRITE,
+463,74,2022-08-17T16:55:08Z,,,,,,,Change set 74 complete : 1
+462,74,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}DimensionSecurity', 'Test123']",,WRITE,
+461,73,2022-08-17T16:55:08Z,,,,,,,Change set 73 complete : 1
+460,73,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}DimensionSecurity', '12345']",,WRITE,
+459,72,2022-08-17T16:55:08Z,,,,,,,Change set 72 complete : 1
+458,72,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}DimensionProperties', 'Test123']",,WRITE,
+457,71,2022-08-17T16:55:08Z,,,,,,,Change set 71 complete : 1
+456,71,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}DimensionProperties', '12345']",,WRITE,
+455,70,2022-08-17T16:55:08Z,,,,,,,Change set 70 complete : 1
+454,70,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeSecurityProperties', 'Test123']",,WRITE,
+453,6f,2022-08-17T16:55:08Z,,,,,,,Change set 6f complete : 1
+452,6f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeSecurityProperties', '12345']",,WRITE,
+451,6e,2022-08-17T16:55:08Z,,,,,,,Change set 6e complete : 1
+450,6e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeSecurity', 'Test123']",,WRITE,
+449,6d,2022-08-17T16:55:08Z,,,,,,,Change set 6d complete : 1
+448,6d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeSecurity', '12345']",,WRITE,
+447,6c,2022-08-17T16:55:08Z,,,,,,,Change set 6c complete : 1
+446,6c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeProperties', 'Test123']",,WRITE,
+445,6b,2022-08-17T16:55:08Z,,,,,,,Change set 6b complete : 1
+444,6b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CubeProperties', '12345']",,WRITE,
+443,6a,2022-08-17T16:55:08Z,,,,,,,Change set 6a complete : 1
+442,6a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientSettings', 'Test123']",,WRITE,
+441,6F,2022-08-17T16:55:08Z,,,,,,,Change set 6F complete : 1
+440,6F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientSettings', '12345']",,WRITE,
+439,6E,2022-08-17T16:55:08Z,,,,,,,Change set 6E complete : 1
+438,6E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientProperties', 'Test123']",,WRITE,
+437,6D,2022-08-17T16:55:08Z,,,,,,,Change set 6D complete : 1
+436,6D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientProperties', '12345']",,WRITE,
+435,6C,2022-08-17T16:55:08Z,,,,,,,Change set 6C complete : 1
+434,6C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientGroups', 'Test123']",,WRITE,
+433,6B,2022-08-17T16:55:08Z,,,,,,,Change set 6B complete : 1
+432,6B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientGroups', '12345']",,WRITE,
+431,6A,2022-08-17T16:55:08Z,,,,,,,Change set 6A complete : 1
+430,6A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientCAMAssociatedGroups', 'Test123']",,WRITE,
+429,69,2022-08-17T16:55:08Z,,,,,,,Change set 69 complete : 1
+428,69,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ClientCAMAssociatedGroups', '12345']",,WRITE,
+427,68,2022-08-17T16:55:08Z,,,,,,,Change set 68 complete : 1
+426,68,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ChoreSecurity', 'Test123']",,WRITE,
+425,67,2022-08-17T16:55:08Z,,,,,,,Change set 67 complete : 1
+424,67,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ChoreSecurity', '12345']",,WRITE,
+423,66,2022-08-17T16:55:08Z,,,,,,,Change set 66 complete : 1
+422,66,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CellAnnotations_Budget Forecast', 'Test123']",,WRITE,
+421,65,2022-08-17T16:55:08Z,,,,,,,Change set 65 complete : 1
+420,65,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}CellAnnotations_Budget Forecast', '12345']",,WRITE,
+419,64,2022-08-17T16:55:08Z,,,,,,,Change set 64 complete : 1
+418,64,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}Capabilities', 'Test123']",,WRITE,
+417,63,2022-08-17T16:55:08Z,,,,,,,Change set 63 complete : 1
+416,63,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}Capabilities', '12345']",,WRITE,
+415,62,2022-08-17T16:55:08Z,,,,,,,Change set 62 complete : 1
+414,62,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ApplicationSecurity', 'Test123']",,WRITE,
+413,61,2022-08-17T16:55:08Z,,,,,,,Change set 61 complete : 1
+412,61,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}ApplicationSecurity', '12345']",,WRITE,
+411,60,2022-08-17T16:55:08Z,,,,,,,Change set 60 complete : 1
+410,60,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}AdminCube', 'Test123']",,WRITE,
+409,5f,2022-08-17T16:55:08Z,,,,,,,Change set 5f complete : 1
+408,5f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['}AdminCube', '12345']",,WRITE,
+407,5e,2022-08-17T16:55:08Z,,,,,,,Change set 5e complete : 1
+406,5e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['test', 'Test123']",,WRITE,
+405,5d,2022-08-17T16:55:08Z,,,,,,,Change set 5d complete : 1
+404,5d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['test', '12345']",,WRITE,
+403,5c,2022-08-17T16:55:08Z,,,,,,,Change set 5c complete : 1
+402,5c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Subset Control', 'Test123']",,WRITE,
+401,5b,2022-08-17T16:55:08Z,,,,,,,Change set 5b complete : 1
+400,5b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Subset Control', '12345']",,WRITE,
+399,5a,2022-08-17T16:55:08Z,,,,,,,Change set 5a complete : 1
+398,5a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Process Status', 'Test123']",,WRITE,
+397,5F,2022-08-17T16:55:08Z,,,,,,,Change set 5F complete : 1
+396,5F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Process Status', '12345']",,WRITE,
+395,5E,2022-08-17T16:55:08Z,,,,,,,Change set 5E complete : 1
+394,5E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Log Deletions', 'Test123']",,WRITE,
+393,5D,2022-08-17T16:55:08Z,,,,,,,Change set 5D complete : 1
+392,5D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Log Deletions', '12345']",,WRITE,
+391,5C,2022-08-17T16:55:08Z,,,,,,,Change set 5C complete : 1
+390,5C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Hierarchy Control', 'Test123']",,WRITE,
+389,5B,2022-08-17T16:55:08Z,,,,,,,Change set 5B complete : 1
+388,5B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Hierarchy Control', '12345']",,WRITE,
+387,5A,2022-08-17T16:55:08Z,,,,,,,Change set 5A complete : 1
+386,5A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Form Filter', 'Test123']",,WRITE,
+385,59,2022-08-17T16:55:08Z,,,,,,,Change set 59 complete : 1
+384,59,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Form Filter', '12345']",,WRITE,
+383,58,2022-08-17T16:55:08Z,,,,,,,Change set 58 complete : 1
+382,58,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Cubes Dims', 'Test123']",,WRITE,
+381,57,2022-08-17T16:55:08Z,,,,,,,Change set 57 complete : 1
+380,57,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS Cubes Dims', '12345']",,WRITE,
+379,56,2022-08-17T16:55:08Z,,,,,,,Change set 56 complete : 1
+378,56,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_User_Subsets', 'Test123']",,WRITE,
+377,55,2022-08-17T16:55:08Z,,,,,,,Change set 55 complete : 1
+376,55,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_User_Subsets', '12345']",,WRITE,
+375,54,2022-08-17T16:55:08Z,,,,,,,Change set 54 complete : 1
+374,54,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_User_Selections', 'Test123']",,WRITE,
+373,53,2022-08-17T16:55:08Z,,,,,,,Change set 53 complete : 1
+372,53,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_User_Selections', '12345']",,WRITE,
+371,52,2022-08-17T16:55:08Z,,,,,,,Change set 52 complete : 1
+370,52,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_BackupFiles', 'Test123']",,WRITE,
+369,51,2022-08-17T16:55:08Z,,,,,,,Change set 51 complete : 1
+368,51,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['SYS_BackupFiles', '12345']",,WRITE,
+367,50,2022-08-17T16:55:08Z,,,,,,,Change set 50 complete : 1
+366,50,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Security Assignments', 'Test123']",,WRITE,
+365,4f,2022-08-17T16:55:08Z,,,,,,,Change set 4f complete : 1
+364,4f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Security Assignments', '12345']",,WRITE,
+363,4e,2022-08-17T16:55:08Z,,,,,,,Change set 4e complete : 1
+362,4e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Run Book Control', 'Test123']",,WRITE,
+361,4d,2022-08-17T16:55:08Z,,,,,,,Change set 4d complete : 1
+360,4d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Run Book Control', '12345']",,WRITE,
+359,4c,2022-08-17T16:55:08Z,,,,,,,Change set 4c complete : 1
+358,4c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Process Log by User', 'Test123']",,WRITE,
+357,4b,2022-08-17T16:55:08Z,,,,,,,Change set 4b complete : 1
+356,4b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Process Log by User', '12345']",,WRITE,
+355,4a,2022-08-17T16:55:08Z,,,,,,,Change set 4a complete : 1
+354,4a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Process Log', 'Test123']",,WRITE,
+353,4F,2022-08-17T16:55:08Z,,,,,,,Change set 4F complete : 1
+352,4F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Process Log', '12345']",,WRITE,
+351,4E,2022-08-17T16:55:08Z,,,,,,,Change set 4E complete : 1
+350,4E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['plan_ExchangeRate', 'Test123']",,WRITE,
+349,4D,2022-08-17T16:55:08Z,,,,,,,Change set 4D complete : 1
+348,4D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['plan_ExchangeRate', '12345']",,WRITE,
+347,4C,2022-08-17T16:55:08Z,,,,,,,Change set 4C complete : 1
+346,4C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['plan_BudgetPlan', 'Test123']",,WRITE,
+345,4B,2022-08-17T16:55:08Z,,,,,,,Change set 4B complete : 1
+344,4B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['plan_BudgetPlan', '12345']",,WRITE,
+343,4A,2022-08-17T16:55:08Z,,,,,,,Change set 4A complete : 1
+342,4A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Month Control', 'Test123']",,WRITE,
+341,49,2022-08-17T16:55:08Z,,,,,,,Change set 49 complete : 1
+340,49,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Month Control', '12345']",,WRITE,
+339,48,2022-08-17T16:55:08Z,,,,,,,Change set 48 complete : 1
+338,48,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Hot Promote', 'Test123']",,WRITE,
+337,47,2022-08-17T16:55:08Z,,,,,,,Change set 47 complete : 1
+336,47,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Hot Promote', '12345']",,WRITE,
+335,46,2022-08-17T16:55:08Z,,,,,,,Change set 46 complete : 1
+334,46,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Hierarchy Management', 'Test123']",,WRITE,
+333,45,2022-08-17T16:55:08Z,,,,,,,Change set 45 complete : 1
+332,45,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Hierarchy Management', '12345']",,WRITE,
+331,44,2022-08-17T16:55:08Z,,,,,,,Change set 44 complete : 1
+330,44,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Export Control', 'Test123']",,WRITE,
+329,43,2022-08-17T16:55:08Z,,,,,,,Change set 43 complete : 1
+328,43,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Export Control', '12345']",,WRITE,
+327,42,2022-08-17T16:55:08Z,,,,,,,Change set 42 complete : 1
+326,42,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Data Update Scenario', 'Test123']",,WRITE,
+325,41,2022-08-17T16:55:08Z,,,,,,,Change set 41 complete : 1
+324,41,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Data Update Scenario', '12345']",,WRITE,
+323,40,2022-08-17T16:55:08Z,,,,,,,Change set 40 complete : 1
+322,40,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Data Control', 'Test123']",,WRITE,
+321,3f,2022-08-17T16:55:08Z,,,,,,,Change set 3f complete : 1
+320,3f,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Data Control', '12345']",,WRITE,
+319,3e,2022-08-17T16:55:08Z,,,,,,,Change set 3e complete : 1
+318,3e,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Control', 'Test123']",,WRITE,
+317,3d,2022-08-17T16:55:08Z,,,,,,,Change set 3d complete : 1
+316,3d,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Control', '12345']",,WRITE,
+315,3c,2022-08-17T16:55:08Z,,,,,,,Change set 3c complete : 1
+314,3c,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['CapEx Assumptions', 'Test123']",,WRITE,
+313,3b,2022-08-17T16:55:08Z,,,,,,,Change set 3b complete : 1
+312,3b,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['CapEx Assumptions', '12345']",,WRITE,
+311,3a,2022-08-17T16:55:08Z,,,,,,,Change set 3a complete : 1
+310,3a,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload Validation', 'Test123']",,WRITE,
+309,3F,2022-08-17T16:55:08Z,,,,,,,Change set 3F complete : 1
+308,3F,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload Validation', '12345']",READ,WRITE,
+307,3E,2022-08-17T16:55:08Z,,,,,,,Change set 3E complete : 1
+306,3E,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload History', 'Test123']",,WRITE,
+305,3D,2022-08-17T16:55:08Z,,,,,,,Change set 3D complete : 1
+304,3D,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload History', '12345']",,WRITE,
+303,3C,2022-08-17T16:55:08Z,,,,,,,Change set 3C complete : 1
+302,3C,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload', 'Test123']",,WRITE,
+301,3B,2022-08-17T16:55:08Z,,,,,,,Change set 3B complete : 1
+300,3B,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning Upload', '12345']",,WRITE,
+299,3A,2022-08-17T16:55:08Z,,,,,,,Change set 3A complete : 1
+298,3A,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning', 'Test123']",,WRITE,
+297,39,2022-08-17T16:55:08Z,,,,,,,Change set 39 complete : 1
+296,39,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Planning', '12345']",,WRITE,
+295,38,2022-08-17T16:55:08Z,,,,,,,Change set 38 complete : 1
+294,38,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Forecast', 'Test123']",,WRITE,
+293,37,2022-08-17T16:55:08Z,,,,,,,Change set 37 complete : 1
+292,37,2022-08-17T16:55:08Z,2022-08-17T16:55:08Z,Admin,}CubeSecurity,"['Budget Forecast', '12345']",,WRITE,
+290,36,2022-08-17T16:54:19Z,2022-08-17T16:54:19Z,Admin,}ElementSecurity_Business Unit,"['10210', 'Test123']",,WRITE,
+291,36,2022-08-17T16:54:19Z,,,,,,,Change set 36 complete : 1
+288,35,2022-08-17T16:54:15Z,2022-08-17T16:54:15Z,Admin,}ElementSecurity_Business Unit,"['10220', '12345']",,WRITE,
+289,35,2022-08-17T16:54:15Z,,,,,,,Change set 35 complete : 1
+287,34,2022-08-17T16:54:12Z,,,,,,,Change set 34 complete : 1
+286,34,2022-08-17T16:54:12Z,2022-08-17T16:54:12Z,Admin,}ElementSecurity_Business Unit,"['10120', '12345']",,WRITE,
+284,,2022-08-17T16:53:50Z,2022-08-17T16:53:50Z,Admin,}ClientGroups,"['Test', 'Test123']",,Test123,
+285,,2022-08-17T16:53:50Z,2022-08-17T16:53:50Z,Admin,}ClientGroups,"['Test2', '12345']",,12345,
+282,,2022-08-17T16:53:29Z,2022-08-17T16:53:29Z,Admin,}ElementAttributes_}Clients,"['Test', '}TM1_DefaultDisplayValue']",,Test,
+281,,2022-08-17T16:53:29Z,2022-08-17T16:53:29Z,Admin,}DimensionProperties,"['}Clients', 'LAST_TIME_UPDATED']",20220331190804,20220817165329,
+283,,2022-08-17T16:53:29Z,2022-08-17T16:53:29Z,Admin,}ElementAttributes_}Clients,"['Test2', '}TM1_DefaultDisplayValue']",,Test2,
