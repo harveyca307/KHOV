@@ -96,15 +96,25 @@ async def main(projects: list, pat: str, config: dict):
                 _start = item['start_on']
                 _gid = item['gid']
                 _community = item['projects']
+                _milestone = item['custom_fields'][0]['name']
                 _milestone_val = item['custom_fields'][0]['display_value']
+                _team = item['custom_fields'][1]['name']
                 _team_val = item['custom_fields'][1]['display_value']
+                _actual = item['custom_fields'][2]['name']
                 _actual_dt = item['custom_fields'][2]['display_value']
+                _line = item['custom_fields'][3]['name']
                 _line_id = item['custom_fields'][3]['display_value']
-                output.append([_community[0]['gid'], _name, _due, _start, _milestone_val, _team_val, _actual_dt,
-                               _line_id])
+                if _milestone_val is not None:
+                    output.append([_community[0]['gid'], _name, _milestone, _milestone_val])
+                if _team_val is not None:
+                    output.append([_community[0]['gid'], _name, _team, _team_val])
+                if _actual_dt is not None:
+                    output.append([_community[0]['gid'], _name, _actual, _actual_dt])
+                if _line_id is not None:
+                    output.append([_community[0]['gid'], _name, _line, _line_id])
+
     df = pd.DataFrame(output)
-    df.columns = ['Community', 'Name', 'Due On', 'Start On', 'CIP-Milestone', 'CIP-Team', 'CIP-Actual Date',
-                  'CIP-Line ID']
+    df.columns = ['Community', 'Task', 'Field', 'Value']
     df.to_csv(os.path.join(application_path, 'test.csv'), index=False)
     try:
         with TM1Service(**config) as tm1:
