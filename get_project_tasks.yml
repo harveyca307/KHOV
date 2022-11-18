@@ -1,4 +1,4 @@
-"Config": {"base_url": "https://khovdev.planning-analytics.ibmcloud.com/tm1/api/tm1", "instance": "khov", "output_directory": 'c:\temp'}
+"Config": {"base_url": "https://khovdev.planning-analytics.ibmcloud.com/tm1/api/tm1", "instance": "khov", "output_directory": 'c:\temp\CIP-ProjectTasks.csv'}
 "Projects":
      "C26231 - Osprey Ranch THs (26231)": "1203336173275324"
      "C26232 - Osprey Ranch 32/40 (26232)": "1203336173275347"

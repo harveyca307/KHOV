@@ -1,0 +1,59 @@
+"""
+Usage:
+    GetUsers <file>
+    GetUsers (-h | --version)
+
+Positional Arguments:
+    <file>      Full path of file to create
+
+Options:
+    -h          Show this screen
+    --version   Show version information
+"""
+import time
+
+import asana
+import pandas as pd
+from docopt import docopt
+
+from Utilities import DB, PySecrets
+from baseLogger import logger
+
+APP_NAME = 'CIP-GetUsers'
+APP_VERSION = '1.0'
+
+WORKSPACE = '35623093886266'
+
+
+def retrieve_pat() -> str:
+    _pat  = None
+    db = DB()
+    secrets = PySecrets()
+    results = db.retrieve_secrets(secret='pat')
+    for result in results:
+        _pass = result.password
+    _pat = secrets.make_public(secret=_pass)
+    return _pat
+
+
+def main(file: str, pat: str) -> None:
+    user_list = []
+    client = asana.Client.access_token(pat)
+    results = client.users.get_users({'workspace': WORKSPACE}, opt_fields={'name', 'gid'})
+    for result in results:
+        user_list.append([result['gid'], result['name']])
+    df = pd.DataFrame(user_list)
+    df.columns = ['GID', 'Name']
+    df.to_csv(file, index=False)
+
+
+if __name__ == '__main__':
+    start = time.perf_counter()
+    cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
+    logger.info("\n")
+    logger.info(f"{APP_NAME} started")
+    _file = cmd_args.get("<file>")
+    _token = retrieve_pat()
+    main(file=_file, pat=_token)
+    end = time.perf_counter()
+    logger.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds.")

@@ -11,19 +11,15 @@ Options:
     --version   Show version information
 """
 import asyncio
-import os
 import time
-from pathlib import Path
 
 import aiohttp
 import pandas as pd
 import yaml
-from TM1py import TM1Service
-from TM1py.Exceptions import TM1pyException
 from docopt import docopt
 
 from Utilities import DB, PySecrets, asana_tasks
-from baseLogger import logger, application_path
+from baseLogger import logger
 
 APP_NAME = "CIP-GetProjectTasks"
 APP_VERSION = '1.0'
@@ -47,32 +43,7 @@ def retrieve_project_list(fields: dict) -> list:
     return work
 
 
-def get_tm1_config(conf: dict) -> dict:
-    _base_url = conf.get('base_url')
-    _instance = conf.get('instance')
-    _user = None
-    _pass = None
-    db = DB()
-    secrets = PySecrets()
-    results = db.retrieve_secrets(secret=_instance)
-    for result in results:
-        _user = result.username
-        _pass = result.password
-    username = secrets.make_public(secret=_user)
-    password = secrets.make_public(secret=_pass)
-    _return = {
-        'base_url': _base_url,
-        'user': username,
-        'namespace': 'LDAP',
-        'password': password,
-        'ssl': True,
-        'verify': True,
-        'async_requests_mode': True
-    }
-    return _return
-
-
-async def main(projects: list, pat: str, config: dict, output_file: str) -> None:
+async def main(projects: list, pat: str, output_file: str) -> None:
     async with aiohttp.ClientSession() as session:
         token = pat
 
@@ -84,6 +55,8 @@ async def main(projects: list, pat: str, config: dict, output_file: str) -> None
                      "GET", f"/projects/{gid}/tasks", session=session, token=token, params="opt_fields=name,"
                                                                                            "due_on,"
                                                                                            "start_on,"
+                                                                                           "completed_at,"
+                                                                                           "assignee,"
                                                                                            "custom_fields"
                 )
             )
@@ -96,8 +69,10 @@ async def main(projects: list, pat: str, config: dict, output_file: str) -> None
             _community = proj_dict[_community]
             for item in response['data']:
                 _name = item['name']
+                _assignee = item['assignee']['gid']
                 _due = item['due_on']
                 _start = item['start_on']
+                _completed = str(item['completed_at'])[0:10]
                 _milestone = item['custom_fields'][0]['name']
                 _milestone_val = item['custom_fields'][0]['display_value']
                 _team = item['custom_fields'][1]['name']
@@ -106,10 +81,14 @@ async def main(projects: list, pat: str, config: dict, output_file: str) -> None
                 _actual_dt = str(item['custom_fields'][2]['display_value'])[0:10]
                 _line = item['custom_fields'][3]['name']
                 _line_id = item['custom_fields'][3]['display_value']
+                if _assignee is not None and _assignee != 'None':
+                    output.append([_community, _name, 'Assignee', _assignee])
                 if _due is not None:
                     output.append([_community, _name, 'Due On', _due])
                 if _start is not None:
                     output.append(([_community, _name, 'Start On', _start]))
+                if _completed is not None and _completed != 'None':
+                    output.append([_community, _name, 'Completed On', _completed])
                 if _milestone_val is not None:
                     output.append([_community, _name, _milestone, _milestone_val])
                 if _team_val is not None:
@@ -122,11 +101,6 @@ async def main(projects: list, pat: str, config: dict, output_file: str) -> None
     df = pd.DataFrame(output)
     df.columns = ['Community', 'Task', 'Field', 'Value']
     df.to_csv(output_file, index=False)
-    try:
-        with TM1Service(**config) as tm1:
-            print(tm1.server.get_product_version())
-    except TM1pyException as t:
-        logger.info(f"{APP_NAME} - {t}")
 
 
 if __name__ == '__main__':
@@ -139,12 +113,9 @@ if __name__ == '__main__':
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
     _token = retrieve_pat()
     _projects = retrieve_project_list(fields=_yml)
-    _config = get_tm1_config(conf=_yml['Config'])
     _output = fr"{_yml['Config']['output_directory']}"
-    # _output = Path(_output)
-    _output = os.path.join(_output, "CIP-ProjectTasks.csv")
     try:
-        asyncio.run(main(projects=_projects, pat=_token, config=_config, output_file=_output))
+        asyncio.run(main(projects=_projects, pat=_token, output_file=_output))
     except KeyboardInterrupt:
         pass
     end = time.perf_counter()
