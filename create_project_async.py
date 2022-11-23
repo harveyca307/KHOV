@@ -93,13 +93,12 @@ async def main(projects: dict, config: dict) -> None:
                         f"{task['data']['new_project']['gid']}")
             _name = task['data']['new_project']['name']
             _tm1_obj = projects['Projects'][_name]['tm1_object']
-            print(task['data']['new_project']['gid'], projects['Projects'][_name]['tm1_object'])
-            # TODO Update for cube reference - CIP Org Property
-            cellset = {(_tm1_obj, "CIP Asana Project GID"): task['data']['new_project']['gid']}
+            cellset = {(_tm1_obj, "CIP Project GID"): task['data']['new_project']['gid']}
             try:
                 with TM1Service(**config) as tm1:
-                    logger.info(f"Updating TM1 Attributes for {_name}, GID: {task['data']['new_project']['gid']}")
-                    tm1.cubes.cells.write_values('}ElementAttributes_Org', cellset)
+                    logger.info(f"Updating TM1 entries for {_name}, GID: {task['data']['new_project']['gid']}")
+                    tm1.cubes.cells.write_values('CIP Org Property', cellset)
+                    logger.info(f"{APP_NAME} updated PA with GID {task['data']['new_project']['gid']}")
             except TM1pyException as t:
                 logger.info(f"{APP_NAME} {t}")
 

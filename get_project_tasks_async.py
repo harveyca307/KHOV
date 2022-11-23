@@ -1,10 +1,11 @@
 """
 Usage:
-    get_project_tasks_async <file>
+    get_project_tasks_async <file_in> <file_out>
     get_project_tasks_async (-h | --version)
 
 Positional Arguments:
-    <file>      YAML File
+    <file_in>      YAML File
+    <file_out>     Output file name
 
 Options:
     -h          Show this screen
@@ -73,14 +74,20 @@ async def main(projects: list, pat: str, output_file: str) -> None:
                 _due = item['due_on']
                 _start = item['start_on']
                 _completed = str(item['completed_at'])[0:10]
-                _milestone = item['custom_fields'][0]['name']
-                _milestone_val = item['custom_fields'][0]['display_value']
-                _team = item['custom_fields'][1]['name']
-                _team_val = item['custom_fields'][1]['display_value']
-                _actual = item['custom_fields'][2]['name']
-                _actual_dt = str(item['custom_fields'][2]['display_value'])[0:10]
-                _line = item['custom_fields'][3]['name']
-                _line_id = item['custom_fields'][3]['display_value']
+                for field in item['custom_fields']:
+                    _field_name = field['name']
+                    if _field_name == 'CIP-Milestone':
+                        _milestone = _field_name
+                        _milestone_val = field['display_value']
+                    elif _field_name == "CIP-Team":
+                        _team = _field_name
+                        _team_val = field['display_value']
+                    elif _field_name == "CIP-Actual Date":
+                        _actual = _field_name
+                        _actual_dt = str(field['display_value'])[0:10]
+                    elif _field_name == "CIP-Line ID":
+                        _line = _field_name
+                        _line_id = field['display_value']
                 if _assignee is not None and _assignee != 'None':
                     output.append([_community, _name, 'Assignee', _assignee])
                 if _due is not None:
@@ -100,20 +107,20 @@ async def main(projects: list, pat: str, output_file: str) -> None:
 
     df = pd.DataFrame(output)
     df.columns = ['Community', 'Task', 'Field', 'Value']
-    df.to_csv(output_file, index=False)
+    df.to_csv(str(output_file), index=False)
 
 
 if __name__ == '__main__':
     start = time.perf_counter()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
     logger.info("\n")
-    logger.info(f"Starting {APP_NAME}, File sent={cmd_args['<file>']}")
-    _file = cmd_args.get('<file>')
+    logger.info(f"Starting {APP_NAME}, File sent={cmd_args['<file_in>']}, Outfile={cmd_args['<file_out>']}")
+    _file = cmd_args.get('<file_in>')
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
     _token = retrieve_pat()
     _projects = retrieve_project_list(fields=_yml)
-    _output = fr"{_yml['Config']['output_directory']}"
+    _output = cmd_args.get("<file_out>")
     try:
         asyncio.run(main(projects=_projects, pat=_token, output_file=_output))
     except KeyboardInterrupt:
