@@ -11,6 +11,7 @@ Options:
     --version       Show Version Information
 """
 import asyncio
+import logging
 import os
 import sys
 import time
@@ -20,11 +21,29 @@ import yaml
 from docopt import docopt
 
 from Utilities import DB, PySecrets, asana_client
-from baseLogger import logger
 
 APP_NAME = 'CIP-UpdateProjectAttributes'
 APP_VERSION = '2.0'
+LOG_FILE = APP_NAME + '.log'
 
+
+def set_current_directory() -> None:
+    if getattr(sys, 'frozen', False):
+        application_path = os.path.dirname(sys.executable)
+    else:
+        application_path = os.path.dirname(__file__)
+    directory = os.path.dirname(application_path)
+    os.chdir(directory)
+
+
+def configure_logging() -> None:
+    logging.basicConfig(
+        filename=LOG_FILE,
+        format="%(asctime)s - " + APP_NAME + " - %(levelname)s - %(message)s",
+        level=logging.INFO,
+    )
+    # also log to stdout
+    logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 
 
 def retrieve_pat() -> str:
@@ -69,14 +88,15 @@ async def main(projects: list, pat: str) -> None:
 
         array_of_tasks_responses = await asyncio.gather(*get_project_task_items)
         for task in array_of_tasks_responses:
-            logger.info(f"{APP_NAME} -- GID: {task['data']['gid']} Modified: {task['data']['modified_at']}")
+            logging.info(f"{APP_NAME} -- GID: {task['data']['gid']} Modified: {task['data']['modified_at']}")
 
 
 if __name__ == '__main__':
     start = time.perf_counter()
+    configure_logging()
+    set_current_directory()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
-    logger.info("\n")
-    logger.info(f"Starting process {APP_NAME}, File sent={cmd_args['<file>']}")
+    logging.info(f"Starting process {APP_NAME}, File sent={cmd_args['<file>']}")
     _file = cmd_args.get("<file>")
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
@@ -90,4 +110,4 @@ if __name__ == '__main__':
         except SystemExit:
             os.exit(0)
     end = time.perf_counter()
-    logger.info(f"{APP_NAME} finished in {round(end-start, 4)} seconds")
+    logging.info(f"{APP_NAME} finished in {round(end-start, 2)} seconds")

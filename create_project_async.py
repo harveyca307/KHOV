@@ -12,6 +12,9 @@ Options:
 
 """
 import asyncio
+import logging
+import os
+import sys
 import time
 
 import aiohttp
@@ -20,12 +23,31 @@ from TM1py import TM1Service
 from TM1py.Exceptions import TM1pyException
 from docopt import docopt
 
-from Utilities.asana_client import asana_client
 from Utilities import DB, PySecrets
-from baseLogger import logger
+from Utilities.asana_client import asana_client
 
 APP_NAME = 'CIP-CreateProject'
 APP_VERSION = '1.0'
+LOG_FILE = APP_NAME + '.log'
+
+
+def set_current_directory() -> None:
+    if getattr(sys, 'frozen', False):
+        application_path = os.path.dirname(sys.executable)
+    else:
+        application_path = os.path.dirname(__file__)
+    directory = os.path.dirname(application_path)
+    os.chdir(directory)
+
+
+def configure_logging() -> None:
+    logging.basicConfig(
+        filename=LOG_FILE,
+        format="%(asctime)s - " + APP_NAME + " - %(levelname)s - %(message)s",
+        level=logging.INFO,
+    )
+    # also log to stdout
+    logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 
 
 def get_confing(_dict: dict) -> dict:
@@ -89,29 +111,30 @@ async def main(projects: dict, config: dict) -> None:
             )
         array_of_tasks_responses = await asyncio.gather(*tasks)
         for task in array_of_tasks_responses:
-            logger.info(f"{APP_NAME} - created '{task['data']['new_project']['name']}' with GID "
-                        f"{task['data']['new_project']['gid']}")
+            logging.info(f"{APP_NAME} - created '{task['data']['new_project']['name']}' with GID "
+                         f"{task['data']['new_project']['gid']}")
             _name = task['data']['new_project']['name']
             _tm1_obj = projects['Projects'][_name]['tm1_object']
             cellset = {(_tm1_obj, "CIP Project GID"): task['data']['new_project']['gid']}
             try:
                 with TM1Service(**config) as tm1:
-                    logger.info(f"Updating TM1 entries for {_name}, GID: {task['data']['new_project']['gid']}")
+                    logging.info(f"Updating TM1 entries for {_name}, GID: {task['data']['new_project']['gid']}")
                     tm1.cubes.cells.write_values('CIP Org Property', cellset)
-                    logger.info(f"{APP_NAME} updated PA with GID {task['data']['new_project']['gid']}")
+                    logging.info(f"{APP_NAME} updated PA with GID {task['data']['new_project']['gid']}")
             except TM1pyException as t:
-                logger.info(f"{APP_NAME} {t}")
+                logging.info(f"{APP_NAME} {t}")
 
 
 if __name__ == '__main__':
     start = time.perf_counter()
+    configure_logging()
+    set_current_directory()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_NAME}")
-    logger.info("\n")
-    logger.info(f"{APP_NAME} started")
+    logging.info(f"{APP_NAME} started")
     _file = cmd_args.get("<file>")
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
     _config = get_confing(_yml)
     asyncio.run(main(projects=_yml, config=_config))
     end = time.perf_counter()
-    logger.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
+    logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
