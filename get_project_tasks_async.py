@@ -110,26 +110,30 @@ async def main(projects: list, pat: str, output_file: str) -> None:
                     elif _field_name == "CIP-Line ID":
                         _line = _field_name
                         _line_id = field['display_value']
-                if _assignee is not None and _assignee != 'None':
-                    output.append([_community, _name, 'Assignee', _assignee])
-                if _due is not None:
-                    output.append([_community, _name, 'Due On', _due])
-                if _start is not None:
-                    output.append(([_community, _name, 'Start On', _start]))
-                if _completed is not None and _completed != 'None':
-                    output.append([_community, _name, 'Completed On', _completed])
-                if _milestone_val is not None:
-                    output.append([_community, _name, _milestone, _milestone_val])
-                if _team_val is not None:
-                    output.append([_community, _name, _team, _team_val])
-                if _actual_dt is not None and _actual_dt != 'None':
-                    output.append([_community, _name, _actual, _actual_dt])
-                if _line_id is not None:
-                    output.append([_community, _name, _line, _line_id])
+                if _line_id:
+                    if _assignee is not None and _assignee != 'None':
+                        output.append([_community, _name, _line_id, 'Assignee', _assignee])
+                    if _due is not None:
+                        output.append([_community, _name, _line_id, 'Due On', _due])
+                    if _start is not None:
+                        output.append(([_community, _name, _line_id, 'Start On', _start]))
+                    if _completed is not None and _completed != 'None':
+                        output.append([_community, _name, _line_id, 'Completed On', _completed])
+                    if _milestone_val is not None:
+                        output.append([_community, _name, _line_id, _milestone, _milestone_val])
+                    if _team_val is not None:
+                        output.append([_community, _name, _line_id, _team, _team_val])
+                    if _actual_dt is not None and _actual_dt != 'None':
+                        output.append([_community, _name, _line_id, _actual, _actual_dt])
+                    if _line_id is not None:
+                        output.append([_community, _name, _line_id, _line, _line_id])
 
     df = pd.DataFrame(output)
-    df.columns = ['Community', 'Task', 'Field', 'Value']
-    df.to_csv(str(output_file), index=False)
+    if len(df) > 0:
+        df.columns = ['Community', 'Task', 'LineID', 'Field', 'Value']
+        df.to_csv(str(output_file), index=False)
+    else:
+        logging.info("No data received")
 
 
 if __name__ == '__main__':
