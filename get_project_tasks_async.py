@@ -1,7 +1,7 @@
 """
 Usage:
-    get_project_tasks_async <file_in> <file_out>
-    get_project_tasks_async (-h | --version)
+    CIP-GetProjectTasks <file_in> <file_out>
+    CIP-GetProjectTasks (-h | --version)
 
 Positional Arguments:
     <file_in>      YAML File
@@ -25,7 +25,7 @@ from docopt import docopt
 from Utilities import DB, PySecrets, asana_tasks
 
 APP_NAME = "CIP-GetProjectTasks"
-APP_VERSION = '1.0'
+APP_VERSION = '1.5'
 LOG_FILE = APP_NAME + '.log'
 
 
@@ -92,7 +92,10 @@ async def main(projects: list, pat: str, output_file: str) -> None:
             _community = proj_dict[_community]
             for item in response['data']:
                 _name = item['name']
-                _assignee = item['assignee']['gid']
+                if item['assignee'] is not None:
+                    _assignee = item['assignee']['gid']
+                else:
+                    _assignee = None
                 _due = item['due_on']
                 _start = item['start_on']
                 _completed = str(item['completed_at'])[0:10]
@@ -110,6 +113,7 @@ async def main(projects: list, pat: str, output_file: str) -> None:
                     elif _field_name == "CIP-Line ID":
                         _line = _field_name
                         _line_id = field['display_value']
+                # Only output fields with CIP-LineIDs
                 if _line_id:
                     if _assignee is not None and _assignee != 'None':
                         output.append([_community, _name, _line_id, 'Assignee', _assignee])
@@ -138,8 +142,8 @@ async def main(projects: list, pat: str, output_file: str) -> None:
 
 if __name__ == '__main__':
     start = time.perf_counter()
-    configure_logging()
     set_current_directory()
+    configure_logging()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
     logging.info(f"Starting {APP_NAME}, File sent={cmd_args['<file_in>']}, Outfile={cmd_args['<file_out>']}")
     _file = cmd_args.get('<file_in>')
