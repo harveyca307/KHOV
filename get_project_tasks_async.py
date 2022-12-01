@@ -25,7 +25,7 @@ from docopt import docopt
 from Utilities import DB, PySecrets, asana_tasks
 
 APP_NAME = "CIP-GetProjectTasks"
-APP_VERSION = '2.0'
+APP_VERSION = '2.5'
 LOG_FILE = APP_NAME + '.log'
 
 
