@@ -22,7 +22,7 @@ from docopt import docopt
 from Utilities import DB, PySecrets
 
 APP_NAME = 'CIP-GetUsers'
-APP_VERSION = '1.0'
+APP_VERSION = '1.1'
 LOG_FILE = APP_NAME + '.log'
 
 WORKSPACE = '35623093886266'
@@ -62,11 +62,11 @@ def retrieve_pat() -> str:
 def main(file: str, pat: str) -> None:
     user_list = []
     client = asana.Client.access_token(pat)
-    results = client.users.get_users({'workspace': WORKSPACE}, opt_fields={'name', 'gid'})
+    results = client.users.get_users({'workspace': WORKSPACE}, opt_fields={'name', 'gid', 'email'})
     for result in results:
-        user_list.append([result['gid'], result['name']])
+        user_list.append([result['gid'], result['name'], result['email']])
     df = pd.DataFrame(user_list)
-    df.columns = ['GID', 'Name']
+    df.columns = ['GID', 'Name', 'Email']
     df.to_csv(file, index=False)
 
 
