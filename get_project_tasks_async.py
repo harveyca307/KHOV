@@ -30,11 +30,13 @@ LOG_FILE = APP_NAME + '.log'
 
 
 def set_current_directory() -> None:
+    global LOG_FILE
     if getattr(sys, 'frozen', False):
         application_path = os.path.dirname(sys.executable)
     else:
         application_path = os.path.dirname(__file__)
     directory = os.path.dirname(application_path)
+    LOG_FILE = os.path.join(application_path, LOG_FILE)
     os.chdir(directory)
 
 
@@ -146,12 +148,12 @@ if __name__ == '__main__':
     configure_logging()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
     logging.info(f"Starting {APP_NAME}, File sent={cmd_args['<file_in>']}, Outfile={cmd_args['<file_out>']}")
-    _file = cmd_args.get('<file_in>')
+    _file = str(cmd_args.get('<file_in>'))
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
     _token = retrieve_pat()
     _projects = retrieve_project_list(fields=_yml)
-    _output = cmd_args.get("<file_out>")
+    _output = str(cmd_args.get("<file_out>"))
     asyncio.run(main(projects=_projects, pat=_token, output_file=_output))
     end = time.perf_counter()
     logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")

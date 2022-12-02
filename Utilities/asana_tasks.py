@@ -33,13 +33,13 @@ async def asana_tasks(method, url, session, **kwargs):
 
     result = False
 
-    while ((retryError == 429) or (retryError == 500)) and (attempt < 10):
+    while ((retryError == 429) or (retryError == 500)) and (attempt < 20):
         # pause execution before trying again
 
-        if attempt == 6:
+        if attempt == 12:
             print("Hitting rate limits. slowing down calls...")
 
-        if attempt == 8:
+        if attempt == 16:
             print("Thanks for your patience. still slow.")
 
         try:
@@ -82,7 +82,7 @@ async def asana_tasks(method, url, session, **kwargs):
         await asyncio.sleep(retry_time)
         attempt += 1
 
-    if attempt >= 10:
+    if attempt >= 20:
         print("Too many requests hit rate limits - timed out")
 
     return result
