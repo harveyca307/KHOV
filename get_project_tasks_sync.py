@@ -11,17 +11,19 @@ Options:
     -h              Show this screen
     --version       Show version information
 """
-from docopt import docopt
+import logging
 import os
 import sys
 import time
-import yaml
-import asana
-from Utilities import DB, PySecrets
-import pandas as pd
-import logging
 
-APP_NAME = "CIP-GetProjectTasks"
+import asana
+import pandas as pd
+import yaml
+from docopt import docopt
+
+from Utilities import DB, PySecrets
+
+APP_NAME = "CIP-GetProjectTasksNew"
 APP_VERSION = '3.0'
 LOG_FILE = APP_NAME + '.log'
 
@@ -65,6 +67,14 @@ def retrieve_project_list(fields: dict) -> list:
 
 
 def main(pat: str, project_list: list, outfile: str) -> None:
+    assignee = None
+    milestone_val = None
+    milestone = None
+    team_val = None
+    team = None
+    actual_val = None
+    actual = None
+    line_id = None
     work = []
     client = asana.Client.access_token(pat)
     client.options['max_retries'] = 20
