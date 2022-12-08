@@ -167,8 +167,8 @@ if __name__ == '__main__':
     _output = str(cmd_args.get("<file_out>"))
     try:
         responses, _projects = asyncio.run(main(projects=_projects, pat=_token))
+        output_responses(array_of_responses=responses, proj_dict=_projects, output_file=_output)
+        end = time.perf_counter()
+        logging.info(f"Process finished in {round(end - start, 2)} seconds")
     except Exception as e:
         logging.error(e)
-    output_responses(array_of_responses=responses, proj_dict=_projects, output_file=_output)
-    end = time.perf_counter()
-    logging.info(f"Process finished in {round(end - start, 2)} seconds")
