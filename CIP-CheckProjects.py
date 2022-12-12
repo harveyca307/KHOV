@@ -64,6 +64,8 @@ def main(token: str, projects: dict):
     for project in projects:
         try:
             results = client.projects.get_project(projects[project])
+            if results['name'] != project:
+                logging.error(f"Project: {project} has been renamed to {results['name']}")
         except NotFoundError:
             logging.error(f"Project: {project} - GID: {projects[project]} not found")
 
