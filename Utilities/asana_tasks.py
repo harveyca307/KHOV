@@ -18,6 +18,7 @@ async def asana_tasks(method, url, session, **kwargs):
 
     base_url = "https://app.asana.com/api/1.0"
     full_url = base_url + url
+    response = None
 
     if "data" in kwargs:
         data = json.dumps(kwargs["data"])
@@ -65,7 +66,7 @@ async def asana_tasks(method, url, session, **kwargs):
 
                 return response_content
 
-        except aiohttp.client_exceptions.ClientResponseError as e:
+        except aiohttp.ClientResponseError:
             if (response.status != 429) and (response.status != 500):
                 print("HTTP Error: ", response.status)
                 error_json = await response.json()

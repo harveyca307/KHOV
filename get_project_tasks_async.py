@@ -2,11 +2,9 @@
 Usage:
     CIP-GetProjectTasks <file_in> <file_out>
     CIP-GetProjectTasks (-h | --version)
-
 Positional Arguments:
     <file_in>      YAML File
     <file_out>     Output file name
-
 Options:
     -h          Show this screen
     --version   Show version information
@@ -25,7 +23,7 @@ from docopt import docopt
 from Utilities import DB, PySecrets, asana_tasks
 
 APP_NAME = "CIP-GetProjectTasks"
-APP_VERSION = '3.0'
+APP_VERSION = '2.5'
 LOG_FILE = APP_NAME + '.log'
 
 
@@ -68,72 +66,10 @@ def retrieve_project_list(fields: dict) -> list:
     return work
 
 
-def output_responses(array_of_responses: list, proj_dict: dict, output_file: str) -> None:
-    _line_id = None
-    _milestone_val = None
-    _milestone = None
-    _team_val = None
-    _team = None
-    _actual_dt = None
-    _actual = None
-    _line = None
-    output = []
-    for response in array_of_responses:
-        _community = response['community']
-        _community = proj_dict[_community]
-        for item in response['data']:
-            _name = item['name']
-            if item['assignee'] is not None:
-                _assignee = item['assignee']['gid']
-            else:
-                _assignee = None
-            _due = item['due_on']
-            _start = item['start_on']
-            _completed = str(item['completed_at'])[0:10]
-            for field in item['custom_fields']:
-                _field_name = field['name']
-                if _field_name == 'CIP-Milestone':
-                    _milestone = _field_name
-                    _milestone_val = field['display_value']
-                elif _field_name == "CIP-Team":
-                    _team = _field_name
-                    _team_val = field['display_value']
-                elif _field_name == "CIP-Actual Date":
-                    _actual = _field_name
-                    _actual_dt = str(field['display_value'])[0:10]
-                elif _field_name == "CIP-Line ID":
-                    _line = _field_name
-                    _line_id = field['display_value']
-            # Only output fields with CIP-LineIDs
-            if _line_id:
-                if _assignee is not None and _assignee != 'None':
-                    output.append([_community, _name, _line_id, 'Assignee', _assignee])
-                if _due is not None:
-                    output.append([_community, _name, _line_id, 'Due On', _due])
-                if _start is not None:
-                    output.append(([_community, _name, _line_id, 'Start On', _start]))
-                if _completed is not None and _completed != 'None':
-                    output.append([_community, _name, _line_id, 'Completed On', _completed])
-                if _milestone_val is not None:
-                    output.append([_community, _name, _line_id, _milestone, _milestone_val])
-                if _team_val is not None:
-                    output.append([_community, _name, _line_id, _team, _team_val])
-                if _actual_dt is not None and _actual_dt != 'None':
-                    output.append([_community, _name, _line_id, _actual, _actual_dt])
-                if _line_id is not None:
-                    output.append([_community, _name, _line_id, _line, _line_id])
-
-    df = pd.DataFrame(output)
-    if len(df) > 0:
-        df.columns = ['Community', 'Task', 'LineID', 'Field', 'Value']
-        df.to_csv(str(output_file), index=False)
-    else:
-        logging.error("No data received")
-
-
-async def main(projects: list, pat: str) -> tuple:
+async def main(projects: list, pat: str, output_file: str) -> None:
     async with aiohttp.ClientSession() as session:
         token = pat
+
         task_items = []
         proj_dict = {}
         for community, gid in projects:
@@ -147,10 +83,62 @@ async def main(projects: list, pat: str) -> tuple:
                                                                                            "custom_fields"
                 )
             )
-            proj_dict[gid] = community
 
         array_of_responses = await asyncio.gather(*task_items)
-        return array_of_responses, proj_dict
+        for community, gid in projects:
+            proj_dict[gid] = community
+        output = []
+        for response in array_of_responses:
+            _community = response['community']
+            _community = proj_dict[_community]
+            for item in response['data']:
+                _name = item['name']
+                if item['assignee'] is not None:
+                    _assignee = item['assignee']['gid']
+                else:
+                    _assignee = None
+                _due = item['due_on']
+                _start = item['start_on']
+                _completed = str(item['completed_at'])[0:10]
+                for field in item['custom_fields']:
+                    _field_name = field['name']
+                    if _field_name == 'CIP-Milestone':
+                        _milestone = _field_name
+                        _milestone_val = field['display_value']
+                    elif _field_name == "CIP-Team":
+                        _team = _field_name
+                        _team_val = field['display_value']
+                    elif _field_name == "CIP-Actual Date":
+                        _actual = _field_name
+                        _actual_dt = str(field['display_value'])[0:10]
+                    elif _field_name == "CIP-Line ID":
+                        _line = _field_name
+                        _line_id = field['display_value']
+                # Only output fields with CIP-LineIDs
+                if _line_id:
+                    if _assignee is not None and _assignee != 'None':
+                        output.append([_community, _name, _line_id, 'Assignee', _assignee])
+                    if _due is not None:
+                        output.append([_community, _name, _line_id, 'Due On', _due])
+                    if _start is not None:
+                        output.append(([_community, _name, _line_id, 'Start On', _start]))
+                    if _completed is not None and _completed != 'None':
+                        output.append([_community, _name, _line_id, 'Completed On', _completed])
+                    if _milestone_val is not None:
+                        output.append([_community, _name, _line_id, _milestone, _milestone_val])
+                    if _team_val is not None:
+                        output.append([_community, _name, _line_id, _team, _team_val])
+                    if _actual_dt is not None and _actual_dt != 'None':
+                        output.append([_community, _name, _line_id, _actual, _actual_dt])
+                    if _line_id is not None:
+                        output.append([_community, _name, _line_id, _line, _line_id])
+
+    df = pd.DataFrame(output)
+    if len(df) > 0:
+        df.columns = ['Community', 'Task', 'LineID', 'Field', 'Value']
+        df.to_csv(str(output_file), index=False)
+    else:
+        logging.error("No data received")
 
 
 if __name__ == '__main__':
@@ -158,7 +146,7 @@ if __name__ == '__main__':
     set_current_directory()
     configure_logging()
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
-    logging.info(f"Starting process, File sent={cmd_args['<file_in>']}, Outfile={cmd_args['<file_out>']}")
+    logging.info(f"Starting {APP_NAME}, File sent={cmd_args['<file_in>']}, Outfile={cmd_args['<file_out>']}")
     _file = str(cmd_args.get('<file_in>'))
     with open(_file, 'r') as stream:
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
@@ -166,9 +154,8 @@ if __name__ == '__main__':
     _projects = retrieve_project_list(fields=_yml)
     _output = str(cmd_args.get("<file_out>"))
     try:
-        responses, _projects = asyncio.run(main(projects=_projects, pat=_token))
-        output_responses(array_of_responses=responses, proj_dict=_projects, output_file=_output)
+        asyncio.run(main(projects=_projects, pat=_token, output_file=_output))
         end = time.perf_counter()
-        logging.info(f"Process finished in {round(end - start, 2)} seconds")
+        logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
     except Exception as e:
         logging.error(e)
