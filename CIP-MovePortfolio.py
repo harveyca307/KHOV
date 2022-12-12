@@ -1,22 +1,23 @@
 """
 Usage:
-    CIP-MovePortfolio <project> <existing_portfolio> <new_portfolio>
+    CIP-MovePortfolio <file> <out_file>
     CIP-MovePortfolio (-h | --version)
 
 Positional Arguments:
-    <project>               Project GID
-    <existing_portfolio>    Existing portfolio GID
-    <new_portfolio>         New portfolio GID
+    <file>      YAML File
+    <out_file>  Path and filename to create
 
 Options:
-    -h                      Show this screen
-    --version               Show version information
+    -h          Show this screen
+    --version   Show version information
 """
 
 import logging
 import os
 import sys
 import time
+import yaml
+import pandas as pd
 
 import asana
 from asana.error import AsanaError
@@ -62,35 +63,51 @@ def retrieve_pat() -> str:
     return _pat
 
 
-def main(token: str, **kwargs):
+def main(token: str, moves: dict, outfile: str):
     port_items = []
-    project = kwargs.get("<project>")
-    remove_port = kwargs.get("<existing_portfolio>")
-    new_port = kwargs.get("<new_portfolio>")
+    movements = []
     client = asana.Client.access_token(accessToken=token)
-    try:
-        client.portfolios.get_portfolio(remove_port)
-    except asana.error.NotFoundError:
-        logging.error(f"Existing portfolio: {remove_port} not found, exiting")
-        sys.exit()
-    try:
-        client.portfolios.get_portfolio(new_port)
-    except not asana.error.NotFoundError:
-        logging.error(f"New portfolio: {new_port} not found")
-        sys.exit()
-    results = client.portfolios.get_items_for_portfolio(remove_port, opt_pretty=True)
-    for result in results:
-        port_items.append(result['gid'])
-    if project not in port_items:
-        logging.error(f"{project} not in portfolio {remove_port}")
-        sys.exit()
-    else:
-        try:
-            client.portfolios.add_item_for_portfolio(new_port, {'item': project}, opt_pretty=True)
-            client.portfolios.remove_item_for_portfolio(remove_port, {'item': project}, opt_pretty=True)
-            logging.info(f"Project: {project} was moved from {remove_port} to {new_port}")
-        except asana.error.AsanaError as a:
-            logging.error(a)
+    client.LOG_ASANA_CHANGE_WARNINGS = False
+    for move in moves:
+        for item in moves[move]:
+            if item['Action'] == 'Add':
+                try:
+                    results = client.projects.get_project(str(item['Project']))
+                except asana.error.NotFoundError:
+                    logging.error(f"{move}: {item['Project']} does not exist")
+                    sys.exit()
+                port = str(item['Portfolio'])
+                try:
+                    results = client.portfolios.get_portfolio(port)
+                    results = client.portfolios.get_items_for_portfolio(port, opt_pretty=True)
+                    for result in results:
+                        port_items.append(result['gid'])
+                    if item['Project'] not in port_items:
+                        client.portfolios.add_item_for_portfolio(port, {'item': str(item['Project'])}, opt_pretty=True)
+                        movements.append(f"{move}: {item['Project']} was added to Portfolio: {item['Portfolio']}")
+                except asana.error.NotFoundError:
+                    logging.error(f"{move}: Target Portfolio {port} does not exist")
+            if item['Action'] == 'Delete':
+                try:
+                    results = client.projects.get_project(str(item['Project']))
+                except asana.error.NotFoundError:
+                    logging.error(f"{move}: {item['Project']} does not exist")
+                    sys.exit()
+                try:
+                    results = client.portfolios.get_portfolio(str(item['Portfolio']))
+                    results = client.portfolios.get_items_for_portfolio(str(item['Portfolio']), opt_pretty=True)
+                    port_items = []
+                    for result in results:
+                        port_items.append(result['gid'])
+                    if item['Project'] in port_items:
+                        client.portfolios.remove_item_for_portfolio(str(item['Portfolio']),
+                                                                    {'item': str(item['Project'])})
+                        movements.append(f"{move}: {item['Project']} was removed from Portfolio: {item['Portfolio']}")
+                except asana.error.NotFoundError:
+                    logging.error(f"{move}: Removal portfolio {str(item['Portfolio'])} does not exist")
+
+    df = pd.DataFrame(movements)
+    df.to_csv(outfile, index=False)
 
 
 if __name__ == '__main__':
@@ -100,9 +117,13 @@ if __name__ == '__main__':
     cmd_args = docopt(__doc__, version=f"{APP_NAME}, Version: {APP_VERSION}")
     logging.info("Starting process")
     pat = retrieve_pat()
+    _file = cmd_args.get("<file>")
+    _outfile = cmd_args.get("<out_file>")
+    with open(_file, 'r') as stream:
+        _yml = yaml.load(stream, Loader=yaml.FullLoader)
     try:
-        main(token=pat, **cmd_args)
+        main(token=pat, moves=_yml, outfile=_outfile)
         end = time.perf_counter()
-        logging.info(f"Process finished in {round(end - start, 2)} seconds.")
+        logging.info(f"Finished process in {round(end - start, 1)} seconds")
     except Exception as e:
         logging.error(e)
