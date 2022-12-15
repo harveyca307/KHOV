@@ -23,7 +23,7 @@ from docopt import docopt
 from Utilities import DB, PySecrets, asana_tasks
 
 APP_NAME = "CIP-GetProjectTasks"
-APP_VERSION = '2.5'
+APP_VERSION = '2.8'
 LOG_FILE = APP_NAME + '.log'
 
 
@@ -157,5 +157,7 @@ if __name__ == '__main__':
         asyncio.run(main(projects=_projects, pat=_token, output_file=_output))
         end = time.perf_counter()
         logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
+        sys.exit(0)
     except Exception as e:
         logging.error(e)
+        sys.exit(1)
