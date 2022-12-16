@@ -104,10 +104,7 @@ if __name__ == '__main__':
     _projects = get_projects(fields=_yml)
     try:
         asyncio.run(main(projects=_projects, pat=_token))
-    except KeyboardInterrupt:
-        try:
-            sys.exit(0)
-        except SystemExit:
-            os.exit(0)
-    end = time.perf_counter()
-    logging.info(f"{APP_NAME} finished in {round(end-start, 2)} seconds")
+        end = time.perf_counter()
+        logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
+    except Exception as e:
+        logging.error(e)
