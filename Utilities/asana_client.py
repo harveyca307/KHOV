@@ -57,6 +57,8 @@ async def asana_client(method, url, session, **kwargs):
                     error_json = await response.json()
                     print(error_json["errors"][0]["message"])
                     print("HTTP Error: ", response.status)
+                    x = response.url
+                    error_json['errors'][0]['url'] = response.url
                     return error_json
             else:
                 response_content = await response.json()

@@ -25,7 +25,7 @@ from docopt import docopt
 
 from Utilities import DB, PySecrets
 
-APP_NAME = 'CIP-MovePortfolio'
+APP_NAME = 'CIP-MoveProjects'
 APP_VERSION = '1.0'
 LOG_FILE = APP_NAME + '.log'
 

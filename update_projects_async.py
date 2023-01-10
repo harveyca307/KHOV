@@ -74,7 +74,15 @@ def get_projects(fields: dict) -> list:
     return work
 
 
-async def main(projects: list, pat: str) -> None:
+def create_lookup(fields: dict) -> dict:
+    comm_lookup = {}
+    for project in fields:
+        project_id = fields[project]['project_id']
+        comm_lookup[project_id] = project
+    return comm_lookup
+
+
+async def main(projects: list, pat: str, lookup: dict) -> None:
     async with aiohttp.ClientSession() as session:
         token = pat
 
@@ -88,7 +96,13 @@ async def main(projects: list, pat: str) -> None:
 
         array_of_tasks_responses = await asyncio.gather(*get_project_task_items)
         for task in array_of_tasks_responses:
-            logging.info(f"{APP_NAME} -- GID: {task['data']['gid']} Modified: {task['data']['modified_at']}")
+            if 'errors' in task.keys():
+                url = str(task['errors'][0]['url'])
+                x = len(url)
+                url = url[x - 16:]
+                logging.error(f"{APP_NAME} -- Community '{lookup[url]}' - {task['errors'][0]['message']}")
+            else:
+                logging.info(f"{APP_NAME} --Community '{lookup[task['data']['gid']]}' Modified: {task['data']['modified_at']}")
 
 
 if __name__ == '__main__':
@@ -102,8 +116,9 @@ if __name__ == '__main__':
         _yml = yaml.load(stream, Loader=yaml.FullLoader)
     _token = retrieve_pat()
     _projects = get_projects(fields=_yml)
+    _lookup = create_lookup(fields=_yml)
     try:
-        asyncio.run(main(projects=_projects, pat=_token))
+        asyncio.run(main(projects=_projects, pat=_token, lookup=_lookup))
         end = time.perf_counter()
         logging.info(f"{APP_NAME} finished in {round(end - start, 2)} seconds")
     except Exception as e:
