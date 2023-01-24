@@ -1,0 +1,166 @@
+2022-12-16 07:28:42,235 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:39:08,117 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:39:41,063 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:40:23,627 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:40:54,938 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:41:31,987 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:48:14,292 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 07:49:05,216 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:04:04,586 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:08:03,066 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:09:06,390 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:09:09,075 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569498759121
+2022-12-16 08:09:55,193 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:09:57,765 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569490370468
+2022-12-16 08:12:10,503 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:12:13,394 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569408380152
+2022-12-16 08:15:26,988 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:18:34,886 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:19:06,996 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:20:52,340 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:22:09,357 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:22:43,435 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:24:27,929 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:29:31,553 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:30:32,804 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:31:54,737 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:32:47,306 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:34:05,048 - CIP-CreateProject - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "_pydevd_frame_eval\pydevd_frame_evaluator_win32_310_64.pyx", line 64, in _pydevd_frame_eval.pydevd_frame_evaluator_win32_310_64.get_bytecode_while_frame_eval
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "_pydevd_frame_eval/pydevd_frame_evaluator_common.pyx", line 93, in _pydevd_frame_eval.pydevd_frame_evaluator_common.get_thread_info
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16348 and this is thread id 11392.
+2022-12-16 08:34:05,053 - CIP-CreateProject - ERROR - Exception closing connection <sqlite3.Connection object at 0x000001D9F407D540>
+Traceback (most recent call last):
+  File "_pydevd_frame_eval\pydevd_frame_evaluator_win32_310_64.pyx", line 64, in _pydevd_frame_eval.pydevd_frame_evaluator_win32_310_64.get_bytecode_while_frame_eval
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "_pydevd_frame_eval/pydevd_frame_evaluator_common.pyx", line 93, in _pydevd_frame_eval.pydevd_frame_evaluator_common.get_thread_info
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16348 and this is thread id 11392.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 16348 and this is thread id 11392.
+2022-12-16 08:34:50,677 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:35:08,710 - CIP-CreateProject - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 15872 and this is thread id 21776.
+2022-12-16 08:35:08,713 - CIP-CreateProject - ERROR - Exception closing connection <sqlite3.Connection object at 0x00000166DA13D540>
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 15872 and this is thread id 21776.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 15872 and this is thread id 21776.
+2022-12-16 08:37:47,428 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:37:50,497 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569626923166
+2022-12-16 08:37:51,156 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:37:53 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=zZ9dvn7lYkkKRCy5buEI5w; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:37:51,161 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Knoll Court (23421)' with GID 1203569559420186
+2022-12-16 08:37:51,474 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:37:53 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=OXoKw0clf7bAudXYHROFVw; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:37:51,476 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569704780758
+2022-12-16 08:37:51,774 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:37:53 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=KwM8iHjyW2FJTEwWoNgjfQ; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:37:51,778 - CIP-CreateProject - INFO - CIP-CreateProject finished in 4.35 seconds
+2022-12-16 08:42:54,432 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:43:03,296 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569797305338
+2022-12-16 08:46:06,388 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:49:27,954 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:52:48,849 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:52:51,542 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569726683312
+2022-12-16 08:52:51,799 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:52:53 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=380EVBdTd8kpBnvXiYZciQ; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:52:51,801 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Knoll Court (23421)' with GID 1203569735362795
+2022-12-16 08:52:52,025 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:52:53 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=60ikTRYpUFnrBpMEDZUOZg; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:52:52,026 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569737277961
+2022-12-16 08:52:52,245 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 14:52:54 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=3nCEqnJf2KeVv7cFBGHy0Q; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 08:52:52,248 - CIP-CreateProject - INFO - CIP-CreateProject finished in 3.4 seconds
+2022-12-16 08:53:34,031 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 08:53:36,880 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569809283220
+2022-12-16 08:55:11,105 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:00:55,992 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:00:59,057 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569886765916
+2022-12-16 09:00:59,304 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:01:01 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=m1krD-A0rpJ9iahqV9nfWg; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:00:59,305 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Knoll Court (23421)' with GID 1203569895740610
+2022-12-16 09:00:59,540 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:01:01 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=dqTMTUxdSvjRFk4HSmiv1w; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:00:59,543 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569895568903
+2022-12-16 09:00:59,797 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:01:01 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=9k58tNdLc2SImT5_8GBPEw; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:00:59,807 - CIP-CreateProject - INFO - CIP-CreateProject finished in 3.82 seconds
+2022-12-16 09:04:04,701 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:05:28,734 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:12:54,361 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:13:19,143 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:13:22,305 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203569917447776
+2022-12-16 09:13:22,534 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:13:24 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=BHX6HDmwMsouqIjmGyJc7A; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:13:22,535 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Knoll Court (23421)' with GID 1203570060618152
+2022-12-16 09:13:22,768 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:13:24 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=C1ShB4fKxDcphjoTtpZJrw; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:13:22,770 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203569986362963
+2022-12-16 09:13:22,989 - CIP-CreateProject - INFO - CIP-CreateProject Text: '' - Status Code: 401 - Reason: 'Unauthorized' - Headers: {'Date': 'Fri, 16 Dec 2022 15:13:24 GMT', 'Server': 'Apache', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains', 'Content-Type': 'text/plain', 'Content-Length': '0', 'WWW-Authenticate': 'CAMPassport https://khovdev.planning-analytics.ibmcloud.com/ibmcognos/cgi-bin/cognosisapi.dll, CAMNamespace', 'Set-Cookie': 'TM1SessionId=ItjuNQZIABsAtXl2b6lj3w; Path=/tm1/api/tm1/; HttpOnly; Secure', 'X-Content-Type-Options': 'nosniff', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'}
+2022-12-16 09:13:22,993 - CIP-CreateProject - INFO - CIP-CreateProject finished in 3.85 seconds
+2022-12-16 09:14:29,013 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:18:31,074 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 09:18:34,139 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Willowpoint (23419)' with GID 1203570052059523
+2022-12-16 09:18:35,228 - CIP-CreateProject - INFO - Updating TM1 entries for CIP-Willowpoint (23419), GID: 1203570052059523
+2022-12-16 09:18:35,470 - CIP-CreateProject - INFO - CIP-CreateProject updated PA with GID 1203570052059523
+2022-12-16 09:18:35,536 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-Knoll Court (23421)' with GID 1203569953803405
+2022-12-16 09:18:37,167 - CIP-CreateProject - INFO - Updating TM1 entries for CIP-Knoll Court (23421), GID: 1203569953803405
+2022-12-16 09:18:37,405 - CIP-CreateProject - INFO - CIP-CreateProject updated PA with GID 1203569953803405
+2022-12-16 09:18:37,461 - CIP-CreateProject - INFO - CIP-CreateProject - created 'CIP-The Landing at New Caney (23423)' with GID 1203570075352974
+2022-12-16 09:18:39,085 - CIP-CreateProject - INFO - Updating TM1 entries for CIP-The Landing at New Caney (23423), GID: 1203570075352974
+2022-12-16 09:18:39,340 - CIP-CreateProject - INFO - CIP-CreateProject updated PA with GID 1203570075352974
+2022-12-16 09:18:39,412 - CIP-CreateProject - INFO - CIP-CreateProject finished in 8.34 seconds
+2022-12-16 09:59:05,971 - CIP-CreateProject - INFO - CIP-CreateProject started
+2022-12-16 10:01:11,686 - CIP-CreateProject - INFO - CIP-CreateProject started

@@ -1,0 +1,23 @@
+"Config": {"base_url": "https://khovdev.planning-analytics.ibmcloud.com/tm1/api/tm1", "instance": "khov_dev"}
+"Projects":
+     "CIP-Willowpoint (23419)":
+          #---  Template Name:  CIP-MASTER TEMPLATE 01-Houston"
+          "template": "1203157790092115"
+          #---  Team:  CIP-Houston"
+          "team": "1203366535078517"
+          "start_date": "2023-04-25"
+          "tm1_object": "C23419"
+     "CIP-Knoll Court (23421)":
+          #---  Template Name:  CIP-MASTER TEMPLATE 01-Houston"
+          "template": "1203157790092115"
+          #---  Team:  CIP-Houston"
+          "team": "1203366535078517"
+          "start_date": "2023-04-25"
+          "tm1_object": "C23421"
+     "CIP-The Landing at New Caney (23423)":
+          #---  Template Name:  CIP-MASTER TEMPLATE 01-Houston"
+          "template": "1203157790092115"
+          #---  Team:  CIP-Houston"
+          "team": "1203366535078517"
+          "start_date": "2023-04-25"
+          "tm1_object": "C23423"

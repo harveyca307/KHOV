@@ -1,0 +1,109 @@
+2023-01-06 11:50:58,168 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-06 11:50:59,013 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community GID: 1203662956511362 - Custom field with ID 1203191009110006 is not on given object
+2023-01-06 11:50:59,019 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 0.85 seconds
+2023-01-09 14:44:08,009 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:45:49,223 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:46:34,106 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:47:03,328 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:54:30,147 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:54:35,311 - CIP-UpdateProjectAttributes - ERROR - 'errors'
+2023-01-09 14:54:56,299 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:55:06,971 - CIP-UpdateProjectAttributes - ERROR - 'errors'
+2023-01-09 14:55:15,503 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 14:56:21,834 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 17:09:16,288 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:11:27,237 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:11:27,456 - CIP-UpdateProjectAttributes - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 22368 and this is thread id 24192.
+2023-01-09 18:11:27,468 - CIP-UpdateProjectAttributes - ERROR - Exception closing connection <sqlite3.Connection object at 0x000002D1B5897040>
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 22368 and this is thread id 24192.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 22368 and this is thread id 24192.
+2023-01-09 18:11:42,910 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275463 Modified: 2023-01-10T00:11:28.577Z
+2023-01-09 18:11:44,384 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957732 Modified: 2023-01-10T00:11:28.761Z
+2023-01-09 18:11:45,582 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275459 Modified: 2023-01-10T00:11:28.487Z
+2023-01-09 18:11:46,934 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957711 Modified: 2023-01-10T00:11:28.642Z
+2023-01-09 18:11:48,254 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957714 Modified: 2023-01-10T00:11:28.592Z
+2023-01-09 18:11:49,528 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957707 Modified: 2023-01-10T00:11:28.624Z
+2023-01-09 18:11:52,274 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203657300867450 Modified: 2023-01-10T00:11:28.876Z
+2023-01-09 18:11:53,700 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203429650852873 Modified: 2023-01-10T00:11:28.576Z
+2023-01-09 18:11:56,993 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203426925552199 Modified: 2023-01-10T00:11:28.768Z
+2023-01-09 18:11:58,561 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210798 Modified: 2023-01-10T00:11:28.486Z
+2023-01-09 18:11:59,853 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210794 Modified: 2023-01-10T00:11:29.019Z
+2023-01-09 18:12:03,111 - CIP-UpdateProjectAttributes - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002D1B5C43D60>
+2023-01-09 18:12:16,835 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:12:35,651 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community CIP-Lake Arnold (26209) - project: Unknown object: 1203336173275438
+2023-01-09 18:12:36,127 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957732 Modified: 2023-01-10T00:12:18.274Z
+2023-01-09 18:12:36,549 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275459 Modified: 2023-01-10T00:12:18.246Z
+2023-01-09 18:12:37,198 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957711 Modified: 2023-01-10T00:12:18.286Z
+2023-01-09 18:12:38,034 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957714 Modified: 2023-01-10T00:12:18.435Z
+2023-01-09 18:12:38,486 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957707 Modified: 2023-01-10T00:12:18.515Z
+2023-01-09 18:12:38,863 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203657300867450 Modified: 2023-01-10T00:12:18.240Z
+2023-01-09 18:12:39,239 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203429650852873 Modified: 2023-01-10T00:12:18.425Z
+2023-01-09 18:12:39,623 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203426925552199 Modified: 2023-01-10T00:12:18.479Z
+2023-01-09 18:12:40,016 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210798 Modified: 2023-01-10T00:12:18.110Z
+2023-01-09 18:12:40,901 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210794 Modified: 2023-01-10T00:12:18.242Z
+2023-01-09 18:12:41,389 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 24.56 seconds
+2023-01-09 18:12:58,195 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community CIP-Lake Arnold (26209) - project: Unknown object: 1203336173275438
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957732 Modified: 2023-01-10T00:12:59.695Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203336173275459 Modified: 2023-01-10T00:12:59.732Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957711 Modified: 2023-01-10T00:12:59.525Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957714 Modified: 2023-01-10T00:12:59.516Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440412957707 Modified: 2023-01-10T00:12:59.605Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203657300867450 Modified: 2023-01-10T00:12:59.455Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203429650852873 Modified: 2023-01-10T00:12:59.832Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203426925552199 Modified: 2023-01-10T00:12:59.572Z
+2023-01-09 18:13:01,271 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210798 Modified: 2023-01-10T00:12:59.365Z
+2023-01-09 18:13:01,272 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: 1203440568210794 Modified: 2023-01-10T00:12:59.617Z
+2023-01-09 18:13:01,278 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 3.08 seconds
+2023-01-09 18:13:38,898 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:13:41,953 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community 'CIP-Lake Arnold (26209)' - project: Unknown object: 1203336173275438
+2023-01-09 18:13:41,953 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Armen Groves (26255) Modified: 2023-01-10T00:13:40.269Z
+2023-01-09 18:13:41,953 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Boatman Hammock (25225) Modified: 2023-01-10T00:13:40.636Z
+2023-01-09 18:13:41,954 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-The Hills at Warren STHG (41632) Modified: 2023-01-10T00:13:40.454Z
+2023-01-09 18:13:41,954 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-The Hills at Warren COAH (41633) Modified: 2023-01-10T00:13:40.285Z
+2023-01-09 18:13:41,954 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Enclave at Hillandale (41722) Modified: 2023-01-10T00:13:40.236Z
+2023-01-09 18:13:41,955 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Aspire at Booth Farm (42582) Modified: 2023-01-10T00:13:40.058Z
+2023-01-09 18:13:41,955 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Ambra (14601) Modified: 2023-01-10T00:13:40.138Z
+2023-01-09 18:13:41,956 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Alto (14602) Modified: 2023-01-10T00:13:40.455Z
+2023-01-09 18:13:41,957 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-North Creek (21239) Modified: 2023-01-10T00:13:40.009Z
+2023-01-09 18:13:41,957 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes -- GID: CIP-Monterra (21246) Modified: 2023-01-10T00:13:40.049Z
+2023-01-09 18:13:41,964 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 3.07 seconds
+2023-01-09 18:14:12,609 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\CIP_Attribs_001.yml
+2023-01-09 18:14:15,524 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community 'CIP-Lake Arnold (26209)' - project: Unknown object: 1203336173275438
+2023-01-09 18:14:15,525 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Armen Groves (26255)' Modified: 2023-01-10T00:14:14.017Z
+2023-01-09 18:14:15,525 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Boatman Hammock (25225)' Modified: 2023-01-10T00:14:14.496Z
+2023-01-09 18:14:15,525 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-The Hills at Warren STHG (41632)' Modified: 2023-01-10T00:14:13.968Z
+2023-01-09 18:14:15,525 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-The Hills at Warren COAH (41633)' Modified: 2023-01-10T00:14:14.006Z
+2023-01-09 18:14:15,526 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Enclave at Hillandale (41722)' Modified: 2023-01-10T00:14:14.116Z
+2023-01-09 18:14:15,526 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Aspire at Booth Farm (42582)' Modified: 2023-01-10T00:14:13.944Z
+2023-01-09 18:14:15,526 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Ambra (14601)' Modified: 2023-01-10T00:14:14.043Z
+2023-01-09 18:14:15,526 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Alto (14602)' Modified: 2023-01-10T00:14:14.006Z
+2023-01-09 18:14:15,526 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-North Creek (21239)' Modified: 2023-01-10T00:14:13.939Z
+2023-01-09 18:14:15,527 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes --Community 'CIP-Monterra (21246)' Modified: 2023-01-10T00:14:13.916Z
+2023-01-09 18:14:15,531 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 2.92 seconds

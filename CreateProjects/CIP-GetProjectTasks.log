@@ -1,0 +1,251 @@
+2022-11-24 08:34:06,400 - CIP-GetProjectTasks - INFO - 
+Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-24 08:34:10,663 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 4.27 seconds
+2022-11-24 08:34:40,023 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-24 08:34:43,435 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 3.41 seconds
+2022-11-25 12:42:16,405 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:44:21,268 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:45:10,848 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:45:11,333 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.49 seconds
+2022-11-25 12:47:42,201 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:47:43,331 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 1.13 seconds
+2022-11-25 12:48:40,579 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:48:45,493 - CIP-GetProjectTasks - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "_pydevd_frame_eval\pydevd_frame_evaluator_win32_310_64.pyx", line 64, in _pydevd_frame_eval.pydevd_frame_evaluator_win32_310_64.get_bytecode_while_frame_eval
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 19824 and this is thread id 332.
+2022-11-25 12:48:45,500 - CIP-GetProjectTasks - ERROR - Exception closing connection <sqlite3.Connection object at 0x000001D6B3DD3640>
+Traceback (most recent call last):
+  File "_pydevd_frame_eval\pydevd_frame_evaluator_win32_310_64.pyx", line 64, in _pydevd_frame_eval.pydevd_frame_evaluator_win32_310_64.get_bytecode_while_frame_eval
+AttributeError: '_thread._local' object has no attribute 'thread_info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 19824 and this is thread id 332.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 19824 and this is thread id 332.
+2022-11-25 12:49:37,610 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=Get_Tasks.csv
+2022-11-25 12:49:49,663 - CIP-GetProjectTasks - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 24560 and this is thread id 23228.
+2022-11-25 12:49:49,673 - CIP-GetProjectTasks - ERROR - Exception closing connection <sqlite3.Connection object at 0x000001FE02393640>
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 24560 and this is thread id 23228.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 24560 and this is thread id 23228.
+2022-11-25 12:50:06,381 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 28.39 seconds
+2022-11-25 12:50:29,491 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-25 12:50:30,136 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.65 seconds
+2022-11-25 12:51:34,647 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-25 12:51:58,075 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-25 12:51:58,702 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.63 seconds
+2022-11-25 12:52:45,705 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-25 12:52:46,198 - CIP-GetProjectTasks - INFO - No data received
+2022-11-25 12:52:46,202 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.5 seconds
+2022-11-25 12:53:42,904 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-25 12:53:43,492 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.59 seconds
+2022-11-30 08:38:04,963 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 08:38:06,464 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 1.5 seconds
+2022-11-30 17:11:11,770 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:11:12,469 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 0.7 seconds
+2022-11-30 17:12:18,623 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:12:57,168 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:15:34,457 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 157.29 seconds
+2022-11-30 17:15:34,507 - CIP-GetProjectTasks - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001C8A2B47E50>
+2022-11-30 17:15:43,182 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:16:14,489 - CIP-GetProjectTasks - INFO - No data received
+2022-11-30 17:16:16,039 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 32.44 seconds
+2022-11-30 17:16:37,692 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:17:03,287 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:17:17,575 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:18:16,135 - CIP-GetProjectTasks - INFO - No data received
+2022-11-30 17:18:16,137 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 58.56 seconds
+2022-11-30 17:18:18,168 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:18:38,750 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:20:08,744 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:20:52,579 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:20:54,167 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 1.59 seconds
+2022-11-30 17:21:14,023 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:21:17,141 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 3.12 seconds
+2022-11-30 17:22:26,885 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-11-30 17:22:33,110 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 6.23 seconds
+2022-12-01 10:24:39,323 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-01 10:24:41,591 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 2.27 seconds
+2022-12-01 16:22:19,264 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-01 16:22:20,652 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 1.39 seconds
+2022-12-01 17:01:23,574 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:01:41,736 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:02:23,293 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:03:24,646 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:03:26,982 - CIP-GetProjectTasks - INFO - Finished in 2.34 seconds
+2022-12-01 17:03:33,581 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:05:02,875 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:06:26,512 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:07:55,665 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:15:32,864 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:15:36,088 - CIP-GetProjectTasks - INFO - Finished in 3.23 seconds
+2022-12-01 17:16:53,293 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 17:16:56,435 - CIP-GetProjectTasks - INFO - Finished in 3.14 seconds
+2022-12-01 18:16:51,891 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 18:16:54,872 - CIP-GetProjectTasks - INFO - Finished in 2.98 seconds
+2022-12-01 18:18:33,005 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 18:18:58,755 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-01 18:19:01,848 - CIP-GetProjectTasks - INFO - Finished in 3.1 seconds
+2022-12-01 18:21:32,438 - CIP-GetProjectTasks - INFO - Starting - File Sent: C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile: c:\temp\chad.csv
+2022-12-05 11:00:52,395 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-05 11:01:21,901 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-05 11:02:37,941 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-05 11:03:01,858 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-05 11:03:03,503 - CIP-GetProjectTasks - INFO - Process finished in 1.65 seconds
+2022-12-05 11:08:12,176 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-05 11:08:13,677 - CIP-GetProjectTasks - INFO - Process finished in 1.5 seconds
+2022-12-08 08:31:06,251 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 08:31:12,186 - CIP-GetProjectTasks - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at C:\Users\charvey\PycharmProjects\KHOV_Asana\get_project_tasks_async.py:134> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\charvey\PycharmProjects\KHOV_Asana\get_project_tasks_async.py", line 169, in <module>
+    responses, _projects = asyncio.run(main(projects=_projects, pat=_token))
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\runners.py", line 47, in run
+    _cancel_all_tasks(loop)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\runners.py", line 63, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\charvey\PycharmProjects\KHOV_Asana\get_project_tasks_async.py", line 152, in main
+    array_of_responses = await asyncio.gather(*task_items)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\charvey\PycharmProjects\KHOV_Asana\Utilities\asana_tasks.py", line 63, in asana_tasks
+    response_content = await response.json()
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\aiohttp\client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt
+2022-12-08 08:33:27,850 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 08:33:29,441 - CIP-GetProjectTasks - INFO - Process finished in 1.59 seconds
+2022-12-08 08:37:04,453 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 12:35:28,078 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 12:42:43,934 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 12:43:24,502 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-08 12:45:34,746 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 08:53:53,799 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 08:54:00,955 - CIP-GetProjectTasks - INFO - Process finished in 7.16 seconds
+2022-12-12 09:11:15,638 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 09:11:17,463 - CIP-GetProjectTasks - INFO - Process finished in 1.83 seconds
+2022-12-12 09:32:10,313 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 09:56:32,584 - CIP-GetProjectTasks - INFO - Starting process, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 09:56:32,612 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 09:56:39,404 - CIP-GetProjectTasks - INFO - Process finished in 6.82 seconds
+2022-12-12 10:40:24,708 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 10:43:23,478 - CIP-GetProjectTasks - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D444C683A0>
+2022-12-12 11:02:35,566 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 11:02:42,980 - CIP-GetProjectTasks - INFO - Before
+2022-12-12 11:02:43,077 - CIP-GetProjectTasks - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 2804 and this is thread id 24152.
+2022-12-12 11:02:43,082 - CIP-GetProjectTasks - ERROR - Exception closing connection <sqlite3.Connection object at 0x0000023EFEA1B540>
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 753, in _finalize_fairy
+    fairy._reset(pool)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 1004, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 2804 and this is thread id 24152.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\pool\base.py", line 255, in _close_connection
+    self._dialect.do_terminate(connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 689, in do_terminate
+    self.do_close(dbapi_connection)
+  File "C:\Users\charvey\Miniconda3\envs\KHOV2\lib\site-packages\sqlalchemy\engine\default.py", line 692, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 2804 and this is thread id 24152.
+2022-12-12 11:02:44,360 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 11:02:51,877 - CIP-GetProjectTasks - INFO - Before
+2022-12-12 11:02:58,791 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 11:03:02,513 - CIP-GetProjectTasks - INFO - Before
+2022-12-12 11:03:03,896 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 11:03:08,082 - CIP-GetProjectTasks - INFO - Before
+2022-12-12 11:03:08,956 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 11:03:12,627 - CIP-GetProjectTasks - INFO - Before
+2022-12-12 11:03:14,112 - CIP-GetProjectTasks - INFO - Here
+2022-12-12 11:12:58,873 - CIP-GetProjectTasks - INFO - Starting CIP-GetProjectTasks, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\Asana_Get_Project_Data.yml, Outfile=c:\temp\Get_Tasks.csv
+2022-12-12 11:13:02,369 - CIP-GetProjectTasks - INFO - CIP-GetProjectTasks finished in 3.5 seconds

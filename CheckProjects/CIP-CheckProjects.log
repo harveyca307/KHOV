@@ -1,0 +1,51 @@
+2022-12-12 17:18:18,216 - CIP-CheckProjects - INFO - Starting process
+2022-12-12 17:18:19,042 - CIP-CheckProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-12 17:18:19,043 - CIP-CheckProjects - INFO - Process finished in 0.83 seconds
+2022-12-12 17:21:54,685 - CIP-CheckProjects - INFO - Starting process
+2022-12-12 17:23:16,144 - CIP-CheckProjects - ERROR - 'KeyboardInterrupt' object is not callable
+2022-12-12 17:23:19,063 - CIP-CheckProjects - INFO - Starting process
+2022-12-12 17:23:19,595 - CIP-CheckProjects - ERROR - Project: Armen Groves has been renamed to CIP-Armen Groves (26255)
+2022-12-12 17:23:19,746 - CIP-CheckProjects - ERROR - Project: La Terre at Avenir has been renamed to La Terre at Avenir (25220)
+2022-12-12 17:23:19,837 - CIP-CheckProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-12 17:23:19,837 - CIP-CheckProjects - INFO - Process finished in 0.78 seconds
+2022-12-13 09:29:48,403 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:29:49,672 - CIP-CheckProjects - ERROR - Project: Armen Groves has been renamed to CIP-Armen Groves (26255)
+2022-12-13 09:29:50,266 - CIP-CheckProjects - ERROR - Project: La Terre at Avenir has been renamed to La Terre at Avenir (25220)
+2022-12-13 09:29:50,379 - CIP-CheckProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-13 09:29:50,380 - CIP-CheckProjects - INFO - Process finished in 1.98 seconds
+2022-12-13 09:30:40,379 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:30:41,200 - CIP-CheckProjects - ERROR - Project: La Terre at Avenir has been renamed to La Terre at Avenir (25220)
+2022-12-13 09:30:41,336 - CIP-CheckProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-13 09:30:41,336 - CIP-CheckProjects - INFO - Process finished in 0.96 seconds
+2022-12-13 09:31:09,989 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:31:10,846 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' has been renamed to 'La Terre at Avenir (25220)'
+2022-12-13 09:31:10,952 - CIP-CheckProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-13 09:31:10,952 - CIP-CheckProjects - INFO - Process finished in 0.97 seconds
+2022-12-13 09:31:20,168 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:31:20,810 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' has been renamed to 'La Terre at Avenir (25220)'
+2022-12-13 09:31:20,894 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-13 09:31:20,894 - CIP-CheckProjects - INFO - Process finished in 0.73 seconds
+2022-12-13 09:31:46,894 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:31:47,828 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' - 1203336173275443 has been renamed to 'La Terre at Avenir (25220)'
+2022-12-13 09:31:48,096 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-13 09:31:48,096 - CIP-CheckProjects - INFO - Process finished in 1.2 seconds
+2022-12-13 09:31:59,713 - CIP-CheckProjects - INFO - Starting process
+2022-12-13 09:32:01,146 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' - GID: 1203336173275443 has been renamed to 'La Terre at Avenir (25220)'
+2022-12-13 09:32:01,269 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-13 09:32:01,269 - CIP-CheckProjects - INFO - Process finished in 1.56 seconds
+2022-12-14 09:58:21,820 - CIP-CheckProjects - INFO - Starting process
+2022-12-14 09:58:23,702 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' - GID: 1203336173275443 has been renamed to 'La Terre at Avenir (25220)'
+2022-12-14 09:58:23,806 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-14 09:58:23,806 - CIP-CheckProjects - INFO - Process finished in 1.99 seconds
+2022-12-14 10:07:17,256 - CIP-CheckProjects - INFO - Starting process
+2022-12-14 10:07:18,256 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' - GID: 1203336173275443 has been renamed to 'La Terre at Avenir (25220)'
+2022-12-14 10:07:18,353 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-14 10:07:18,385 - CIP-CheckProjects - INFO - Process finished in 1.13 seconds
+2022-12-14 10:07:53,143 - CIP-CheckProjects - INFO - Starting process
+2022-12-14 10:07:55,068 - CIP-CheckProjects - ERROR - Project: 'La Terre at Avenir' - GID: 1203336173275443 has been renamed to 'La Terre at Avenir (25220)'
+2022-12-14 10:07:55,182 - CIP-CheckProjects - ERROR - Project: 'Chad's Test Project' - GID: 123456789 not found
+2022-12-14 10:07:55,185 - CIP-CheckProjects - INFO - Process finished in 2.04 seconds
+2022-12-14 10:09:41,870 - CIP-CheckProjects - INFO - Starting process
+2022-12-14 10:09:41,912 - CIP-CheckProjects - ERROR - main() missing 1 required positional argument: 'out_file'
+2022-12-14 10:09:58,720 - CIP-CheckProjects - INFO - Starting process
+2022-12-14 10:09:59,787 - CIP-CheckProjects - INFO - Process finished in 1.07 seconds

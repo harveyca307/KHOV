@@ -1,0 +1,159 @@
+2022-12-12 12:34:12,797 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:34:12,819 - CIP-MovePortfolio - ERROR - main() missing 1 required positional argument: 'token'
+2022-12-12 12:34:40,607 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:34:42,542 - CIP-MovePortfolio - INFO - Process finished in 1.94 seconds.
+2022-12-12 12:39:14,991 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:40:23,787 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:40:24,306 - CIP-MovePortfolio - INFO - Process finished in 0.52 seconds.
+2022-12-12 12:41:23,988 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:43:56,530 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:43:57,235 - CIP-MovePortfolio - INFO - Process finished in 0.71 seconds.
+2022-12-12 12:44:10,841 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:44:11,190 - CIP-MovePortfolio - INFO - Process finished in 0.35 seconds.
+2022-12-12 12:47:23,451 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:47:23,840 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found
+2022-12-12 12:48:07,297 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 12:48:07,648 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found
+2022-12-12 13:45:52,616 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:45:53,179 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found
+2022-12-12 13:47:21,692 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:47:22,057 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found
+2022-12-12 13:47:36,117 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:47:36,563 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found
+2022-12-12 13:47:57,400 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:47:57,714 - CIP-MovePortfolio - ERROR - Existing portfolio: 120301876840349 not found, exiting
+2022-12-12 13:49:37,790 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:49:39,344 - CIP-MovePortfolio - ERROR - 1203536921241551 not in portfolio 1203018768403499
+2022-12-12 13:52:03,855 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:52:06,960 - CIP-MovePortfolio - INFO - Project: 1203536921241551 was moved from 1203064325052242 to 1203018768403499
+2022-12-12 13:52:06,961 - CIP-MovePortfolio - INFO - Process finished in 3.11 seconds.
+2022-12-12 13:52:28,685 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 13:52:31,388 - CIP-MovePortfolio - INFO - Project: 1203536921241551 was moved from 1203018768403499 to 1203064325052242
+2022-12-12 13:52:31,388 - CIP-MovePortfolio - INFO - Process finished in 2.7 seconds.
+2022-12-12 14:57:27,768 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:57:57,336 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:58:30,641 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:58:52,238 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:58:52,271 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 14:59:15,697 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:59:15,743 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 14:59:36,204 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 14:59:36,246 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:00:02,608 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:00:02,644 - CIP-MovePortfolio - ERROR - string indices must be integers
+2022-12-12 15:00:37,151 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:00:37,196 - CIP-MovePortfolio - ERROR - string indices must be integers
+2022-12-12 15:00:49,643 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:00:49,679 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:43:24,751 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:43:40,373 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:43:40,411 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:43:59,505 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:43:59,548 - CIP-MovePortfolio - ERROR - string indices must be integers
+2022-12-12 15:44:53,188 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:44:53,217 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:45:18,940 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:45:18,993 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 15:45:42,659 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:45:42,710 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 15:46:03,135 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:46:03,184 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 15:47:14,306 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:47:14,343 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:49:15,655 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:49:15,679 - CIP-MovePortfolio - ERROR - 0
+2022-12-12 15:49:28,901 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:49:28,939 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:49:55,345 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:49:55,391 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 15:50:05,853 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:50:05,887 - CIP-MovePortfolio - ERROR - string indices must be integers
+2022-12-12 15:53:56,703 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:54:12,163 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:59:44,574 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 15:59:44,614 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 16:00:04,143 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:00:04,200 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:00:16,829 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:00:16,869 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 16:01:04,540 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:01:04,597 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:01:27,648 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:01:27,719 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:02:03,928 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:02:04,002 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:02:36,873 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:02:36,927 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:02:47,990 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:02:48,037 - CIP-MovePortfolio - INFO - Finished process in 0.1 seconds
+2022-12-12 16:05:05,817 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:05:05,861 - CIP-MovePortfolio - INFO - Finished process in 0.0 seconds
+2022-12-12 16:07:23,477 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:07:23,521 - CIP-MovePortfolio - ERROR - replace() argument 2 must be str, not int
+2022-12-12 16:08:33,560 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:08:50,586 - CIP-MovePortfolio - ERROR - replace() argument 2 must be str, not int
+2022-12-12 16:08:57,598 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:09:53,133 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:10:14,851 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:10:14,910 - CIP-MovePortfolio - ERROR - replace() argument 2 must be str, not int
+2022-12-12 16:11:57,836 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:11:58,899 - CIP-MovePortfolio - ERROR - Not Found: portfolio: Not a recognized ID: 77777
+2022-12-12 16:15:12,373 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:19:01,726 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:19:02,388 - CIP-MovePortfolio - ERROR - 'Portfolios' object has no attribute 'get_items_for_porfolio'
+2022-12-12 16:19:40,657 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:19:41,322 - CIP-MovePortfolio - INFO - Finished process in 0.7 seconds
+2022-12-12 16:20:01,925 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:20:38,842 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:21:02,748 - CIP-MovePortfolio - ERROR - <dict_keyiterator object at 0x0000029E6F76FBF0>
+2022-12-12 16:22:10,780 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:22:11,892 - CIP-MovePortfolio - INFO - Finished process in 1.1 seconds
+2022-12-12 16:24:09,202 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:24:12,393 - CIP-MovePortfolio - INFO - Finished process in 3.2 seconds
+2022-12-12 16:25:42,620 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:26:13,955 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:26:14,569 - CIP-MovePortfolio - INFO - Finished process in 0.6 seconds
+2022-12-12 16:26:43,889 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:26:45,158 - CIP-MovePortfolio - INFO - Finished process in 1.3 seconds
+2022-12-12 16:29:18,279 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:29:19,068 - CIP-MovePortfolio - INFO - Finished process in 0.8 seconds
+2022-12-12 16:30:00,721 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:30:01,453 - CIP-MovePortfolio - ERROR - Length mismatch: Expected axis has 0 elements, new values have 1 elements
+2022-12-12 16:30:29,478 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:30:30,279 - CIP-MovePortfolio - ERROR - Length mismatch: Expected axis has 0 elements, new values have 1 elements
+2022-12-12 16:35:13,304 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:35:16,421 - CIP-MovePortfolio - ERROR - Length mismatch: Expected axis has 0 elements, new values have 1 elements
+2022-12-12 16:35:26,943 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:35:27,627 - CIP-MovePortfolio - ERROR - Length mismatch: Expected axis has 0 elements, new values have 1 elements
+2022-12-12 16:35:37,313 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:37:30,026 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:37:30,735 - CIP-MovePortfolio - INFO - Finished process in 0.7 seconds
+2022-12-12 16:38:16,691 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:38:18,419 - CIP-MovePortfolio - ERROR - [Errno 13] Permission denied: 'C:\\temp\\chad.csv'
+2022-12-12 16:38:34,876 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:38:37,156 - CIP-MovePortfolio - INFO - Finished process in 2.3 seconds
+2022-12-12 16:40:14,510 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:40:15,677 - CIP-MovePortfolio - INFO - Finished process in 1.2 seconds
+2022-12-12 16:41:09,153 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:41:09,735 - CIP-MovePortfolio - INFO - Finished process in 0.6 seconds
+2022-12-12 16:41:58,571 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:41:59,608 - CIP-MovePortfolio - INFO - Finished process in 1.0 seconds
+2022-12-12 16:58:18,933 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 16:58:20,656 - CIP-MovePortfolio - INFO - Finished process in 1.7 seconds
+2022-12-12 17:00:09,807 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:00:12,483 - CIP-MovePortfolio - INFO - Finished process in 2.7 seconds
+2022-12-12 17:01:14,783 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:01:15,139 - CIP-MovePortfolio - ERROR - Duplicate of CIP-Hunters Creek (23407) - Test: 120353692124155 does not exist
+2022-12-12 17:01:15,846 - CIP-MovePortfolio - ERROR - Invalid Request: item: Unknown object: 120353692124155
+2022-12-12 17:01:42,615 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:01:42,963 - CIP-MovePortfolio - ERROR - Duplicate of CIP-Hunters Creek (23407) - Test: 120353692124155 does not exist
+2022-12-12 17:02:03,507 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:02:11,275 - CIP-MovePortfolio - INFO - Finished process in 7.8 seconds
+2022-12-12 17:02:18,589 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:02:19,185 - CIP-MovePortfolio - ERROR - Duplicate of CIP-Hunters Creek (23407) - Test: Target Portfolio 120306432505224 does not exist
+2022-12-12 17:02:20,581 - CIP-MovePortfolio - INFO - Finished process in 2.0 seconds
+2022-12-12 17:03:08,976 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:03:10,644 - CIP-MovePortfolio - ERROR - Duplicate of CIP-Hunters Creek (23407) - Test: Removal portfolio 120301876840349 does not exist
+2022-12-12 17:03:10,656 - CIP-MovePortfolio - INFO - Finished process in 1.7 seconds
+2022-12-12 17:16:19,814 - CIP-MovePortfolio - INFO - Starting process
+2022-12-12 17:16:21,587 - CIP-MovePortfolio - INFO - Finished process in 1.8 seconds

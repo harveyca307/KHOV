@@ -1,0 +1,5 @@
+2022-12-12 17:17:08,774 - CIP-GetProjects - INFO - Starting process
+2022-12-12 17:17:08,800 - CIP-GetProjects - ERROR - module 'asana' has no attribute 'projects'
+2022-12-12 17:17:20,041 - CIP-GetProjects - INFO - Starting process
+2022-12-12 17:17:20,865 - CIP-GetProjects - ERROR - Project: Chad's Test Project - GID: 123456789 not found
+2022-12-12 17:17:20,866 - CIP-GetProjects - INFO - Process finished in 0.83 seconds

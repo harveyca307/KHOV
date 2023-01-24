@@ -1,0 +1,3 @@
+2023-01-24 15:17:06,048 - CIP-UpdateProjectAttributes - INFO - Starting process CIP-UpdateProjectAttributes, File sent=C:\Users\charvey\PycharmProjects\KHOV_Asana\UpdateProjects\CIP_Attribs_001.yml
+2023-01-24 15:17:07,146 - CIP-UpdateProjectAttributes - ERROR - CIP-UpdateProjectAttributes -- Community 'CIP-Roberts Ranch 55x80 ( 0040 )' - Custom field with ID 1203191009110006 is not on given object
+2023-01-24 15:17:07,149 - CIP-UpdateProjectAttributes - INFO - CIP-UpdateProjectAttributes finished in 1.1 seconds
